@@ -1,3 +1,4 @@
+
 // TFOT Labs Multilingual App
 // Handles language detection, loading translations, updating content, and dynamic elements
 
@@ -172,15 +173,26 @@ async function loadCompanies() {
     }
     companies = await response.json();
     console.log(`Loaded ${companies.length} companies`);
-    if (translations.companies && translations.companies.descriptions) {
-      companies.forEach((company, index) => {
-        if (translations.companies && translations.companies[index]) {
-          const trans = translations.companies[index];
-          company.title = trans.title || company.name;
-          company.desc = trans.desc || company.description;
-          company.cat = trans.cat || '';
-        }
-      });
+    if (translations.companies) {
+      if (translations.companies.companies && Array.isArray(translations.companies.companies)) {
+        // Structure like fi: { companies: [{title, desc, cat}, ...] }
+        companies.forEach((company, index) => {
+          const trans = translations.companies.companies[index];
+          if (trans) {
+            company.title = trans.title || company.name;
+            company.desc = trans.desc || company.description;
+            company.cat = trans.cat || company.category;
+          }
+        });
+      } else if (translations.companies.names && Array.isArray(translations.companies.names) && translations.companies.descriptions && Array.isArray(translations.companies.descriptions)) {
+        // Structure like en/ru: { names: [...], descriptions: [...] }
+        companies.forEach((company, index) => {
+          company.title = translations.companies.names[index] || company.name;
+          company.desc = translations.companies.descriptions[index] || company.description;
+          company.cat = company.category;
+        });
+      }
+      // For other langs without specific companies data, use json fields directly
     }
     const container = document.querySelector('.companies-list');
     if (container) {
@@ -230,7 +242,8 @@ function updateSocials() {
 function setRTL() {
   const html = document.documentElement;
   if (RTL_LANGUAGES.includes(currentLang)) {
-    html.setAttribute('dir', 'rtl');
+
+  ', 'rtl');
     html.classList.add('rtl');
   } else {
     html.setAttribute('dir', 'ltr');
@@ -330,93 +343,5 @@ async function loadContacts() {
     if (container) {
       container.innerHTML = locations.map(location => {
         const flag = getFlagFromCode(location.country_code);
-        const mapSrc = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500!2d${location.lng}!3d${location.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2z${location.lat}%2C${location.lng}!5e0!3m2!1sen!2sus!4v${Date.now()}`;
-        return `
-          <div class="contact-card">
-            <h3>${flag} ${location.city}</h3>
-            <p><i class="fas fa-map-marker-alt"></i> ${location.address_label}</p>
-            ${location.address_full ? `<p><strong>Full Address:</strong> ${location.address_full}</p>` : ''}
-            <p><i class="fas fa-phone"></i> ${location.phone}</p>
-            <p><i class="fas fa-envelope"></i> <a href="mailto:${location.email}">${location.email}</a></p>
-            <div class="map-embed">
-              <iframe src="${mapSrc}" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        `;
-      }).join('');
-    }
-  } catch (error) {
-    console.error('Error loading contacts:', error);
-  }
-}
-
-
-function initContacts() {
-  loadContacts();
-  initRegionSelector();
-}
-
-function initRegionSelector() {
-  if (currentLang !== 'es' && currentLang !== 'pt') {
-    const existing = document.getElementById('region-select');
-    if (existing) {
-      existing.style.display = 'none';
-      existing.remove();
-    }
-    return;
-  }
-  let regionSelect = document.getElementById('region-select');
-  if (!regionSelect) {
-    regionSelect = document.createElement('select');
-    regionSelect.id = 'region-select';
-    regionSelect.className = 'lang-switcher';
-    const langSelect = document.getElementById('lang-select');
-    if (langSelect && langSelect.parentNode) {
-      langSelect.parentNode.insertBefore(regionSelect, langSelect.nextSibling);
-    }
-  }
-  regionSelect.style.display = 'inline-block';
-  regionSelect.innerHTML = '<option value="">Select Region</option>';
-  const regions = currentLang === 'es' ? ['ES', 'MX', 'AR', 'CL', 'PE'] : ['PT', 'BR'];
-  const region = localStorage.getItem('region') || (currentLang === 'es' ? 'ES' : 'PT');
-  regions.forEach(r => {
-    const option = document.createElement('option');
-    option.value = r;
-    option.textContent = `${REGION_FLAGS[r]} ${getRegionName(r, currentLang)}`;
-    if (r === region) option.selected = true;
-    regionSelect.appendChild(option);
-  });
-  regionSelect.onchange = (e) => {
-    const selected = e.target.value;
-    if (selected) {
-      localStorage.setItem('region', selected);
-      if (currentLang === 'es') {
-        loadContacts();
-      }
-      // For pt, no filter change
-    }
-  };
-}
-
-// Load contacts on contact page
-
-// Initialize app
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('DOM loaded, initializing TFOT Labs app');
-  initLangSwitcher();
-  initForms();
-  initContacts();
-  if (!localStorage.getItem('lang')) {
-    detectLang();
-  } else {
-    loadLang(currentLang);
-  }
-  if (window.location.pathname.includes('companies.html')) {
-    loadCompanies();
-  }
-  console.log('App initialization complete');
-});
-
-// Expose functions for global use if needed
-window.switchLang = loadLang;
-window.loadCompanies = loadCompanies;
+        const mapSrc = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m
+    html.setAttribute('dir
