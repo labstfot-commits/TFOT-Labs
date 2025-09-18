@@ -226,6 +226,10 @@
     ],
     "socials": {
       "general": "Follow us on social media"
+    },
+    "regions": {
+      "US": "United States",
+      "GB": "United Kingdom"
     }
   },
   "footer": {

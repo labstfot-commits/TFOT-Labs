@@ -14,7 +14,7 @@ const FLAGS = {
   'de': '🇩🇪',
   'hi': '🇮🇳',
   'it': '🇮🇹',
-  'es': '🇪🇸',
+  'es': '🇪🇸 ES/MX/AR/CL/PE',
   'ko': '🇰🇷',
   'ar': '🇸🇦',
   'he': '🇮🇱',
@@ -47,9 +47,13 @@ function getFlagFromCode(code) {
 }
 
 function getRegionName(code, lang) {
+  if (translations.contact && translations.contact.regions && translations.contact.regions[code]) {
+    return translations.contact.regions[code];
+  }
   const names = {
     'ES': 'Spain', 'MX': 'Mexico', 'AR': 'Argentina', 'CL': 'Chile', 'PE': 'Peru',
-    'PT': 'Portugal', 'BR': 'Brazil'
+    'PT': 'Portugal', 'BR': 'Brazil',
+    'US': 'United States', 'GB': 'United Kingdom'
   };
   return names[code] || code;
 }
@@ -242,8 +246,7 @@ function updateSocials() {
 function setRTL() {
   const html = document.documentElement;
   if (RTL_LANGUAGES.includes(currentLang)) {
-
-  ', 'rtl');
+    html.setAttribute('dir', 'rtl');
     html.classList.add('rtl');
   } else {
     html.setAttribute('dir', 'ltr');
@@ -325,23 +328,76 @@ async function loadContacts() {
       return;
     }
     let locations = localeData.locations;
-    const region = localStorage.getItem('region');
-    if (currentLang === 'es') {
-      let selectedRegion = region || 'ES';
-      if (!region) {
-        localStorage.setItem('region', selectedRegion);
-      }
-      locations = locations.filter(loc => loc.country_code === selectedRegion);
-    } else if (currentLang === 'pt') {
-      // Always show both for pt
-      locations = localeData.locations;
-      if (region && !['PT', 'BR'].includes(region)) {
-        localStorage.setItem('region', 'PT');
-      }
-    } // For other langs including en, show all (e.g., US/GB for en)
+    const region = localStorage.getItem('region') || (currentLang === 'en' ? 'US' : currentLang === 'es' ? 'ES' : currentLang === 'pt' ? 'PT' : null);
+    if (['en', 'es', 'pt'].includes(currentLang) && region) {
+      locations = locations.filter(loc => loc.country_code === region);
+    } // For other langs, show all
     const container = document.getElementById('contacts-container');
     if (container) {
       container.innerHTML = locations.map(location => {
         const flag = getFlagFromCode(location.country_code);
-        const mapSrc = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m
-    html.setAttribute('dir
+        const mapEmbed = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020!2d${location.lng}!3d${location.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${location.lat}%2C${location.lng}!5e0!3m2!1s${currentLang}!2sus!4v1720000000000`;
+        return `
+          <div class="location-card">
+            <h3>${location.name || location.city} ${flag}</h3>
+            <p>${location.address || ''}</p>
+            <p>Phone: ${location.phone || ''} | Email: ${location.email || ''}</p>
+            <iframe src="${mapEmbed}" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        `;
+      }).join('');
+    }
+  } catch (error) {
+    console.error('Error loading contacts:', error);
+  }
+}
+
+// Initialize app on load
+document.addEventListener('DOMContentLoaded', () => {
+  // Detect language or use stored
+  const storedLang = localStorage.getItem('lang');
+  if (storedLang && LANGUAGES.includes(storedLang)) {
+    loadLang(storedLang);
+  } else {
+    detectLang();
+  }
+  initLangSwitcher();
+  initForms();
+  if (window.location.pathname.includes('contact.html')) {
+    initRegionSelector();
+  }
+});
+
+// Region selector for es/pt
+function initRegionSelector() {
+  const select = document.getElementById('region-select');
+  if (!select) return;
+
+  const showSelector = ['en', 'es', 'pt'].includes(currentLang);
+  select.style.display = showSelector ? 'block' : 'none';
+  if (!showSelector) return;
+
+  let options = [];
+  if (currentLang === 'en') {
+    options = ['US', 'GB'];
+  } else if (currentLang === 'es') {
+    options = ['ES', 'MX', 'AR', 'CL', 'PE'];
+  } else if (currentLang === 'pt') {
+    options = ['PT', 'BR'];
+  }
+
+  select.innerHTML = options.map(code => {
+    const name = getRegionName(code, currentLang);
+    return `<option value="${code}">${name} ${REGION_FLAGS[code] || ''}</option>`;
+  }).join('');
+
+  let defaultRegion = currentLang === 'en' ? 'US' : currentLang === 'es' ? 'ES' : 'PT';
+  const savedRegion = localStorage.getItem('region') || defaultRegion;
+  select.value = savedRegion;
+  localStorage.setItem('region', savedRegion);
+
+  select.addEventListener('change', (e) => {
+    localStorage.setItem('region', e.target.value);
+    loadContacts();
+  });
+}

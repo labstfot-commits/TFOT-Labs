@@ -228,7 +228,7 @@
         "title": "Especialista em Marketing",
         "responsibilities": [
           "Desenvolver e executar campanhas de marketing em canais digitais para promover produtos da TFOT Labs.",
-          "Analisar o desempenho das campanhas e otimizar para ROI usando ferramentas como Google Analytics.",
+          "Analizar o desempenho das campanhas e otimizar para ROI usando ferramentas como Google Analytics.",
           "Criar conteúdo convincente para mídias sociais, e-mail e site.",
           "Gerenciar parcerias de marca e eventos para aumentar a visibilidade."
         ]
@@ -299,6 +299,10 @@
     ],
     "socials": {
       "general": "Siga-nos nas redes sociais"
+    },
+    "regions": {
+      "PT": "Portugal",
+      "BR": "Brasil"
     }
   },
   "footer": {

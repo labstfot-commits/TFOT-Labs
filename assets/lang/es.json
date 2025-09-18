@@ -281,6 +281,13 @@
     "locations": [],
     "socials": {
       "general": "Síguenos en redes sociales"
+    },
+    "regions": {
+      "ES": "España",
+      "MX": "México",
+      "AR": "Argentina",
+      "CL": "Chile",
+      "PE": "Perú"
     }
   },
   "footer": {
