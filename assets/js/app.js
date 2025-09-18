@@ -28,9 +28,14 @@ const COUNTRY_TO_LANG = {
 
 // Load translations for a language
 async function loadLang(lang) {
+  console.log(`Loading language: ${lang}`);
   try {
-    const response = await fetch(`assets/lang/${lang}.json`);
+    const response = await fetch(`./assets/lang/${lang}.json`);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: Failed to fetch ${lang}.json`);
+    }
     translations = await response.json();
+    console.log(`Language ${lang} loaded successfully`);
     currentLang = lang;
     localStorage.setItem('lang', lang);
     updateContent();
@@ -40,14 +45,24 @@ async function loadLang(lang) {
     }
     setRTL();
   } catch (error) {
-    console.error('Error loading language:', error);
-    loadLang('en'); // Fallback
+    console.error(`Error loading language ${lang}:`, error);
+    // Fallback to English
+    if (lang !== 'en') {
+      loadLang('en');
+    } else {
+      console.error('Fallback to English also failed. Using empty translations.');
+      translations = {};
+      updateContent();
+    }
   }
 }
 
 // Update all DOM elements with data-i18n attribute
 function updateContent() {
-  document.querySelectorAll('[data-i18n]').forEach(el => {
+  console.log('Starting content update for lang:', currentLang);
+  const elements = document.querySelectorAll('[data-i18n]');
+  console.log(`Found ${elements.length} elements with data-i18n`);
+  elements.forEach(el => {
     const key = el.dataset.i18n;
     const keys = key.split('.');
     let value = translations;
@@ -58,22 +73,32 @@ function updateContent() {
       el.innerHTML = value.map(v => `<li>${v}</li>`).join('');
     }
   });
+  console.log('Content update completed');
 }
 
 // Load and display companies
 async function loadCompanies() {
+  console.log('Loading companies data');
   try {
-    const response = await fetch('assets/data/companies.json');
+    const response = await fetch('./assets/data/companies.json');
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: Failed to fetch companies.json`);
+    }
     companies = await response.json();
+    console.log(`Loaded ${companies.length} companies`);
     const container = document.querySelector('.companies-list');
     if (container) {
+      console.log('Rendering companies to .companies-list');
       container.innerHTML = companies.map(company => `
         <div class="company-card">
-          <img src="${company.image}" alt="${company.name}" placeholder="Placeholder Image">
-          <h3 data-i18n="companies.title">${company.name}</h3>
+          <img src="./${company.image}" alt="${company.name}" placeholder="Placeholder Image">
+          <h3>${company.name}</h3>
           <p>${company.description}</p>
         </div>
       `).join('');
+      console.log('Companies rendered successfully');
+    } else {
+      console.warn('No .companies-list element found');
     }
   } catch (error) {
     console.error('Error loading companies:', error);
@@ -113,13 +138,19 @@ function setRTL() {
 
 // Detect language based on IP
 async function detectLang() {
+  console.log('Detecting user language via IP');
   try {
     const response = await fetch('https://ipapi.co/json');
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: IP detection failed`);
+    }
     const data = await response.json();
     const lang = COUNTRY_TO_LANG[data.country_code] || 'en';
+    console.log(`Detected country: ${data.country_code}, language: ${lang}`);
     loadLang(lang);
   } catch (error) {
     console.error('Error detecting location:', error);
+    console.log('Falling back to English');
     loadLang('en');
   }
 }
@@ -162,6 +193,7 @@ function initMap() {
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('DOM loaded, initializing TFOT Labs app');
   initLangSwitcher();
   initForms();
   initMap();
@@ -169,6 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (window.location.pathname.includes('companies.html')) {
     loadCompanies();
   }
+  console.log('App initialization complete');
 });
 
 // Expose functions for global use if needed
