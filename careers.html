@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/logo/TFOT_Labs_logo.ico" type="image/x-icon">
   <title data-i18n="header.menu.careers">Careers</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+<link rel="icon" href="./images/logo/TFOT_Labs_logo.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <header>
     <nav>
-      <a href="index.html" class="logo" data-i18n="header.logo">TFOT Labs</a>
+      <a href="index.html" class="logo">
+        <img src="./images/logo/TFOT_Labs_logo.png" alt="TFOT Labs Logo">
+      </a>
       <ul class="menu">
         <li><a href="index.html" data-i18n="header.menu.home"></a></li>
         <li><a href="about.html" data-i18n="header.menu.about"></a></li>
@@ -33,7 +37,7 @@
         <option value="ar">العربية</option>
         <option value="he">עברית</option>
         <option value="sw">Kiswahili</option>
-        <option value="pt">Português</option>
+        <option value="pt">🇵🇹</option>
         <option value="tr">Türkçe</option>
       </select>
     </nav>
@@ -42,20 +46,31 @@
   <main>
     <section>
       <h1 data-i18n="careers.title">Careers at TFOT Labs</h1>
-      <p data-i18n="careers.vacancies">We are always looking for talented individuals. Current openings: Software Engineer, Data Scientist, Product Manager. Check back for updates.</p>
-      <form>
-        <label for="position" data-i18n="careers.form.position">Position Applying For</label>
-        <input type="text" id="position" name="position" required>
-        <label for="resume" data-i18n="careers.form.resume">Upload Resume</label>
-        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
-        <button type="submit" data-i18n="careers.form.submit">Apply Now</button>
-      </form>
+      <p data-i18n="careers.intro">Join our innovative team and shape the future of technology. We are seeking passionate professionals to drive our mission forward.</p>
+      
+      <section class="vacancies-section">
+        <h2 data-i18n="careers.openPositions">Open Positions</h2>
+        <div id="jobs-container" class="jobs-grid"></div>
+      </section>
+      
+      <section class="apply-section">
+        <h2 data-i18n="careers.apply">Apply for a Position</h2>
+        <form>
+          <label for="position" data-i18n="careers.form.position">Position Applying For</label>
+          <input type="text" id="position" name="position" required>
+          <label for="resume" class="custom-file-upload" data-i18n="careers.form.resume">
+            <i class="fas fa-arrow-up"></i>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+          </label>
+          <button type="submit" data-i18n="careers.form.submit">Apply Now</button>
+        </form>
+      </section>
     </section>
   </main>
 
   <footer>
     <div class="footer-content">
-      <a href="index.html" class="footer-logo" data-i18n="header.logo">TFOT Labs</a>
+      <img src="./images/logo/TFOT_Labs_logo.png" alt="TFOT Labs" class="footer-logo">
       <p class="copyright" data-i18n="footer.copyright">© 2024 TFOT Labs. All rights reserved.</p>
       <div class="footer-links">
         <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>

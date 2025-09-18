@@ -1,0 +1,329 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Koti",
+      "about": "Tietoa meistä",
+      "companies": "Yritykset",
+      "franchise": "Franchise",
+      "careers": "Urat",
+      "contact": "Ota yhteyttä"
+    },
+    "languages": {
+      "ru": "Venäjä",
+      "en": "Englanti",
+      "zh": "Kiina",
+      "ja": "Japani",
+      "fr": "Ranska",
+      "de": "Saksa",
+      "hi": "Hindi",
+      "it": "Italia",
+      "es": "Espanja",
+      "ko": "Korea",
+      "ar": "Arabia",
+      "he": "Heprea",
+      "sw": "Swahili",
+      "pt": "Portugali",
+      "tr": "Turkki",
+      "nl": "Hollanti",
+      "da": "Tanska",
+      "no": "Norja",
+      "sv": "Ruotsi",
+      "fi": "Suomi"
+    }
+  },
+  "index": {
+    "slogan": "Teknologian ja innovaation tulevaisuuden pioneeri",
+    "cta": "Tutki maailmankauppamme",
+    "learnMore": "Tutustu meihin"
+  },
+  "about": {
+    "title": "Tietoa TFOT Labsista",
+    "history": "Perustettu 2014, TFOT Labs on teknologisen edistyksen eturintamassa, yhdistäen huippututkimusta käytännön sovelluksiin muokatakseen huomisen maailmaa.",
+    "mission": "Tehtävämme on innovoida kestävästi, valtuuttaen globaaleja yhteisöjä transformatiivisten teknologioiden kautta, jotka käsittelevät tulevaisuuden haasteita.",
+    "values": [
+      "Innovaatio: Rajojen työntäminen rohkeilla ideoilla.",
+      "Integriteetti: Eettisten standardien ylläpitäminen kaikissa pyrkimyksissä.",
+      "Yhteistyö: Yhteistyökumppaneiden edistäminen kollektiivisen menestyksen saavuttamiseksi.",
+      "Kestävyys: Sitoutuminen ympäristöystävällisiin käytäntöihin."
+    ]
+  },
+  "companies": {
+    "title": "Portfoliomme yritykset",
+    "companies": [
+      {
+        "title": "Nebula",
+        "desc": "Urheilulähetyalusta live-tapahtumille ja interaktiivisille katselukokemuksille.",
+        "cat": "Urheilu"
+      },
+      {
+        "title": "Codeon",
+        "desc": "Sovellus ohjelmoinnin oppimiseen oppailla ja haasteilla.",
+        "cat": "Koulutus"
+      },
+      {
+        "title": "Linguix",
+        "desc": "Sovellus kielten oppimiseen AI-tunneilla ja harjoituksilla.",
+        "cat": "Koulutus"
+      },
+      {
+        "title": "Snap Repair",
+        "desc": "Teknologian korjauspalvelukeskusten verkosto.",
+        "cat": "Palvelut"
+      },
+      {
+        "title": "Blatota Nax",
+        "desc": "Tattoo-salonien ketju räätälöitylle taiteelle.",
+        "cat": "Kauneus"
+      },
+      {
+        "title": "Kinalia",
+        "desc": "Luksusputiikit vaatteille, hajuvesille ja kengille.",
+        "cat": "Vähittäiskauppa"
+      },
+      {
+        "title": "Platera",
+        "desc": "Verkosto ravintoloita monipuolisilla keittiöillä.",
+        "cat": "Ruoka ja juoma"
+      },
+      {
+        "title": "Nixa",
+        "desc": "Deitti-sovellus älykkäällä parittamisella.",
+        "cat": "Sosiaalinen ja deittailu"
+      },
+      {
+        "title": "Vivra Bank",
+        "desc": "Digitaalinen neopankki pankkipalveluille ja sijoituksille.",
+        "cat": "Rahoitus"
+      },
+      {
+        "title": "Luvry",
+        "desc": "18+ putiikki premium-aikuistuotteille.",
+        "cat": "Aikuisten vähittäiskauppa"
+      },
+      {
+        "title": "Structara",
+        "desc": "Rakennusyritys kestäville projekteille.",
+        "cat": "Rakentaminen"
+      },
+      {
+        "title": "Drifta",
+        "desc": "Kahvilaketju erikoisoluiden kanssa.",
+        "cat": "Ruoka ja juoma"
+      },
+      {
+        "title": "Mookie",
+        "desc": "Verkosto leipomoita tuoreille leivoksille.",
+        "cat": "Ruoka ja juoma"
+      },
+      {
+        "title": "Aerava",
+        "desc": "Lentoyhtiö kotimaan- ja kansainvälisille lennoille.",
+        "cat": "Matkailu"
+      },
+      {
+        "title": "Tivvo",
+        "desc": "Taksin palvelusovellus reaaliaikaisella seurannalla.",
+        "cat": "Liikenne"
+      },
+      {
+        "title": "BRVK",
+        "desc": "Parturiketju grooming-palveluille.",
+        "cat": "Kauneus"
+      },
+      {
+        "title": "Blushé",
+        "desc": "Naisten salongit kauneudelle ja hyvinvoinnille.",
+        "cat": "Kauneus ja hyvinvointi"
+      },
+      {
+        "title": "Светлая Память",
+        "desc": "Rituaalitoimisto hautaustoimintaan.",
+        "cat": "Palvelut"
+      },
+      {
+        "title": "WebTown",
+        "desc": "Internet-palveluntarjoaja korkean nopeuden yhteyksille.",
+        "cat": "Telekommunikaatio"
+      },
+      {
+        "title": "HMesu",
+        "desc": "Museo AI-päillä interaktiivisille näyttelyille.",
+        "cat": "Kulttuuri ja viihde"
+      },
+      {
+        "title": "SantRobo",
+        "desc": "Edistynyt robotiikka teollisuuskäyttöön.",
+        "cat": "Robotiikka"
+      },
+      {
+        "title": "YW Tech",
+        "desc": "Bioproteesit ja implanttitekniikka.",
+        "cat": "Terveydenhuolto teknologia"
+      },
+      {
+        "title": "EneCtron",
+        "desc": "Sähköinen kuljetus ja latausratkaisut.",
+        "cat": "Sähköajoneuvot"
+      },
+      {
+        "title": "SkyLib",
+        "desc": "Turvallinen VPN yksityisyydelle ja pääsylle.",
+        "cat": "Turvallisuus"
+      },
+      {
+        "title": "Eliza",
+        "desc": "AI-avustaja tuottavuudelle ja kotiautomaatiolle.",
+        "cat": "Tekoäly"
+      }
+    ]
+  },
+  "franchise": {
+    "title": "Franchise Mahdollisuudet",
+    "info": "Liity TFOT Labs-verkostoon ja tuo futuristista innovaatiota alueellesi. Franchising-mallimme tarjoaa kattavaa tukea, koulutusta ja resursseja menestykseen.",
+    "form": {
+      "name": "Koko nimi",
+      "email": "Sähköpostiosoite",
+      "message": "Viesti",
+      "submit": "Lähetä hakemus"
+    }
+  },
+  "careers": {
+    "title": "Urat TFOT Labsissa",
+    "intro": "Liity innovatiiviseen tiimiimme ja muokkaa teknologian tulevaisuutta. Etsimme intohimoisia ammattilaisia edistääksemme tehtäväämme.",
+    "openPositions": "Avoimet paikat",
+    "vacancies": [
+      {
+        "title": "Ohjelmistosuunnittelija",
+        "responsibilities": [
+          "Kehitä ja ylläpidä skaalautuvia web-sovelluksia moderneilla kehyksillä kuten React ja Node.js.",
+          "Yhteistyössä monitoimisten tiimien kanssa suunnittele ja toteuta uusia ominaisuuksia.",
+          "Kirjoita puhdasta, tehokasta koodia ja osallistu koodiarvosteluihin.",
+          "Optimoi sovelluksen suorituskykyä ja varmista koodin laatua."
+        ]
+      },
+      {
+        "title": "Data Scientist",
+        "responsibilities": [
+          "Analysoi monimutkaisia datamääriä poimiaksesi toimivia oivalluksia Pythonilla, R:llä ja koneoppimisvälineillä.",
+          "Rakenna prediktiivisiä malleja tukemaan liiketoimintapäätöksiä ja tuotekehitystä.",
+          "Visualisoi datatrendejä ja esitä tuloksia sidosryhmille.",
+          "Yhteistyössä insinööriteamien kanssa ota malleja tuotantoon."
+        ]
+      },
+      {
+        "title": "Tuotehallinta",
+        "responsibilities": [
+          "Määrittele tuotevisio ja tiekartta yhteistyössä insinööri-, design- ja bisnes-tiimien kanssa.",
+          "Kerää ja priorisoi vaatimuksia asiakkailta ja sidosryhmiltä.",
+          "Valvo tuotteen elinkaarta ideasta lanseeraukseen ja iteraatioon.",
+          "Seuraa keskeisiä mittareita ja tee A/B-testejä käyttäjäkokemuksen optimointiin."
+        ]
+      },
+      {
+        "title": "UX/UI Suunnittelija",
+        "responsibilities": [
+          "Suunnittele intuitiivisia käyttäjäliitäntöjä ja -kokemuksia web- ja mobiilisovelluksille.",
+          "Luo wireframejä, prototyyppejä ja high-fidelity mockupeja työkaluilla kuten Figma tai Adobe XD.",
+          "Tee käyttäjätutkimusta ja käytettävyystestejä desigpäätösten tiedottamiseen.",
+          "Yhteistyössä kehittäjien kanssa varmista desigien tarkka toteutus."
+        ]
+      },
+      {
+        "title": "Markkinointi Erikoistunut",
+        "responsibilities": [
+          "Kehitä ja toteuta markkinointikampanjoita digikanavissa TFOT Labs -tuotteiden edistämiseksi.",
+          "Analysoi kampanjoiden tuloksia ja optimoi ROI:ta työkaluilla kuten Google Analytics.",
+          "Luo vakuuttavia sisältöjä sosiaaliselle medialle, sähköposteille ja verkkosivustolle.",
+          "Hallitse brändikumppanuuksia ja tapahtumia näkyvyyden kasvattamiseksi."
+        ]
+      },
+      {
+        "title": "HR Päällikkö",
+        "responsibilities": [
+          "Valvo rekrytointi-, perehdytys- ja henkilöstösuhdeprosesseja.",
+          "Kehitä lahjakkuuden hankintastrategioita ja hallitse suoritusarviointeja.",
+          "Edistä positiivista yrityskulttuuria koulutuksen ja sitouttamisohjelmien kautta.",
+          "Varmista työlainsäädännön ja HR-parhaiden käytäntöjen noudattaminen."
+        ]
+      },
+      {
+        "title": "DevOps Insinööri",
+        "responsibilities": [
+          "Rakenna ja ylläpidä CI/CD-putkistoja Jenkinsillä, GitHub Actionsilla ja Dockerilla.",
+          "Hallitse pilvi-infrastruktuuria AWS:ssä tai Azure:ssa skaalautuvuuden ja luotettavuuden takaamiseksi.",
+          "Toteuta valvonta- ja hälytysjärjestelmiä järjestelmän terveyden varmistamiseksi.",
+          "Automatisoi deployment-prosesseja ja tee yhteistyötä kehitystiimien kanssa."
+        ]
+      },
+      {
+        "title": "AI Tutkija",
+        "responsibilities": [
+          "Tee tutkimusta edistyneistä AI-tekniikoista, mukaan lukien koneoppiminen ja luonnollisen kielen käsittely.",
+          "Kehitä prototyyppejä ja konseptin todisteita uusille AI-sovelluksille.",
+          "Julkaise tuloksia ja osallistu avoimen lähdekoodin projekteihin.",
+          "Yhteistyössä tuotetimien kanssa integroi tutkimusta todellisiin ratkaisuihin."
+        ]
+      },
+      {
+        "title": "Projektipäällikkö",
+        "responsibilities": [
+          "Johtaa monitoimisia tiimejä toimittamaan projekteja aikataulussa, laajuudessa ja budjetissa.",
+          "Määrittele projektin virstanpylväät, seuraa edistymistä ja lievennä riskejä.",
+          "Edistä viestintää sidosryhmien ja tiimiläisten välillä.",
+          "Käytä työkaluja kuten Jira tai Asana työnkulkujen ja raportoinnin hallintaan."
+        ]
+      }
+    ],
+    "apply": "Hae paikkaa",
+    "form": {
+      "position": "Hakemasi asema",
+      "resume": "Lataa CV",
+      "submit": "Hae nyt"
+    }
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "locations": [],
+    "socials": {
+      "general": "Seuraa meitä sosiaalisessa mediassa"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 TFOT Labs. Kaikki oikeudet pidätetään.",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "socials": {
+      "ru": ["VK", "Telegram", "Twitter"],
+      "en": ["Facebook", "Instagram", "Snapchat"],
+      "zh": ["WeChat", "Weibo", "TikTok"],
+      "fr": ["Facebook", "Instagram", "Twitter"],
+      "de": ["LinkedIn", "Xing", "Twitter"],
+      "hi": ["WhatsApp", "Instagram", "Twitter"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Twitter"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Twitter"],
+      "sw": ["WhatsApp", "Facebook", "Twitter"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Twitter"],
+      "it": ["WhatsApp", "Instagram", "Twitter"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"],
+      "nl": ["Facebook", "Instagram", "Twitter"],
+      "da": ["Facebook", "Instagram", "Twitter"],
+      "no": ["Facebook", "Instagram", "Twitter"],
+      "sv": ["Facebook", "Instagram", "Twitter"],
+      "fi": ["Facebook", "Instagram", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Tietosuojakäytäntö",
+    "content": "TFOT Labs on sitoutunut suojelemaan yksityisyyttäsi. Tämä käytäntö selittää, miten keräämme, käytämme ja suojelemme tietojasi. Emme jaa henkilötietoja ilman lupaa. Lisätietoja labstfot@gmail.com. Viimeksi päivitetty: 2024.",
+    "__translation_status": "machine_generated - needs human review"
+  },
+  "terms": {
+    "title": "Käyttöehdot",
+    "content": "Käyttämällä tätä verkkosivustoa hyväksyt ehdomme. Sisältö on vain informatiivisia tarkoituksia varten. TFOT Labs pidättää oikeuden päivittää nämä ehdot. Kielletty: luvaton käyttö tai kopiointi. Viimeksi päivitetty: 2024.",
+    "__translation_status": "machine_generated - needs human review"
+  }
+}

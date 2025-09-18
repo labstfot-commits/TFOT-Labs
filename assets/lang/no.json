@@ -1,0 +1,329 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Hjem",
+      "about": "Om oss",
+      "companies": "Selskaper",
+      "franchise": "Franchise",
+      "careers": "Karrierer",
+      "contact": "Kontakt"
+    },
+    "languages": {
+      "ru": "Russisk",
+      "en": "Engelsk",
+      "zh": "Kinesisk",
+      "ja": "Japansk",
+      "fr": "Fransk",
+      "de": "Tysk",
+      "hi": "Hindi",
+      "it": "Italiensk",
+      "es": "Spansk",
+      "ko": "Koreansk",
+      "ar": "Arabisk",
+      "he": "Hebraisk",
+      "sw": "Swahili",
+      "pt": "Portugisisk",
+      "tr": "Tyrkisk",
+      "nl": "Nederlandsk",
+      "da": "Dansk",
+      "no": "Norsk",
+      "sv": "Svensk",
+      "fi": "Finsk"
+    }
+  },
+  "index": {
+    "slogan": "Pioner i fremtiden for teknologi og innovasjon",
+    "cta": "Utforsk vårt univers",
+    "learnMore": "Lær oss å kjenne"
+  },
+  "about": {
+    "title": "Om TFOT Labs",
+    "history": "Grunnlagt i 2014, står TFOT Labs i frontlinjen av teknologisk fremskritt, der banebrytende forskning kombineres med praktiske applikasjoner for å forme morgendagens verden.",
+    "mission": "Vår misjon er å innovere bærekraftig, og styrke globale samfunn gjennom transformativ teknologi som adresserer fremtidens utfordringer.",
+    "values": [
+      "Innovasjon: Å skyve grenser med dristige ideer.",
+      "Integritet: Å opprettholde etiske standarder i alle anstrengelser.",
+      "Samarbeid: Å fremme partnerskap for kollektiv suksess.",
+      "Bærekraft: Dedikert til miljøvennlige praksiser."
+    ]
+  },
+  "companies": {
+    "title": "Våre Portefølje Selskaper",
+    "companies": [
+      {
+        "title": "Nebula",
+        "desc": "Sports broadcasting platform for live events and interactive viewing experiences.",
+        "cat": "Sport"
+      },
+      {
+        "title": "Codeon",
+        "desc": "App for learning programming with tutorials and challenges.",
+        "cat": "Utdanning"
+      },
+      {
+        "title": "Linguix",
+        "desc": "App for learning languages with AI lessons and practice.",
+        "cat": "Utdanning"
+      },
+      {
+        "title": "Snap Repair",
+        "desc": "Network of tech repair service centers.",
+        "cat": "Tjenester"
+      },
+      {
+        "title": "Blatota Nax",
+        "desc": "Chain of tattoo salons for custom art.",
+        "cat": "Skjønnhet"
+      },
+      {
+        "title": "Kinalia",
+        "desc": "Luxury boutiques for clothing, perfumes, and shoes.",
+        "cat": "Detaljhandel"
+      },
+      {
+        "title": "Platera",
+        "desc": "Network of restaurants with diverse cuisines.",
+        "cat": "Mat og drikke"
+      },
+      {
+        "title": "Nixa",
+        "desc": "Dating app with smart matching.",
+        "cat": "Sosial og dating"
+      },
+      {
+        "title": "Vivra Bank",
+        "desc": "Digital neobank for banking and investments.",
+        "cat": "Finans"
+      },
+      {
+        "title": "Luvry",
+        "desc": "18+ boutique for premium adult products.",
+        "cat": "Voksen detaljhandel"
+      },
+      {
+        "title": "Structara",
+        "desc": "Construction company for sustainable projects.",
+        "cat": "Bygg og anlegg"
+      },
+      {
+        "title": "Drifta",
+        "desc": "Chain of coffee shops with specialty brews.",
+        "cat": "Mat og drikke"
+      },
+      {
+        "title": "Mookie",
+        "desc": "Network of bakeries for fresh pastries.",
+        "cat": "Mat og drikke"
+      },
+      {
+        "title": "Aerava",
+        "desc": "Airline for domestic and international flights.",
+        "cat": "Reise"
+      },
+      {
+        "title": "Tivvo",
+        "desc": "Taxi service app with real-time tracking.",
+        "cat": "Transport"
+      },
+      {
+        "title": "BRVK",
+        "desc": "Chain of barbershops for grooming services.",
+        "cat": "Skjønnhet"
+      },
+      {
+        "title": "Blushé",
+        "desc": "Women's salons for beauty and wellness.",
+        "cat": "Skjønnhet og velvære"
+      },
+      {
+        "title": "Светлая Память",
+        "desc": "Ritual agency for funeral services.",
+        "cat": "Tjenester"
+      },
+      {
+        "title": "WebTown",
+        "desc": "Internet provider for high-speed connectivity.",
+        "cat": "Telekommunikasjon"
+      },
+      {
+        "title": "HMesu",
+        "desc": "Museum with AI heads for interactive exhibits.",
+        "cat": "Kultur og underholdning"
+      },
+      {
+        "title": "SantRobo",
+        "desc": "Advanced robotics for industrial use.",
+        "cat": "Robotikk"
+      },
+      {
+        "title": "YW Tech",
+        "desc": "Bioprosthetics and implants technology.",
+        "cat": "Helse teknologi"
+      },
+      {
+        "title": "EneCtron",
+        "desc": "Electric transport and charging solutions.",
+        "cat": "Elektriske kjøretøy"
+      },
+      {
+        "title": "SkyLib",
+        "desc": "Secure VPN for privacy and access.",
+        "cat": "Sikkerhet"
+      },
+      {
+        "title": "Eliza",
+        "desc": "AI assistant for productivity and home integration.",
+        "cat": "Kunstig intelligens"
+      }
+    ]
+  },
+  "franchise": {
+    "title": "Franchise Muligheter",
+    "info": "Bli med i TFOT Labs-nettverket og bring fremtidens innovasjon til din region. Vår franchise-modell tilbyr omfattende støtte, opplæring og ressurser for suksess.",
+    "form": {
+      "name": "Fullt navn",
+      "email": "E-post adresse",
+      "message": "Melding",
+      "submit": "Send søknad"
+    }
+  },
+  "careers": {
+    "title": "Karrierer hos TFOT Labs",
+    "intro": "Bli med i vårt innovative team og form fremtiden for teknologi. Vi søker lidenskapelige fagfolk for å drive vår misjon fremover.",
+    "openPositions": "Åpne posisjoner",
+    "vacancies": [
+      {
+        "title": "Software Engineer",
+        "responsibilities": [
+          "Utvikle og vedlikeholde skalerbare webapplikasjoner ved bruk av moderne rammeverk som React og Node.js.",
+          "Samarbeid med tverrfaglige team for å designe og implementere nye funksjoner.",
+          "Skriv ren, effektiv kode og delta i kodegjennomganger.",
+          "Optimaliser applikasjonsytelse og sikre kodekvalitet."
+        ]
+      },
+      {
+        "title": "Data Scientist",
+        "responsibilities": [
+          "Analyser komplekse datasett for å trekke ut handlingsrettede innsikter ved bruk av Python, R og maskinlæringsverktøy.",
+          "Bygg prediktive modeller for å støtte forretningsbeslutninger og produktutvikling.",
+          "Visualiser datatrender og presenter funn til interessenter.",
+          "Samarbeid med ingeniørteam for å deploye modeller i produksjon."
+        ]
+      },
+      {
+        "title": "Produkt Manager",
+        "responsibilities": [
+          "Definer produktvisjon og roadmap i samarbeid med ingeniør-, design- og forretningsteam.",
+          "Samle og prioriter krav fra kunder og interessenter.",
+          "Overvåk produktlivssyklus fra idé til lansering og iterasjon.",
+          "Spor nøkkelmetrikker og utfør A/B-tester for å optimalisere brukeropplevelse."
+        ]
+      },
+      {
+        "title": "UX/UI Designer",
+        "responsibilities": [
+          "Design intuitive brukergrensesnitt og opplevelser for web- og mobile applikasjoner.",
+          "Opprett wireframes, prototyper og high-fidelity mockups ved bruk av verktøy som Figma eller Adobe XD.",
+          "Utfør brukerundersøkelser og brukertesting for å informere designbeslutninger.",
+          "Samarbeid med utviklere for å sikre at designs implementeres nøyaktig."
+        ]
+      },
+      {
+        "title": "Marketing Specialist",
+        "responsibilities": [
+          "Utvikle og utfør markedsføringskampanjer på tvers av digitale kanaler for å fremme TFOT Labs produkter.",
+          "Analyser kampanjeytelse og optimaliser for ROI ved bruk av verktøy som Google Analytics.",
+          "Opprett overbevisende innhold for sosiale medier, e-post og nettside.",
+          "Håndter merkevarepartnerskap og events for å øke synlighet."
+        ]
+      },
+      {
+        "title": "HR Manager",
+        "responsibilities": [
+          "Overvåk rekrutterings-, onboarding- og ansattrelasjonsprosesser.",
+          "Utvikl talentakvisisjonsstrategier og håndter ytelsesvurderinger.",
+          "Frem en positiv bedriftskultur gjennom trenings- og engasjementsprogrammer.",
+          "Sikr overholdelse av arbeidslov og HR-best practices."
+        ]
+      },
+      {
+        "title": "DevOps Engineer",
+        "responsibilities": [
+          "Bygg og vedlikehold CI/CD-pipelines ved bruk av Jenkins, GitHub Actions og Docker.",
+          "Håndter skyleinfrastruktur på AWS eller Azure for skalerbarhet og pålitelighet.",
+          "Implementér overvåknings- og varslingssystemer for å sikre systemhelse.",
+          "Automatiser distribusjonsprosesser og samarbeid med utviklingsteam."
+        ]
+      },
+      {
+        "title": "AI Forsker",
+        "responsibilities": [
+          "Utfør forskning på avanserte AI-teknikker, inkludert maskinlæring og naturlig språkbehandling.",
+          "Utvikl prototyper og proof-of-konsepter for nye AI-applikasjoner.",
+          "Publiser funn og bidra til open-source prosjekter.",
+          "Samarbeid med produktteam for å integrere forskning i virkelige løsninger."
+        ]
+      },
+      {
+        "title": "Project Manager",
+        "responsibilities": [
+          "Led tverrfaglige team for å levere prosjekter i tide, innenfor omfang og budsjett.",
+          "Definer prosjektmilepæler, spor fremdrift og demp risikoer.",
+          "Frem kommunikasjon mellom interessenter og teammedlemmer.",
+          "Bruk verktøy som Jira eller Asana for å håndtere arbeidsflyt og rapportering."
+        ]
+      }
+    ],
+    "apply": "Søk om stilling",
+    "form": {
+      "position": "Stilling du søker på",
+      "resume": "Last opp CV",
+      "submit": "Søk nå"
+    }
+  },
+  "contact": {
+    "title": "Kontakt oss",
+    "locations": [],
+    "socials": {
+      "general": "Følg oss på sosiale medier"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 TFOT Labs. Alle rettigheter forbeholdt.",
+    "privacy": "Personvernpolicy",
+    "terms": "Vilkår for bruk",
+    "socials": {
+      "ru": ["VK", "Telegram", "Twitter"],
+      "en": ["Facebook", "Instagram", "Snapchat"],
+      "zh": ["WeChat", "Weibo", "TikTok"],
+      "fr": ["Facebook", "Instagram", "Twitter"],
+      "de": ["LinkedIn", "Xing", "Twitter"],
+      "hi": ["WhatsApp", "Instagram", "Twitter"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Twitter"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Twitter"],
+      "sw": ["WhatsApp", "Facebook", "Twitter"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Twitter"],
+      "it": ["WhatsApp", "Instagram", "Twitter"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"],
+      "nl": ["Facebook", "Instagram", "Twitter"],
+      "da": ["Facebook", "Instagram", "Twitter"],
+      "no": ["Facebook", "Instagram", "Twitter"],
+      "sv": ["Facebook", "Instagram", "Twitter"],
+      "fi": ["Facebook", "Instagram", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Personvernpolicy",
+    "content": "TFOT Labs er forpliktet til å beskytte din personvern. Denne politikken forklarer hvordan vi samler inn, bruker og beskytter din informasjon. Vi deler ikke personlige data uten samtykke. For detaljer, kontakt oss på labstfot@gmail.com. Sist oppdatert: 2024.",
+    "__translation_status": "machine_generated - needs human review"
+  },
+  "terms": {
+    "title": "Vilkår for bruk",
+    "content": "Ved å bruke denne nettsiden godtar du våre vilkår. Innholdet er kun for informasjonsformål. TFOT Labs forbeholder seg retten til å oppdatere disse vilkårene. Forbudt: uautorisert bruk eller reproduksjon. Sist oppdatert: 2024.",
+    "__translation_status": "machine_generated - needs human review"
+  }
+}

@@ -1,0 +1,388 @@
+[
+  {
+    "locale": "ru",
+    "locations": [
+      {
+        "id": "ru-spb",
+        "country_code": "RU",
+        "city": "Saint Petersburg",
+        "address_label": "Nevsky Prospekt / Dvortsovaya Ploshchad",
+        "address_full": "Nevsky Prospekt 28, 191186 Saint Petersburg, Russia",
+        "phone": "+7 812 000-00-00",
+        "email": "info.ru@tfotlabs.com",
+        "lat": 59.939,
+        "lng": 30.314
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "locations": [
+      {
+        "id": "en-us-ny",
+        "country_code": "US",
+        "city": "New York",
+        "address_label": "Times Square",
+        "address_full": "Broadway & 7th Ave, New York, NY 10036, USA",
+        "phone": "+1 212 000-0000",
+        "email": "info.us@tfotlabs.com",
+        "lat": 40.7580,
+        "lng": -73.9855
+      },
+      {
+        "id": "en-gb-man",
+        "country_code": "GB",
+        "city": "Manchester",
+        "address_label": "Etihad Stadium",
+        "address_full": "Etihad Campus, Manchester M11 3FF, UK",
+        "phone": "+44 161 000-0000",
+        "email": "info.uk@tfotlabs.com",
+        "lat": 53.4831,
+        "lng": -2.2004
+      }
+    ]
+  },
+  {
+    "locale": "zh",
+    "locations": [
+      {
+        "id": "zh-cn-bj",
+        "country_code": "CN",
+        "city": "Beijing",
+        "address_label": "Tiananmen Square",
+        "address_full": "Tiananmen Square, Dongcheng, Beijing, China",
+        "phone": "+86 10 0000-0000",
+        "email": "labstfot@qq.com",
+        "lat": 39.9030,
+        "lng": 116.391
+      }
+    ]
+  },
+  {
+    "locale": "ja",
+    "locations": [
+      {
+        "id": "ja-jp-tyo",
+        "country_code": "JP",
+        "city": "Tokyo",
+        "address_label": "Shibuya Crossing",
+        "address_full": "Shibuya, Tokyo 150-0042, Japan",
+        "phone": "+81 3 0000-0000",
+        "email": "info.jp@tfotlabs.com",
+        "lat": 35.6595,
+        "lng": 139.7005
+      }
+    ]
+  },
+  {
+    "locale": "de",
+    "locations": [
+      {
+        "id": "de-de-ber",
+        "country_code": "DE",
+        "city": "Berlin",
+        "address_label": "Brandenburg Gate",
+        "address_full": "Pariser Platz, 10117 Berlin, Germany",
+        "phone": "+49 30 0000-0000",
+        "email": "info.de@tfotlabs.com",
+        "lat": 52.5163,
+        "lng": 13.3777
+      }
+    ]
+  },
+  {
+    "locale": "tr",
+    "locations": [
+      {
+        "id": "tr-tr-ist",
+        "country_code": "TR",
+        "city": "Istanbul",
+        "address_label": "Hagia Sophia",
+        "address_full": "Sultan Ahmet, 34122 Fatih/İstanbul, Turkey",
+        "phone": "+90 212 000-0000",
+        "email": "info.tr@tfotlabs.com",
+        "lat": 41.0086,
+        "lng": 28.9802
+      }
+    ]
+  },
+  {
+    "locale": "fr",
+    "locations": [
+      {
+        "id": "fr-fr-par",
+        "country_code": "FR",
+        "city": "Paris",
+        "address_label": "Eiffel Tower",
+        "address_full": "Champ de Mars, 5th Arrondissement, 75007 Paris, France",
+        "phone": "+33 1 00-00-00-00",
+        "email": "info.fr@tfotlabs.com",
+        "lat": 48.8584,
+        "lng": 2.2945
+      }
+    ]
+  },
+  {
+    "locale": "it",
+    "locations": [
+      {
+        "id": "it-it-mil",
+        "country_code": "IT",
+        "city": "Milan",
+        "address_label": "San Siro Stadium",
+        "address_full": "Piazzale Lotto 15, 20151 Milano MI, Italy",
+        "phone": "+39 02 0000-0000",
+        "email": "info.it@tfotlabs.com",
+        "lat": 45.4781,
+        "lng": 9.1240
+      }
+    ]
+  },
+  {
+    "locale": "hi",
+    "locations": [
+      {
+        "id": "hi-in-del",
+        "country_code": "IN",
+        "city": "New Delhi",
+        "address_label": "India Gate",
+        "address_full": "Kartavya Path, New Delhi, Delhi 110001, India",
+        "phone": "+91 11 0000-0000",
+        "email": "info.in@tfotlabs.com",
+        "lat": 28.6129,
+        "lng": 77.2295
+      }
+    ]
+  },
+  {
+    "locale": "he",
+    "locations": [
+      {
+        "id": "he-il-jer",
+        "country_code": "IL",
+        "city": "Jerusalem",
+        "address_label": "Western Wall (Kotel)",
+        "address_full": "Western Wall Plaza, Old City, Jerusalem, Israel",
+        "phone": "+972 2 000-0000",
+        "email": "info.il@tfotlabs.com",
+        "lat": 31.7767,
+        "lng": 35.2345
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "locations": [
+      {
+        "id": "ar-sa-mek",
+        "country_code": "SA",
+        "city": "Mecca",
+        "address_label": "Masjid al-Haram",
+        "address_full": "King Abdul Aziz Endowment, Mecca 24242, Saudi Arabia",
+        "phone": "+966 12 0000-0000",
+        "email": "info.sa@tfotlabs.com",
+        "lat": 21.4225,
+        "lng": 39.8262
+      }
+    ]
+  },
+  {
+    "locale": "pt",
+    "locations": [
+      {
+        "id": "pt-pt-lis",
+        "country_code": "PT",
+        "city": "Lisbon",
+        "address_label": "Praça do Comércio",
+        "address_full": "Praça do Comércio, 1100-148 Lisbon, Portugal",
+        "phone": "+351 21 000-0000",
+        "email": "info.pt@tfotlabs.com",
+        "lat": 38.7072,
+        "lng": -9.1366
+      },
+      {
+        "id": "pt-br-rio",
+        "country_code": "BR",
+        "city": "Rio de Janeiro",
+        "address_label": "Cristo Redentor",
+        "address_full": "Parque Nacional da Tijuca, Alto da Boa Vista, Rio de Janeiro - RJ, 22460-000, Brazil",
+        "phone": "+55 21 0000-0000",
+        "email": "info.br@tfotlabs.com",
+        "lat": -22.9519,
+        "lng": -43.2105
+      }
+    ]
+  },
+  {
+    "locale": "es",
+    "locations": [
+      {
+        "id": "es-es-mad",
+        "country_code": "ES",
+        "city": "Madrid",
+        "address_label": "Puerta del Sol",
+        "address_full": "Puerta del Sol, 28013 Madrid, Spain",
+        "phone": "+34 91 000-0000",
+        "email": "info.es@tfotlabs.com",
+        "lat": 40.4168,
+        "lng": -3.7038
+      },
+      {
+        "id": "es-mx-mex",
+        "country_code": "MX",
+        "city": "Mexico City",
+        "address_label": "Zócalo",
+        "address_full": "Plaza de la Constitución S/N, Centro Histórico, 06000 Mexico City, Mexico",
+        "phone": "+52 55 000-0000",
+        "email": "info.mx@tfotlabs.com",
+        "lat": 19.4326,
+        "lng": -99.1332
+      },
+      {
+        "id": "es-ar-bue",
+        "country_code": "AR",
+        "city": "Buenos Aires",
+        "address_label": "Obelisco",
+        "address_full": "Av. 9 de Julio 1000, C1086 Cdad. Autónoma de Buenos Aires, Argentina",
+        "phone": "+54 11 000-0000",
+        "email": "info.ar@tfotlabs.com",
+        "lat": -34.6037,
+        "lng": -58.3816
+      },
+      {
+        "id": "es-cl-san",
+        "country_code": "CL",
+        "city": "Santiago",
+        "address_label": "Plaza de Armas",
+        "address_full": "Plaza de Armas, Santiago, Región Metropolitana, Chile",
+        "phone": "+56 2 000-0000",
+        "email": "info.cl@tfotlabs.com",
+        "lat": -33.4372,
+        "lng": -70.6500
+      },
+      {
+        "id": "es-pe-lim",
+        "country_code": "PE",
+        "city": "Lima",
+        "address_label": "Plaza Mayor",
+        "address_full": "Plaza Mayor, Cercado de Lima 15001, Peru",
+        "phone": "+51 1 000-0000",
+        "email": "info.pe@tfotlabs.com",
+        "lat": -12.0464,
+        "lng": -77.0428
+      }
+    ]
+  },
+  {
+    "locale": "sw",
+    "locations": [
+      {
+        "id": "sw-tz-dar",
+        "country_code": "TZ",
+        "city": "Dar es Salaam",
+        "address_label": "Uhuru Monument",
+        "address_full": "Samora Ave, Dar es Salaam, Tanzania",
+        "phone": "+255 22 000-0000",
+        "email": "info.tz@tfotlabs.com",
+        "lat": -6.8164,
+        "lng": 39.2825
+      }
+    ]
+  },
+  {
+    "locale": "nl",
+    "locations": [
+      {
+        "id": "nl-nl-ams",
+        "country_code": "NL",
+        "city": "Amsterdam",
+        "address_label": "Dam Square",
+        "address_full": "Dam, 1012 JS Amsterdam, Netherlands",
+        "phone": "+31 20 000-0000",
+        "email": "info.nl@tfotlabs.com",
+        "lat": 52.3731,
+        "lng": 4.8922
+      }
+    ]
+  },
+  {
+    "locale": "da",
+    "locations": [
+      {
+        "id": "da-dk-cph",
+        "country_code": "DK",
+        "city": "Copenhagen",
+        "address_label": "Nyhavn",
+        "address_full": "Nyhavn 1, 1051 København, Denmark",
+        "phone": "+45 33 000-0000",
+        "email": "info.dk@tfotlabs.com",
+        "lat": 55.6810,
+        "lng": 12.5931
+      }
+    ]
+  },
+  {
+    "locale": "no",
+    "locations": [
+      {
+        "id": "no-no-osl",
+        "country_code": "NO",
+        "city": "Oslo",
+        "address_label": "Oslo Opera House",
+        "address_full": "Kirsten Flagstads Plass 1, 0150 Oslo, Norway",
+        "phone": "+47 22 000-0000",
+        "email": "info.no@tfotlabs.com",
+        "lat": 59.9065,
+        "lng": 10.7534
+      }
+    ]
+  },
+  {
+    "locale": "sv",
+    "locations": [
+      {
+        "id": "sv-se-sto",
+        "country_code": "SE",
+        "city": "Stockholm",
+        "address_label": "Gamla Stan",
+        "address_full": "Gamla Stan, Stockholm, Sweden",
+        "phone": "+46 8 000-0000",
+        "email": "info.se@tfotlabs.com",
+        "lat": 59.3240,
+        "lng": 18.0705
+      }
+    ]
+  },
+  {
+    "locale": "fi",
+    "locations": [
+      {
+        "id": "fi-fi-hel",
+        "country_code": "FI",
+        "city": "Helsinki",
+        "address_label": "Senate Square",
+        "address_full": "Senate Square, 00170 Helsinki, Finland",
+        "phone": "+358 9 000-0000",
+        "email": "info.fi@tfotlabs.com",
+        "lat": 60.1699,
+        "lng": 24.9555
+      }
+    ]
+  },
+  {
+    "locale": "ko",
+    "locations": [
+      {
+        "id": "ko-kr-seo",
+        "country_code": "KR",
+        "city": "Seoul",
+        "address_label": "Gwanghwamun Square",
+        "address_full": "172 Sejong-daero, Jongno-gu, Seoul, South Korea",
+        "phone": "+82 2 000-0000",
+        "email": "info.kr@tfotlabs.com",
+        "lat": 37.5665,
+        "lng": 126.9780
+      }
+    ]
+  }
+]

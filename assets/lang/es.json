@@ -10,30 +10,30 @@
       "contact": "Contacto"
     },
     "languages": {
-      "ru": "Ruso",
-      "en": "Inglés",
-      "zh": "Chino",
-      "ja": "Japonés",
-      "fr": "Francés",
-      "de": "Alemán",
-      "hi": "Hindi",
-      "it": "Italiano",
-      "es": "Español",
-      "ko": "Coreano",
-      "ar": "Árabe",
-      "he": "Hebreo",
-      "sw": "Suajili",
-      "pt": "Portugués",
-      "tr": "Turco"
+      "ru": "🇷🇺",
+      "en": "🇺🇸",
+      "zh": "🇨🇳",
+      "ja": "🇯🇵",
+      "fr": "🇫🇷",
+      "de": "🇩🇪",
+      "hi": "🇮🇳",
+      "it": "🇮🇹",
+      "es": "🇪🇸",
+      "ko": "🇰🇷",
+      "ar": "🇸🇦",
+      "he": "🇮🇱",
+      "sw": "🇹🇿",
+      "pt": "🇧🇷",
+      "tr": "🇹🇷"
     }
   },
   "index": {
     "slogan": "Pionero del futuro de la tecnología e innovación",
-    "cta": "Explora nuestro universo"
+    "learnMore": "Conócenos"
   },
   "about": {
     "title": "Acerca de TFOT Labs",
-    "history": "Fundada en 2020, TFOT Labs está a la vanguardia del progreso tecnológico, combinando investigaciones de vanguardia con aplicaciones prácticas para dar forma al mundo de mañana.",
+    "history": "Fundada en 2014, TFOT Labs está a la vanguardia del progreso tecnológico, combinando investigaciones de vanguardia con aplicaciones prácticas para dar forma al mundo de mañana.",
     "mission": "Nuestra misión es innovar de manera sostenible, empoderando comunidades globales a través de tecnologías transformadoras que abordan los desafíos del futuro.",
     "values": [
       "Innovación: Empujar los límites con ideas audaces.",
@@ -43,7 +43,134 @@
     ]
   },
   "companies": {
-    "title": "Nuestras empresas del portafolio"
+    "title": "Nuestras empresas del portafolio",
+    "companies": [
+      {
+        "title": "Nebula",
+        "desc": "Plataforma de transmisión deportiva para eventos en vivo y experiencias de visualización interactivas.",
+        "cat": "Deportes"
+      },
+      {
+        "title": "Codeon",
+        "desc": "App para aprender programación con tutoriales y desafíos.",
+        "cat": "Educación"
+      },
+      {
+        "title": "Linguix",
+        "desc": "App para aprender idiomas con lecciones de IA y práctica.",
+        "cat": "Educación"
+      },
+      {
+        "title": "Snap Repair",
+        "desc": "Red de centros de reparación de tecnología.",
+        "cat": "Servicios"
+      },
+      {
+        "title": "Blatota Nax",
+        "desc": "Cadena de salones de tatuajes para arte personalizado.",
+        "cat": "Belleza"
+      },
+      {
+        "title": "Kinalia",
+        "desc": "Boutiques de lujo para ropa, perfumes y zapatos.",
+        "cat": "Minorista"
+      },
+      {
+        "title": "Platera",
+        "desc": "Red de restaurantes con cocinas diversas.",
+        "cat": "Alimentos y bebidas"
+      },
+      {
+        "title": "Nixa",
+        "desc": "App de citas con emparejamiento inteligente.",
+        "cat": "Social y citas"
+      },
+      {
+        "title": "Vivra Bank",
+        "desc": "Neobanco digital para banca e inversiones.",
+        "cat": "Finanzas"
+      },
+      {
+        "title": "Luvry",
+        "desc": "Boutique 18+ para productos premium para adultos.",
+        "cat": "Minorista adulto"
+      },
+      {
+        "title": "Structara",
+        "desc": "Compañía de construcción para proyectos sostenibles.",
+        "cat": "Construcción"
+      },
+      {
+        "title": "Drifta",
+        "desc": "Cadena de cafeterías con cervezas especializadas.",
+        "cat": "Alimentos y bebidas"
+      },
+      {
+        "title": "Mookie",
+        "desc": "Red de panaderías para pasteles frescos.",
+        "cat": "Alimentos y bebidas"
+      },
+      {
+        "title": "Aerava",
+        "desc": "Aerolínea para vuelos domésticos e internacionales.",
+        "cat": "Viajes"
+      },
+      {
+        "title": "Tivvo",
+        "desc": "App de servicio de taxi con seguimiento en tiempo real.",
+        "cat": "Transporte"
+      },
+      {
+        "title": "BRVK",
+        "desc": "Cadena de barberías para servicios de grooming.",
+        "cat": "Belleza"
+      },
+      {
+        "title": "Blushé",
+        "desc": "Salones para mujeres para belleza y bienestar.",
+        "cat": "Belleza y bienestar"
+      },
+      {
+        "title": "Светлая Память",
+        "desc": "Agencia ritual para servicios funerarios.",
+        "cat": "Servicios"
+      },
+      {
+        "title": "WebTown",
+        "desc": "Proveedor de internet para conectividad de alta velocidad.",
+        "cat": "Telecomunicaciones"
+      },
+      {
+        "title": "HMesu",
+        "desc": "Museo con cabezas de IA para exposiciones interactivas.",
+        "cat": "Cultura y entretenimiento"
+      },
+      {
+        "title": "SantRobo",
+        "desc": "Robótica avanzada para uso industrial.",
+        "cat": "Robótica"
+      },
+      {
+        "title": "YW Tech",
+        "desc": "Tecnología de bioprótesis e implantes.",
+        "cat": "Tecnología de salud"
+      },
+      {
+        "title": "EneCtron",
+        "desc": "Soluciones de transporte eléctrico y carga.",
+        "cat": "Vehículos eléctricos"
+      },
+      {
+        "title": "SkyLib",
+        "desc": "VPN segura para privacidad y acceso.",
+        "cat": "Seguridad"
+      },
+      {
+        "title": "Eliza",
+        "desc": "Asistente de IA para productividad e integración en el hogar.",
+        "cat": "Inteligencia artificial"
+      }
+    ]
   },
   "franchise": {
     "title": "Oportunidades de franquicia",
@@ -57,7 +184,92 @@
   },
   "careers": {
     "title": "Carreras en TFOT Labs",
-    "vacancies": "Siempre estamos buscando talentos. Puestos abiertos actuales: Ingeniero de software, Científico de datos, Gerente de producto. Verifica actualizaciones.",
+    "intro": "Únete a nuestro equipo innovador y da forma al futuro de la tecnología. Buscamos profesionales apasionados para impulsar nuestra misión.",
+    "openPositions": "Posiciones Abiertas",
+    "vacancies": [
+      {
+        "title": "Ingeniero de Software",
+        "responsibilities": [
+          "Desarrollar y mantener aplicaciones web escalables utilizando frameworks modernos como React y Node.js.",
+          "Colaborar con equipos cross-funcionales para diseñar e implementar nuevas características.",
+          "Escribir código limpio y eficiente y participar en revisiones de código.",
+          "Optimizar el rendimiento de las aplicaciones y asegurar la calidad del código."
+        ]
+      },
+      {
+        "title": "Científico de Datos",
+        "responsibilities": [
+          "Analizar conjuntos de datos complejos para extraer insights accionables utilizando Python, R y herramientas de machine learning.",
+          "Construir modelos predictivos para apoyar decisiones de negocio y desarrollo de productos.",
+          "Visualizar tendencias de datos y presentar hallazgos a stakeholders.",
+          "Colaborar con equipos de ingeniería para desplegar modelos en producción."
+        ]
+      },
+      {
+        "title": "Gerente de Producto",
+        "responsibilities": [
+          "Definir la visión del producto y roadmap en colaboración con equipos de ingeniería, diseño y negocio.",
+          "Recopilar y priorizar requisitos de clientes y stakeholders.",
+          "Supervisar el ciclo de vida del producto desde la ideación hasta el lanzamiento e iteración.",
+          "Rastrear métricas clave y realizar pruebas A/B para optimizar la experiencia del usuario."
+        ]
+      },
+      {
+        "title": "Diseñador UX/UI",
+        "responsibilities": [
+          "Diseñar interfaces de usuario intuitivas y experiencias para aplicaciones web y móviles.",
+          "Crear wireframes, prototipos y mockups de alta fidelidad utilizando herramientas como Figma o Adobe XD.",
+          "Realizar investigaciones de usuario y pruebas de usabilidad para informar decisiones de diseño.",
+          "Colaborar con desarrolladores para asegurar que los diseños se implementen con precisión."
+        ]
+      },
+      {
+        "title": "Especialista en Marketing",
+        "responsibilities": [
+          "Desarrollar y ejecutar campañas de marketing a través de canales digitales para promover los productos de TFOT Labs.",
+          "Analizar el rendimiento de las campañas y optimizar para ROI utilizando herramientas como Google Analytics.",
+          "Crear contenido convincente para redes sociales, email y sitio web.",
+          "Gestionar asociaciones de marca y eventos para aumentar la visibilidad."
+        ]
+      },
+      {
+        "title": "Gerente de RRHH",
+        "responsibilities": [
+          "Supervisar procesos de reclutamiento, onboarding y relaciones con empleados.",
+          "Desarrollar estrategias de adquisición de talento y gestionar revisiones de desempeño.",
+          "Fomentar una cultura empresarial positiva a través de programas de formación y engagement.",
+          "Asegurar el cumplimiento de las leyes laborales y las mejores prácticas de RRHH."
+        ]
+      },
+      {
+        "title": "Ingeniero DevOps",
+        "responsibilities": [
+          "Construir y mantener pipelines CI/CD utilizando Jenkins, GitHub Actions y Docker.",
+          "Gestionar infraestructura en la nube en AWS o Azure para escalabilidad y confiabilidad.",
+          "Implementar sistemas de monitoreo y alertas para asegurar la salud del sistema.",
+          "Automatizar procesos de despliegue y colaborar con equipos de desarrollo."
+        ]
+      },
+      {
+        "title": "Investigador de IA",
+        "responsibilities": [
+          "Realizar investigaciones sobre técnicas avanzadas de IA, incluyendo machine learning y procesamiento de lenguaje natural.",
+          "Desarrollar prototipos y proof-of-concepts para nuevas aplicaciones de IA.",
+          "Publicar hallazgos y contribuir a proyectos open-source.",
+          "Colaborar con equipos de producto para integrar la investigación en soluciones del mundo real."
+        ]
+      },
+      {
+        "title": "Gerente de Proyecto",
+        "responsibilities": [
+          "Liderar equipos cross-funcionales para entregar proyectos a tiempo, dentro del alcance y presupuesto.",
+          "Definir hitos del proyecto, rastrear progreso y mitigar riesgos.",
+          "Facilitar la comunicación entre stakeholders y miembros del equipo.",
+          "Utilizar herramientas como Jira o Asana para gestionar workflows y reporting."
+        ]
+      }
+    ],
+    "apply": "Solicitar un puesto",
     "form": {
       "position": "Puesto al que aplicas",
       "resume": "Subir currículum",
@@ -66,39 +278,36 @@
   },
   "contact": {
     "title": "Contáctanos",
-    "email": "info@tfotlabs.com",
-    "phone": "+1 (555) 123-4567",
-    "address": "123 Innovation Drive, Future City, FC 12345",
-    "map": "Marcador de mapa incrustado (usa iframe de Google Maps)",
+    "locations": [],
     "socials": {
       "general": "Síguenos en redes sociales"
     }
   },
   "footer": {
-    "copyright": "© 2024 TFOT Labs. Todos los derechos reservados.",
+    "copyright": "© 2025 TFOT Labs. Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "terms": "Términos de uso",
     "socials": {
-      "ru": ["VK", "Telegram", "Instagram"],
+      "ru": ["VK", "Telegram", "Twitter"],
       "en": ["Twitter", "LinkedIn", "Instagram"],
-      "zh": ["WeChat", "Weibo", "Douyin"],
-      "fr": ["Facebook", "Instagram", "LinkedIn"],
-      "de": ["LinkedIn", "Xing", "Instagram"],
-      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "zh": ["WeChat", "Weibo", "Twitter"],
+      "fr": ["Facebook", "Instagram", "Twitter"],
+      "de": ["LinkedIn", "Xing", "Twitter"],
+      "hi": ["WhatsApp", "Instagram", "Twitter"],
       "ja": ["Line", "Twitter", "Instagram"],
-      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Twitter"],
       "ar": ["WhatsApp", "Facebook", "Twitter"],
-      "he": ["WhatsApp", "Facebook", "Instagram"],
-      "sw": ["WhatsApp", "Facebook", "Instagram"],
-      "pt": ["WhatsApp", "Instagram", "Facebook"],
-      "es": ["WhatsApp", "Instagram", "Facebook"],
-      "it": ["WhatsApp", "Instagram", "LinkedIn"],
+      "he": ["WhatsApp", "Facebook", "Twitter"],
+      "sw": ["WhatsApp", "Facebook", "Twitter"],
+      "pt": ["WhatsApp", "Instagram", "Twitter"],
+      "es": ["WhatsApp", "Instagram", "LinkedIn"],
+      "it": ["WhatsApp", "Instagram", "Twitter"],
       "tr": ["Instagram", "WhatsApp", "Twitter"]
     }
   },
   "privacy": {
     "title": "Política de privacidad",
-    "content": "TFOT Labs se compromete a proteger tu privacidad. Esta política explica cómo recolectamos, usamos y protegemos tu información. No compartimos datos personales sin consentimiento. Para detalles, contáctanos en info@tfotlabs.com. Última actualización: 2024."
+    "content": "TFOT Labs se compromete a proteger tu privacidad. Esta política explica cómo recolectamos, usamos y protegemos tu información. No compartimos datos personales sin consentimiento. Para detalles, contáctanos en labstfot@gmail.com. Última actualización: 2024."
   },
   "terms": {
     "title": "Términos de uso",

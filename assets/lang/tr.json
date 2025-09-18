@@ -43,7 +43,134 @@
     ]
   },
   "companies": {
-    "title": "Portföy Şirketlerimiz"
+    "title": "Portföy Şirketlerimiz",
+    "companies": [
+      {
+        "title": "Nebula",
+        "desc": "Canlı etkinlikler ve interaktif izleme deneyimleri için spor yayın platformu.",
+        "cat": "Spor"
+      },
+      {
+        "title": "Codeon",
+        "desc": "Öğreticiler ve zorluklarla programlama öğrenme uygulaması.",
+        "cat": "Eğitim"
+      },
+      {
+        "title": "Linguix",
+        "desc": "AI dersleri ve pratikle dil öğrenme uygulaması.",
+        "cat": "Eğitim"
+      },
+      {
+        "title": "Snap Repair",
+        "desc": "Teknoloji onarım servis merkezleri ağı.",
+        "cat": "Hizmetler"
+      },
+      {
+        "title": "Blatota Nax",
+        "desc": "Özel sanat için dövme salonları zinciri.",
+        "cat": "Güzellik"
+      },
+      {
+        "title": "Kinalia",
+        "desc": "Giyim, parfüm ve ayakkabı için lüks butikler.",
+        "cat": "Perakende"
+      },
+      {
+        "title": "Platera",
+        "desc": "Çeşitli mutfaklarla restoran ağı.",
+        "cat": "Yiyecek ve İçecek"
+      },
+      {
+        "title": "Nixa",
+        "desc": "Akıllı eşleştirme ile flört uygulaması.",
+        "cat": "Sosyal ve Flört"
+      },
+      {
+        "title": "Vivra Bank",
+        "desc": "Bankacılık ve yatırımlar için dijital neobank.",
+        "cat": "Finans"
+      },
+      {
+        "title": "Luvry",
+        "desc": "Premium yetişkin ürünleri için 18+ butik.",
+        "cat": "Yetişkin Perakende"
+      },
+      {
+        "title": "Structara",
+        "desc": "Sürdürülebilir projeler için inşaat şirketi.",
+        "cat": "İnşaat"
+      },
+      {
+        "title": "Drifta",
+        "desc": "Özel biralarla kahve dükkanları zinciri.",
+        "cat": "Yiyecek ve İçecek"
+      },
+      {
+        "title": "Mookie",
+        "desc": "Taze hamur işleri için fırınlar ağı.",
+        "cat": "Yiyecek ve İçecek"
+      },
+      {
+        "title": "Aerava",
+        "desc": "Yurtiçi ve uluslararası uçuşlar için havayolu.",
+        "cat": "Seyahat"
+      },
+      {
+        "title": "Tivvo",
+        "desc": "Gerçek zamanlı takip ile taksi servis uygulaması.",
+        "cat": "Ulaşım"
+      },
+      {
+        "title": "BRVK",
+        "desc": "Grooming hizmetleri için berber dükkanları zinciri.",
+        "cat": "Güzellik"
+      },
+      {
+        "title": "Blushé",
+        "desc": "Güzellik ve wellness için kadın salonları.",
+        "cat": "Güzellik ve Sağlık"
+      },
+      {
+        "title": "Светлая Память",
+        "desc": "Cenaze hizmetleri için ritüel ajansı.",
+        "cat": "Hizmetler"
+      },
+      {
+        "title": "WebTown",
+        "desc": "Yüksek hızlı bağlantı için internet sağlayıcısı.",
+        "cat": "Telekomünikasyon"
+      },
+      {
+        "title": "HMesu",
+        "desc": "İnteraktif sergiler için AI kafalı müze.",
+        "cat": "Kültür ve Eğlence"
+      },
+      {
+        "title": "SantRobo",
+        "desc": "Endüstriyel kullanım için gelişmiş robotik.",
+        "cat": "Robotik"
+      },
+      {
+        "title": "YW Tech",
+        "desc": "Biyoprotez ve implant teknolojisi.",
+        "cat": "Sağlık Teknolojisi"
+      },
+      {
+        "title": "EneCtron",
+        "desc": "Elektrikli ulaşım ve şarj çözümleri.",
+        "cat": "Elektrikli Araçlar"
+      },
+      {
+        "title": "SkyLib",
+        "desc": "Gizlilik ve erişim için güvenli VPN.",
+        "cat": "Güvenlik"
+      },
+      {
+        "title": "Eliza",
+        "desc": "Verimlilik ve ev entegrasyonu için AI asistanı.",
+        "cat": "Yapay Zeka"
+      }
+    ]
   },
   "franchise": {
     "title": "Franchise Fırsatları",
@@ -57,7 +184,92 @@
   },
   "careers": {
     "title": "TFOT Labs Kariyer",
-    "vacancies": "Her zaman yetenekli bireyler arıyoruz. Mevcut açık pozisyonlar: Yazılım Mühendisi, Veri Bilimcisi, Ürün Yöneticisi. Güncellemeleri kontrol edin.",
+    "intro": "İnovatif ekibimize katılın ve teknolojinin geleceğini şekillendirin. Misyonumuzu ilerletmek için tutkulu profesyoneller arıyoruz.",
+    "openPositions": "Açık Pozisyonlar",
+    "vacancies": [
+      {
+        "title": "Yazılım Mühendisi",
+        "responsibilities": [
+          "React ve Node.js gibi modern framework'ler kullanarak ölçeklenebilir web uygulamaları geliştirin ve bakımını yapın.",
+          "Yeni özellikleri tasarlamak ve uygulamak için çapraz fonksiyonel ekiplerle işbirliği yapın.",
+          "Temiz, verimli kod yazın ve kod incelemelerine katılın.",
+          "Uygulama performansını optimize edin ve kod kalitesini sağlayın."
+        ]
+      },
+      {
+        "title": "Veri Bilimcisi",
+        "responsibilities": [
+          "Python, R ve makine öğrenimi araçlarını kullanarak karmaşık veri setlerini analiz edin ve eylem yapılabilir içgörüler çıkarın.",
+          "İş kararlarını ve ürün geliştirmeyi desteklemek için öngörücü modeller oluşturun.",
+          "Veri trendlerini görselleştirin ve bulguları paydaşlara sunun.",
+          "Modelleri üretime dağıtmak için mühendislik ekipleriyle işbirliği yapın."
+        ]
+      },
+      {
+        "title": "Ürün Yöneticisi",
+        "responsibilities": [
+          "Mühendislik, tasarım ve iş ekipleriyle işbirliği yaparak ürün vizyonu ve yol haritasını tanımlayın.",
+          "Müşterilerden ve paydaşlardan gereksinimleri toplayın ve önceliklendirin.",
+          "Ürün yaşam döngüsünü fikirden lansmana ve yinelemeye kadar denetleyin.",
+          "Kullanıcı deneyimini optimize etmek için ana metrikleri izleyin ve A/B testleri yapın."
+        ]
+      },
+      {
+        "title": "UX/UI Tasarımcısı",
+        "responsibilities": [
+          "Web ve mobil uygulamalar için sezgisel kullanıcı arayüzleri ve deneyimleri tasarlayın.",
+          "Figma veya Adobe XD gibi araçlar kullanarak wireframe'ler, prototipler ve yüksek sadakatli mockup'lar oluşturun.",
+          "Tasarım kararlarını bilgilendirmek için kullanıcı araştırması ve kullanılabilirlik testleri yapın.",
+          "Tasarımcıların doğru şekilde uygulandığından emin olmak için geliştiricilerle işbirliği yapın."
+        ]
+      },
+      {
+        "title": "Pazarlama Uzmanı",
+        "responsibilities": [
+          "TFOT Labs ürünlerini tanıtmak için dijital kanallar genelinde pazarlama kampanyaları geliştirin ve yürütün.",
+          "Google Analytics gibi araçları kullanarak kampanya performansını analiz edin ve ROI'yi optimize edin.",
+          "Sosyal medya, e-posta ve web sitesi için çekici içerikler oluşturun.",
+          "Marka ortaklıklarını ve etkinlikleri yöneterek görünürlüğü artırın."
+        ]
+      },
+      {
+        "title": "İK Yöneticisi",
+        "responsibilities": [
+          "İşe alım, oryantasyon ve çalışan ilişkileri süreçlerini denetleyin.",
+          "Yetenek kazanım stratejileri geliştirin ve performans incelemelerini yönetin.",
+          "Eğitim ve katılım programları aracılığıyla olumlu şirket kültürü oluşturun.",
+          "İş yasalarına ve İK en iyi uygulamalarına uyumu sağlayın."
+        ]
+      },
+      {
+        "title": "DevOps Mühendisi",
+        "responsibilities": [
+          "Jenkins, GitHub Actions ve Docker kullanarak CI/CD boru hatlarını oluşturun ve bakımını yapın.",
+          "Ölçeklenebilirlik ve güvenilirlik için AWS veya Azure üzerinde bulut altyapısını yönetin.",
+          "Sistem sağlığını sağlamak için izleme ve uyarı sistemlerini uygulayın.",
+          "Dağıtım süreçlerini otomatikleştirin ve geliştirme ekipleriyle işbirliği yapın."
+        ]
+      },
+      {
+        "title": "Yİ Araştırmacısı",
+        "responsibilities": [
+          "Makine öğrenimi ve doğal dil işleme dahil gelişmiş Yİ tekniklerinde araştırma yapın.",
+          "Yeni Yİ uygulamaları için prototipler ve konsept kanıtları geliştirin.",
+          "Bulguları yayınlayın ve açık kaynak projelerine katkıda bulunun.",
+          "Araştırmayı gerçek dünya çözümlerine entegre etmek için ürün ekipleriyle işbirliği yapın."
+        ]
+      },
+      {
+        "title": "Proje Yöneticisi",
+        "responsibilities": [
+          "Çapraz fonksiyonel ekipleri yöneterek projeleri zamanında, kapsam dahilinde ve bütçe içinde teslim edin.",
+          "Proje kilometre taşlarını tanımlayın, ilerlemeyi izleyin ve riskleri azaltın.",
+          "Paydaşlar ve ekip üyeleri arasında iletişimi kolaylaştırın.",
+          "Jira veya Asana gibi araçları kullanarak iş akışlarını ve raporlamayı yönetin."
+        ]
+      }
+    ],
+    "apply": "Bir Pozisyona Başvur",
     "form": {
       "position": "Başvurulan Pozisyon",
       "resume": "Özgeçmiş Yükle",
@@ -66,10 +278,7 @@
   },
   "contact": {
     "title": "Bize Ulaşın",
-    "email": "info@tfotlabs.com",
-    "phone": "+1 (555) 123-4567",
-    "address": "123 Innovation Drive, Future City, FC 12345",
-    "map": "Gömülü harita yer tutucusu (Google Maps iframe kullanın)",
+    "locations": [],
     "socials": {
       "general": "Sosyal medyada bizi takip edin"
     }
@@ -79,21 +288,21 @@
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Koşulları",
     "socials": {
-      "ru": ["VK", "Telegram", "Instagram"],
+      "ru": ["VK", "Telegram", "Twitter"],
       "en": ["Twitter", "LinkedIn", "Instagram"],
-      "zh": ["WeChat", "Weibo", "Douyin"],
-      "fr": ["Facebook", "Instagram", "LinkedIn"],
-      "de": ["LinkedIn", "Xing", "Instagram"],
-      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "zh": ["WeChat", "Weibo", "Twitter"],
+      "fr": ["Facebook", "Instagram", "Twitter"],
+      "de": ["LinkedIn", "Xing", "Twitter"],
+      "hi": ["WhatsApp", "Instagram", "Twitter"],
       "ja": ["Line", "Twitter", "Instagram"],
-      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Twitter"],
       "ar": ["WhatsApp", "Facebook", "Twitter"],
-      "he": ["WhatsApp", "Facebook", "Instagram"],
-      "sw": ["WhatsApp", "Facebook", "Instagram"],
-      "pt": ["WhatsApp", "Instagram", "Facebook"],
-      "es": ["WhatsApp", "Instagram", "Facebook"],
-      "it": ["WhatsApp", "Instagram", "LinkedIn"],
-      "tr": ["Instagram", "WhatsApp", "Twitter"]
+      "he": ["WhatsApp", "Facebook", "Twitter"],
+      "sw": ["WhatsApp", "Facebook", "Twitter"],
+      "pt": ["WhatsApp", "Instagram", "Twitter"],
+      "es": ["WhatsApp", "Instagram", "Twitter"],
+      "it": ["WhatsApp", "Instagram", "Twitter"],
+      "tr": ["Facebook", "WhatsApp", "Instagram"]
     }
   },
   "privacy": {

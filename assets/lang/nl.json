@@ -1,0 +1,328 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Home",
+      "about": "Over ons",
+      "companies": "Bedrijven",
+      "franchise": "Franchise",
+      "careers": "Carrières",
+      "contact": "Contact"
+    },
+    "languages": {
+      "ru": "Russisch",
+      "en": "Engels",
+      "zh": "Chinees",
+      "ja": "Japans",
+      "fr": "Frans",
+      "de": "Duits",
+      "hi": "Hindi",
+      "it": "Italiaans",
+      "es": "Spaans",
+      "ko": "Koreaans",
+      "ar": "Arabisch",
+      "he": "Hebreeuws",
+      "sw": "Swahili",
+      "pt": "Portugees",
+      "tr": "Turks",
+      "nl": "Nederlands",
+      "da": "Deens",
+      "no": "Noors",
+      "sv": "Zweeds",
+      "fi": "Fins"
+    }
+  },
+  "index": {
+    "slogan": "Pionier in de toekomst van technologie en innovatie",
+    "cta": "Ontdek ons universum",
+    "learnMore": "Ontdek ons"
+  },
+  "about": {
+    "title": "Over TFOT Labs",
+    "history": "Opgericht in 2014, staat TFOT Labs aan de voorhoede van technologische vooruitgang, waarbij geavanceerd onderzoek wordt gecombineerd met praktische toepassingen om de wereld van morgen te vormen.",
+    "mission": "Onze missie is om duurzaam te innoveren, globale gemeenschappen te empoweren door middel van transformatieve technologieën die de uitdagingen van de toekomst aanpakken.",
+    "values": [
+      "Innovatie: Grenzen verleggen met gewaagde ideeën.",
+      "Integriteit: Ethische standaarden handhaven in alle inspanningen.",
+      "Samenwerking: Partnerschappen bevorderen voor collectief succes.",
+      "Duurzaamheid: Toegewijd aan milieuvriendelijke praktijken."
+    ]
+  },
+  "companies": {
+    "title": "Onze Portfolio Bedrijven",
+    "companies": [
+      {
+        "title": "Nebula",
+        "desc": "Sportuitzendingsplatform voor live evenementen en interactieve kijkervaringen.",
+        "cat": "Sport"
+      },
+      {
+        "title": "Codeon",
+        "desc": "App voor het leren van programmeren met tutorials en uitdagingen.",
+        "cat": "Onderwijs"
+      },
+      {
+        "title": "Linguix",
+        "desc": "App voor het leren van talen met AI-lessen en praktijk.",
+        "cat": "Onderwijs"
+      },
+      {
+        "title": "Snap Repair",
+        "desc": "Netwerk van tech-reparatiecentra.",
+        "cat": "Diensten"
+      },
+      {
+        "title": "Blatota Nax",
+        "desc": "Keten van tatoeagesalons voor op maat gemaakte kunst.",
+        "cat": "Schoonheid"
+      },
+      {
+        "title": "Kinalia",
+        "desc": "Luxeboutiques voor kleding, parfums en schoenen.",
+        "cat": "Detailhandel"
+      },
+      {
+        "title": "Platera",
+        "desc": "Netwerk van restaurants met diverse keukens.",
+        "cat": "Voedsel en Drank"
+      },
+      {
+        "title": "Nixa",
+        "desc": "Dating-app met slimme matching.",
+        "cat": "Sociaal en Dating"
+      },
+      {
+        "title": "Vivra Bank",
+        "desc": "Digitale neobank voor bankieren en investeringen.",
+        "cat": "Financiën"
+      },
+      {
+        "title": "Luvry",
+        "desc": "18+ boutique voor premium volwassen producten.",
+        "cat": "Volwassen Detailhandel"
+      },
+      {
+        "title": "Structara",
+        "desc": "Bouwbedrijf voor duurzame projecten.",
+        "cat": "Bouw"
+      },
+      {
+        "title": "Drifta",
+        "desc": "Keten van koffiewinkels met speciale brouw.",
+        "cat": "Voedsel en Drank"
+      },
+      {
+        "title": "Mookie",
+        "desc": "Netwerk van bakkerijen voor verse gebak.",
+        "cat": "Voedsel en Drank"
+      },
+      {
+        "title": "Aerava",
+        "desc": "Luchtvaartmaatschappij voor binnenlandse en internationale vluchten.",
+        "cat": "Reizen"
+      },
+      {
+        "title": "Tivvo",
+        "desc": "Taxi-service-app met real-time tracking.",
+        "cat": "Transport"
+      },
+      {
+        "title": "BRVK",
+        "desc": "Keten van barbierwinkels voor grooming-diensten.",
+        "cat": "Schoonheid"
+      },
+      {
+        "title": "Blushé",
+        "desc": "Vrouwen salons voor schoonheid en welzijn.",
+        "cat": "Schoonheid en Gezondheid"
+      },
+      {
+        "title": "Светлая Память",
+        "desc": "Ritueel agentschap voor uitvaartdiensten.",
+        "cat": "Diensten"
+      },
+      {
+        "title": "WebTown",
+        "desc": "Internetprovider voor hoge-snelheid connectiviteit.",
+        "cat": "Telecommunicatie"
+      },
+      {
+        "title": "HMesu",
+        "desc": "Museum met AI-koppen voor interactieve tentoonstellingen.",
+        "cat": "Cultuur en Amusement"
+      },
+      {
+        "title": "SantRobo",
+        "desc": "Geavanceerde robotica voor industrieel gebruik.",
+        "cat": "Robotica"
+      },
+      {
+        "title": "YW Tech",
+        "desc": "Bioprosthetica en implant technologie.",
+        "cat": "Gezondheidstechnologie"
+      },
+      {
+        "title": "EneCtron",
+        "desc": "Elektrisch transport en oplaadoplossingen.",
+        "cat": "Elektrische Voertuigen"
+      },
+      {
+        "title": "SkyLib",
+        "desc": "Veilige VPN voor privacy en toegang.",
+        "cat": "Beveiliging"
+      },
+      {
+        "title": "Eliza",
+        "desc": "AI-assistent voor productiviteit en thuisintegratie.",
+        "cat": "Kunstmatige Intelligentie"
+      }
+    ]
+  },
+  "franchise": {
+    "title": "Franchise Mogelijkheden",
+    "info": "Sluit je aan bij het TFOT Labs-netwerk en breng futuristische innovatie naar je regio. Ons franchise-model biedt uitgebreide ondersteuning, training en middelen voor succes.",
+    "form": {
+      "name": "Volledige Naam",
+      "email": "E-mailadres",
+      "message": "Bericht",
+      "submit": "Dien Aanvraag In"
+    }
+  },
+  "careers": {
+    "title": "Carrières bij TFOT Labs",
+    "intro": "Sluit je aan bij ons innovatieve team en vorm de toekomst van technologie. We zoeken gepassioneerde professionals om onze missie vooruit te brengen.",
+    "openPositions": "Open Posities",
+    "vacancies": [
+      {
+        "title": "Software Engineer",
+        "responsibilities": [
+          "Ontwikkel en onderhoud schaalbare webapplicaties met moderne frameworks zoals React en Node.js.",
+          "Werk samen met cross-functionele teams om nieuwe functies te ontwerpen en te implementeren.",
+          "Schrijf schone, efficiënte code en neem deel aan code-reviews.",
+          "Optimaliseer applicatieprestaties en zorg voor codekwaliteit."
+        ]
+      },
+      {
+        "title": "Data Scientist",
+        "responsibilities": [
+          "Analyseer complexe datasets om actionable inzichten te extraheren met Python, R en machine learning tools.",
+          "Bouw voorspellende modellen om zakelijke beslissingen en productontwikkeling te ondersteunen.",
+          "Visualiseer data-trends en presenteer bevindingen aan stakeholders.",
+          "Werk samen met engineering teams om modellen in productie te deployen."
+        ]
+      },
+      {
+        "title": "Product Manager",
+        "responsibilities": [
+          "Definieer productvisie en roadmap in samenwerking met engineering, design en business teams.",
+          "Verzamel en prioriteer eisen van klanten en stakeholders.",
+          "Begeleid productlevenscyclus van idee tot lancering en iteratie.",
+          "Volg key metrics en voer A/B-tests uit om gebruikerservaring te optimaliseren."
+        ]
+      },
+      {
+        "title": "UX/UI Designer",
+        "responsibilities": [
+          "Ontwerp intuïtieve gebruikersinterfaces en ervaringen voor web- en mobiele applicaties.",
+          "Maak wireframes, prototypes en high-fidelity mockups met tools zoals Figma of Adobe XD.",
+          "Voer gebruikersonderzoek en usability-testing uit om ontwerpbeslissingen te informeren.",
+          "Werk samen met ontwikkelaars om ervoor te zorgen dat ontwerpen nauwkeurig worden geïmplementeerd."
+        ]
+      },
+      {
+        "title": "Marketing Specialist",
+        "responsibilities": [
+          "Ontwikkel en voer marketingcampagnes uit via digitale kanalen om TFOT Labs producten te promoten.",
+          "Analyseer campagneprestaties en optimaliseer voor ROI met tools zoals Google Analytics.",
+          "Creëer overtuigende content voor sociale media, e-mail en website.",
+          "Beheer merkpartnerschappen en evenementen om zichtbaarheid te vergroten."
+        ]
+      },
+      {
+        "title": "HR Manager",
+        "responsibilities": [
+          "Begeleid rekruterings-, onboarding- en werknemersrelatieprocessen.",
+          "Ontwikkel talentacquisitiestrategieën en beheer prestatiebeoordelingen.",
+          "Bevorder een positieve bedrijfscultuur door trainings- en engagementprogramma's.",
+          "Zorg voor naleving van arbeidswetten en HR-best practices."
+        ]
+      },
+      {
+        "title": "DevOps Engineer",
+        "responsibilities": [
+          "Bouw en onderhoud CI/CD-pipelines met Jenkins, GitHub Actions en Docker.",
+          "Beheer cloudinfrastructuur op AWS of Azure voor schaalbaarheid en betrouwbaarheid.",
+          "Implementeer monitoring- en waarschuwingssystemen om systeemprestaties te waarborgen.",
+          "Automatiseer deploymentprocessen en werk samen met development teams."
+        ]
+      },
+      {
+        "title": "AI Researcher",
+        "responsibilities": [
+          "Voer onderzoek uit naar geavanceerde AI-technieken, inclusief machine learning en natural language processing.",
+          "Ontwikkel prototypes en proof-of-concepts voor nieuwe AI-toepassingen.",
+          "Publiceer bevindingen en draag bij aan open-source projecten.",
+          "Werk samen met productteams om onderzoek te integreren in real-world oplossingen."
+        ]
+      },
+      {
+        "title": "Project Manager",
+        "responsibilities": [
+          "Leid cross-functionele teams om projecten op tijd, binnen scope en budget te leveren.",
+          "Definieer projectmijlpalen, volg voortgang en mitigate risico's.",
+          "Bevorder communicatie tussen stakeholders en teamleden.",
+          "Gebruik tools zoals Jira of Asana om workflows en rapportage te beheren."
+        ]
+      }
+    ],
+    "form": {
+      "position": "Positie waarop je solliciteert",
+      "resume": "Upload CV",
+      "submit": "Solliciteer Nu"
+    }
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "locations": [],
+    "socials": {
+      "general": "Volg ons op sociale media"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 TFOT Labs. Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "socials": {
+      "ru": ["VK", "Telegram", "Twitter"],
+      "en": ["Facebook", "Instagram", "Snapchat"],
+      "zh": ["WeChat", "Weibo", "TikTok"],
+      "fr": ["Facebook", "Instagram", "Twitter"],
+      "de": ["LinkedIn", "Xing", "Twitter"],
+      "hi": ["WhatsApp", "Instagram", "Twitter"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Twitter"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Twitter"],
+      "sw": ["WhatsApp", "Facebook", "Twitter"],
+      "pt": ["WhatsApp", "Instagram", "Twitter"],
+      "es": ["WhatsApp", "Instagram", "Twitter"],
+      "it": ["WhatsApp", "Instagram", "Twitter"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"],
+      "nl": ["Facebook", "Instagram", "Twitter"],
+      "da": ["Facebook", "Instagram", "Twitter"],
+      "no": ["Facebook", "Instagram", "Twitter"],
+      "sv": ["Facebook", "Instagram", "Twitter"],
+      "fi": ["Facebook", "Instagram", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "content": "TFOT Labs is toegewijd aan het uw privacy te beschermen. Dit beleid legt uit hoe we uw informatie verzamelen, gebruiken en beschermen. We delen geen persoonlijke gegevens zonder toestemming. Voor details, neem contact op met labstfot@gmail.com. Laatst bijgewerkt: 2024.",
+    "__translation_status": "machine_generated - needs human review"
+  },
+  "terms": {
+    "title": "Gebruiksvoorwaarden",
+    "content": "Door deze website te gebruiken, gaat u akkoord met onze voorwaarden. De inhoud is uitsluitend bedoeld voor informatiedoeleinden. TFOT Labs behoudt zich het recht voor deze voorwaarden te wijzigen. Verboden: ongeoorloofd gebruik of reproductie. Laatst bijgewerkt: 2024.",
+    "__translation_status": "machine_generated - needs human review"
+  }
+}
