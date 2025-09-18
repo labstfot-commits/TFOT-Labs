@@ -296,12 +296,12 @@
         "id": "nl-nl-ams",
         "country_code": "NL",
         "city": "Amsterdam",
-        "address_label": "Dam Square",
-        "address_full": "Dam, 1012 JS Amsterdam, Netherlands",
+        "address_label": "Red Light District",
+        "address_full": "Red Light District, Amsterdam, Netherlands",
         "phone": "+31 20 000-0000",
         "email": "info.nl@tfotlabs.com",
-        "lat": 52.3731,
-        "lng": 4.8922
+        "lat": 52.374,
+        "lng": 4.897
       }
     ]
   },
