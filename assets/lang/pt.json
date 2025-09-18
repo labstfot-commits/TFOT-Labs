@@ -1,0 +1,107 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Início",
+      "about": "Sobre",
+      "companies": "Empresas",
+      "franchise": "Franquia",
+      "careers": "Carreiras",
+      "contact": "Contato"
+    },
+    "languages": {
+      "ru": "Russo",
+      "en": "Inglês",
+      "zh": "Chinês",
+      "ja": "Japonês",
+      "fr": "Francês",
+      "de": "Alemão",
+      "hi": "Hindi",
+      "it": "Italiano",
+      "es": "Espanhol",
+      "ko": "Coreano",
+      "ar": "Árabe",
+      "he": "Hebraico",
+      "sw": "Suaíli",
+      "pt": "Português",
+      "tr": "Turco"
+    }
+  },
+  "index": {
+    "slogan": "Pioneiro do futuro da tecnologia e inovação",
+    "cta": "Explore nosso universo"
+  },
+  "about": {
+    "title": "Sobre TFOT Labs",
+    "history": "Fundada em 2020, a TFOT Labs está na vanguarda do progresso tecnológico, combinando pesquisa de ponta com aplicações práticas para moldar o mundo de amanhã.",
+    "mission": "Nossa missão é inovar de forma sustentável, capacitando comunidades globais por meio de tecnologias transformadoras que abordam os desafios do futuro.",
+    "values": [
+      "Inovação: Empurrar limites com ideias ousadas.",
+      "Integridade: Manter padrões éticos em todos os esforços.",
+      "Colaboração: Fomentar parcerias para sucesso coletivo.",
+      "Sustentabilidade: Comprometidos com práticas ecológicas."
+    ]
+  },
+  "companies": {
+    "title": "Nossas empresas do portfólio"
+  },
+  "franchise": {
+    "title": "Oportunidades de franquia",
+    "info": "Junte-se à rede TFOT Labs e traga inovação futurista para sua região. Nosso modelo de franquia oferece suporte abrangente, treinamento e recursos para o sucesso.",
+    "form": {
+      "name": "Nome completo",
+      "email": "Endereço de e-mail",
+      "message": "Mensagem",
+      "submit": "Enviar solicitação"
+    }
+  },
+  "careers": {
+    "title": "Carreiras na TFOT Labs",
+    "vacancies": "Estamos sempre em busca de talentos. Vagas abertas atuais: Engenheiro de Software, Cientista de Dados, Gerente de Produto. Verifique atualizações.",
+    "form": {
+      "position": "Cargo ao qual se candidata",
+      "resume": "Carregar currículo",
+      "submit": "Candidatar-se agora"
+    }
+  },
+  "contact": {
+    "title": "Entre em contato",
+    "email": "info@tfotlabs.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Future City, FC 12345",
+    "map": "Marcador de mapa incorporado (use iframe do Google Maps)",
+    "socials": {
+      "general": "Siga-nos nas redes sociais"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TFOT Labs. Todos os direitos reservados.",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de uso",
+    "socials": {
+      "ru": ["VK", "Telegram", "Instagram"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Douyin"],
+      "fr": ["Facebook", "Instagram", "LinkedIn"],
+      "de": ["LinkedIn", "Xing", "Instagram"],
+      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Instagram"],
+      "sw": ["WhatsApp", "Facebook", "Instagram"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Facebook"],
+      "it": ["WhatsApp", "Instagram", "LinkedIn"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Política de privacidade",
+    "content": "A TFOT Labs se compromete em proteger sua privacidade. Esta política explica como coletamos, usamos e protegemos suas informações. Não compartilhamos dados pessoais sem consentimento. Para detalhes, entre em contato em info@tfotlabs.com. Última atualização: 2024."
+  },
+  "terms": {
+    "title": "Termos de uso",
+    "content": "Ao usar este site, você concorda com nossos termos. O conteúdo é apenas para fins informativos. A TFOT Labs reserva-se o direito de atualizar estes termos. Proibido: uso ou reprodução não autorizada. Última atualização: 2024."
+  }
+}

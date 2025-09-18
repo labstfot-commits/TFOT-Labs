@@ -1,0 +1,107 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "首页",
+      "about": "关于我们",
+      "companies": "公司",
+      "franchise": "特许经营",
+      "careers": "职业机会",
+      "contact": "联系我们"
+    },
+    "languages": {
+      "ru": "俄语",
+      "en": "英语",
+      "zh": "中文",
+      "ja": "日语",
+      "fr": "法语",
+      "de": "德语",
+      "hi": "印地语",
+      "it": "意大利语",
+      "es": "西班牙语",
+      "ko": "韩语",
+      "ar": "阿拉伯语",
+      "he": "希伯来语",
+      "sw": "斯瓦希里语",
+      "pt": "葡萄牙语",
+      "tr": "土耳其语"
+    }
+  },
+  "index": {
+    "slogan": "开创技术和创新的未来",
+    "cta": "探索我们的宇宙"
+  },
+  "about": {
+    "title": "关于 TFOT Labs",
+    "history": "成立于 2020 年，TFOT Labs 一直处于技术进步的前沿，将尖端研究与实际应用相结合，以塑造未来的世界。",
+    "mission": "我们的使命是可持续创新，通过解决未来挑战的变革性技术赋能全球社区。",
+    "values": [
+      "创新：用大胆的想法推动边界。",
+      "诚信：在所有努力中维护道德标准。",
+      "合作：促进集体成功的伙伴关系。",
+      "可持续性：致力于环保实践。"
+    ]
+  },
+  "companies": {
+    "title": "我们的投资组合公司"
+  },
+  "franchise": {
+    "title": "特许经营机会",
+    "info": "加入 TFOT Labs 网络，将未来主义创新带到您的地区。我们的特许经营模式提供全面的支持、培训和成功资源。",
+    "form": {
+      "name": "全名",
+      "email": "电子邮件地址",
+      "message": "消息",
+      "submit": "提交申请"
+    }
+  },
+  "careers": {
+    "title": "TFOT Labs 的职业机会",
+    "vacancies": "我们始终在寻找有才华的个人。当前职位空缺：软件工程师、数据科学家、产品经理。请随时检查更新。",
+    "form": {
+      "position": "申请职位",
+      "resume": "上传简历",
+      "submit": "立即申请"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "email": "info@tfotlabs.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Future City, FC 12345",
+    "map": "嵌入式地图占位符（使用 Google Maps iframe）",
+    "socials": {
+      "general": "在社交媒体上关注我们"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TFOT Labs。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "socials": {
+      "ru": ["VK", "Telegram", "Instagram"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Douyin"],
+      "fr": ["Facebook", "Instagram", "LinkedIn"],
+      "de": ["LinkedIn", "Xing", "Instagram"],
+      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Instagram"],
+      "sw": ["WhatsApp", "Facebook", "Instagram"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Facebook"],
+      "it": ["WhatsApp", "Instagram", "LinkedIn"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "content": "TFOT Labs 致力于保护您的隐私。本政策解释了我们如何收集、使用和保护您的信息。我们不会在未经同意的情况下分享个人信息。详情请联系 info@tfotlabs.com。最后更新：2024 年。"
+  },
+  "terms": {
+    "title": "使用条款",
+    "content": "使用本网站即表示您同意我们的条款。内容仅供参考。TFOT Labs 保留更新这些条款的权利。禁止：未经授权的使用或复制。最后更新：2024 年。"
+  }
+}

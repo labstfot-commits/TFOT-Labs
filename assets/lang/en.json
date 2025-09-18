@@ -1,0 +1,107 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "companies": "Companies",
+      "franchise": "Franchise",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "languages": {
+      "ru": "Русский",
+      "en": "English",
+      "zh": "中文",
+      "ja": "日本語",
+      "fr": "Français",
+      "de": "Deutsch",
+      "hi": "हिंदी",
+      "it": "Italiano",
+      "es": "Español",
+      "ko": "한국어",
+      "ar": "العربية",
+      "he": "עברית",
+      "sw": "Kiswahili",
+      "pt": "Português",
+      "tr": "Türkçe"
+    }
+  },
+  "index": {
+    "slogan": "Pioneering the Future of Technology and Innovation",
+    "cta": "Explore Our Universe"
+  },
+  "about": {
+    "title": "About TFOT Labs",
+    "history": "Founded in 2020, TFOT Labs has been at the forefront of technological advancement, blending cutting-edge research with practical applications to shape tomorrow's world.",
+    "mission": "Our mission is to innovate sustainably, empowering global communities through transformative technologies that address the challenges of the future.",
+    "values": [
+      "Innovation: Pushing boundaries with bold ideas.",
+      "Integrity: Upholding ethical standards in all endeavors.",
+      "Collaboration: Fostering partnerships for collective success.",
+      "Sustainability: Committed to eco-friendly practices."
+    ]
+  },
+  "companies": {
+    "title": "Our Portfolio Companies"
+  },
+  "franchise": {
+    "title": "Franchise Opportunities",
+    "info": "Join the TFOT Labs network and bring futuristic innovation to your region. Our franchise model offers comprehensive support, training, and resources for success.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Message",
+      "submit": "Submit Application"
+    }
+  },
+  "careers": {
+    "title": "Careers at TFOT Labs",
+    "vacancies": "We are always looking for talented individuals. Current openings: Software Engineer, Data Scientist, Product Manager. Check back for updates.",
+    "form": {
+      "position": "Position Applying For",
+      "resume": "Upload Resume",
+      "submit": "Apply Now"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "info@tfotlabs.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Future City, FC 12345",
+    "map": "Embedded map placeholder (use Google Maps iframe)",
+    "socials": {
+      "general": "Follow us on social media"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TFOT Labs. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "socials": {
+      "ru": ["VK", "Telegram", "Instagram"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Douyin"],
+      "fr": ["Facebook", "Instagram", "LinkedIn"],
+      "de": ["LinkedIn", "Xing", "Instagram"],
+      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Instagram"],
+      "sw": ["WhatsApp", "Facebook", "Instagram"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Facebook"],
+      "it": ["WhatsApp", "Instagram", "LinkedIn"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "content": "TFOT Labs is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information. We do not share personal data without consent. For details, contact us at info@tfotlabs.com. Last updated: 2024."
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "content": "By using this website, you agree to our terms. Content is for informational purposes only. TFOT Labs reserves the right to update these terms. Prohibited: unauthorized use or reproduction. Last updated: 2024."
+  }
+}

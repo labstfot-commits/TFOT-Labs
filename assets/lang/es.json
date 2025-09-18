@@ -1,0 +1,107 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "companies": "Empresas",
+      "franchise": "Franquicia",
+      "careers": "Carreras",
+      "contact": "Contacto"
+    },
+    "languages": {
+      "ru": "Ruso",
+      "en": "Inglés",
+      "zh": "Chino",
+      "ja": "Japonés",
+      "fr": "Francés",
+      "de": "Alemán",
+      "hi": "Hindi",
+      "it": "Italiano",
+      "es": "Español",
+      "ko": "Coreano",
+      "ar": "Árabe",
+      "he": "Hebreo",
+      "sw": "Suajili",
+      "pt": "Portugués",
+      "tr": "Turco"
+    }
+  },
+  "index": {
+    "slogan": "Pionero del futuro de la tecnología e innovación",
+    "cta": "Explora nuestro universo"
+  },
+  "about": {
+    "title": "Acerca de TFOT Labs",
+    "history": "Fundada en 2020, TFOT Labs está a la vanguardia del progreso tecnológico, combinando investigaciones de vanguardia con aplicaciones prácticas para dar forma al mundo de mañana.",
+    "mission": "Nuestra misión es innovar de manera sostenible, empoderando comunidades globales a través de tecnologías transformadoras que abordan los desafíos del futuro.",
+    "values": [
+      "Innovación: Empujar los límites con ideas audaces.",
+      "Integridad: Mantener estándares éticos en todos los esfuerzos.",
+      "Colaboración: Fomentar alianzas para el éxito colectivo.",
+      "Sostenibilidad: Comprometidos con prácticas ecológicas."
+    ]
+  },
+  "companies": {
+    "title": "Nuestras empresas del portafolio"
+  },
+  "franchise": {
+    "title": "Oportunidades de franquicia",
+    "info": "Únete a la red TFOT Labs y trae innovación futurista a tu región. Nuestro modelo de franquicia ofrece soporte integral, capacitación y recursos para el éxito.",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Dirección de correo electrónico",
+      "message": "Mensaje",
+      "submit": "Enviar solicitud"
+    }
+  },
+  "careers": {
+    "title": "Carreras en TFOT Labs",
+    "vacancies": "Siempre estamos buscando talentos. Puestos abiertos actuales: Ingeniero de software, Científico de datos, Gerente de producto. Verifica actualizaciones.",
+    "form": {
+      "position": "Puesto al que aplicas",
+      "resume": "Subir currículum",
+      "submit": "Aplicar ahora"
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "email": "info@tfotlabs.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Future City, FC 12345",
+    "map": "Marcador de mapa incrustado (usa iframe de Google Maps)",
+    "socials": {
+      "general": "Síguenos en redes sociales"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TFOT Labs. Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "socials": {
+      "ru": ["VK", "Telegram", "Instagram"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Douyin"],
+      "fr": ["Facebook", "Instagram", "LinkedIn"],
+      "de": ["LinkedIn", "Xing", "Instagram"],
+      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Instagram"],
+      "sw": ["WhatsApp", "Facebook", "Instagram"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Facebook"],
+      "it": ["WhatsApp", "Instagram", "LinkedIn"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "content": "TFOT Labs se compromete a proteger tu privacidad. Esta política explica cómo recolectamos, usamos y protegemos tu información. No compartimos datos personales sin consentimiento. Para detalles, contáctanos en info@tfotlabs.com. Última actualización: 2024."
+  },
+  "terms": {
+    "title": "Términos de uso",
+    "content": "Al usar este sitio web, aceptas nuestros términos. El contenido es solo para fines informativos. TFOT Labs se reserva el derecho de actualizar estos términos. Prohibido: uso o reproducción no autorizada. Última actualización: 2024."
+  }
+}

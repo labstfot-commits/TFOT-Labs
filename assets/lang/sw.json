@@ -1,0 +1,107 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Nyumbani",
+      "about": "Kuhusu",
+      "companies": "Makampuni",
+      "franchise": "Franchise",
+      "careers": "Kazi",
+      "contact": "Wasiliana nasi"
+    },
+    "languages": {
+      "ru": "Ki-Russia",
+      "en": "Kiingereza",
+      "zh": "Kichina",
+      "ja": "Kijapani",
+      "fr": "Kifaransa",
+      "de": "Kijerumani",
+      "hi": "Kihindi",
+      "it": "Kiitaliano",
+      "es": "Kihispania",
+      "ko": "Kikorea",
+      "ar": "Kiarabu",
+      "he": "Kiebrania",
+      "sw": "Kiswahili",
+      "pt": "Kireno",
+      "tr": "Kituruki"
+    }
+  },
+  "index": {
+    "slogan": "Mwanahofisha wa mustakabali wa teknolojia na uvumbuzi",
+    "cta": "Tafuta ulimwengu wetu"
+  },
+  "about": {
+    "title": "Kuhusu TFOT Labs",
+    "history": "Ilianzishwa mwaka 2020, TFOT Labs iko mstari wa mbele wa maendeleo ya teknolojia, ikichanganya utafiti wa kisasa na matumizi ya vitendo ili kuunda ulimwengu wa kesho.",
+    "mission": "Dhamira yetu ni kuanzisha kwa uendelevu, kuwezesha jamii za kimataifa kupitia teknolojia zinazobadilisha zinazokabiliana na changamoto za mustakabali.",
+    "values": [
+      "Uvumbuzi: Kusukuma mipaka na mawazo ya ujasiri.",
+      "Uaminifu: Kuzingatia viwango vya maadili katika juhudi zote.",
+      "Ushiriki: Kuimarisha ushirikiano kwa mafanikio ya pamoja.",
+      "Uendelevu: Kuchukua mazoea yanayofaa mazingira."
+    ]
+  },
+  "companies": {
+    "title": "Makampuni yetu ya portfolio"
+  },
+  "franchise": {
+    "title": "Fursa za franchise",
+    "info": "Jiunge na mtandao wa TFOT Labs na ulete uvumbuzi wa mustakabali katika eneo lako. Mfumo wetu wa franchise hutoa msaada kamili, mafunzo na rasilimali kwa mafanikio.",
+    "form": {
+      "name": "Jina kamili",
+      "email": "Anwani ya barua pepe",
+      "message": "Ujumbe",
+      "submit": "Wasilisha ombi"
+    }
+  },
+  "careers": {
+    "title": "Kazi katika TFOT Labs",
+    "vacancies": "Tunatafuta watu wenye vipaji daima. Nafasi za kazi za sasa: Mhandisi wa programu, Mtaalamu wa data, Meneja wa bidhaa. Angalia sasisho.",
+    "form": {
+      "position": "Nafasi unayoomba",
+      "resume": "Pakia CV",
+      "submit": "Omba sasa"
+    }
+  },
+  "contact": {
+    "title": "Wasiliana nasi",
+    "email": "info@tfotlabs.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Future City, FC 12345",
+    "map": "Mahali pa ramani iliyowekwa (tumia iframe ya Google Maps)",
+    "socials": {
+      "general": "Fuatilia kwenye mitandao ya kijamii"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TFOT Labs. Haki zote zimehifadhiwa.",
+    "privacy": "Sera ya faragha",
+    "terms": "Masharti ya matumizi",
+    "socials": {
+      "ru": ["VK", "Telegram", "Instagram"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Douyin"],
+      "fr": ["Facebook", "Instagram", "LinkedIn"],
+      "de": ["LinkedIn", "Xing", "Instagram"],
+      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Instagram"],
+      "sw": ["WhatsApp", "Facebook", "Instagram"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Facebook"],
+      "it": ["WhatsApp", "Instagram", "LinkedIn"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Sera ya faragha",
+    "content": "TFOT Labs imehusishwa kulinda faragha yako. Sera hii inaelezea jinsi tunavyokusanya, kutumia na kulinda maelezo yako. Hatushiriki data ya kibinafsi bila idhini. Kwa maelezo, wasiliana nasi kwa info@tfotlabs.com. Sasisho la mwisho: 2024."
+  },
+  "terms": {
+    "title": "Masharti ya matumizi",
+    "content": "Kwa kutumia tovuti hii, unakubali masharti yetu. Maudhui ni kwa madhumuni ya taarifa pekee. TFOT Labs inahifadhi haki ya kusasisha masharti haya. Imezuiliwa: matumizi au nakili isiyoruhusiwa. Sasisho la mwisho: 2024."
+  }
+}

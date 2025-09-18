@@ -1,0 +1,107 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Anasayfa",
+      "about": "Hakkımızda",
+      "companies": "Şirketler",
+      "franchise": "Franchise",
+      "careers": "Kariyer",
+      "contact": "İletişim"
+    },
+    "languages": {
+      "ru": "Rusça",
+      "en": "İngilizce",
+      "zh": "Çince",
+      "ja": "Japonca",
+      "fr": "Fransızca",
+      "de": "Almanca",
+      "hi": "Hintçe",
+      "it": "İtalyanca",
+      "es": "İspanyolca",
+      "ko": "Korece",
+      "ar": "Arapça",
+      "he": "İbranice",
+      "sw": "Svahili",
+      "pt": "Portekizce",
+      "tr": "Türkçe"
+    }
+  },
+  "index": {
+    "slogan": "Teknoloji ve İnovasyonun Geleceğinin Öncüsü",
+    "cta": "Evrenimizi Keşfedin"
+  },
+  "about": {
+    "title": "TFOT Labs Hakkında",
+    "history": "2020 yılında kurulan TFOT Labs, teknolojik ilerlemenin ön saflarında yer almakta, en son araştırmaları pratik uygulamalarla birleştirerek yarının dünyasını şekillendirmektedir.",
+    "mission": "Misyonumuz sürdürülebilir inovasyon yapmaktır, geleceğin zorluklarını ele alan dönüştürücü teknolojilerle küresel toplulukları güçlendirmek.",
+    "values": [
+      "İnovasyon: Cesur fikirler ile sınırları zorlamak.",
+      "Bütünlük: Tüm çabalarımızda etik standartlara uymak.",
+      "İşbirliği: Kolektif başarı için ortaklıkları teşvik etmek.",
+      "Sürdürülebilirlik: Çevre dostu uygulamalara bağlılık."
+    ]
+  },
+  "companies": {
+    "title": "Portföy Şirketlerimiz"
+  },
+  "franchise": {
+    "title": "Franchise Fırsatları",
+    "info": "TFOT Labs ağına katılın ve bölgenize fütüristik inovasyonu getirin. Franchise modelimiz başarı için kapsamlı destek, eğitim ve kaynaklar sunar.",
+    "form": {
+      "name": "Tam Ad",
+      "email": "E-posta Adresi",
+      "message": "Mesaj",
+      "submit": "Başvuru Gönder"
+    }
+  },
+  "careers": {
+    "title": "TFOT Labs Kariyer",
+    "vacancies": "Her zaman yetenekli bireyler arıyoruz. Mevcut açık pozisyonlar: Yazılım Mühendisi, Veri Bilimcisi, Ürün Yöneticisi. Güncellemeleri kontrol edin.",
+    "form": {
+      "position": "Başvurulan Pozisyon",
+      "resume": "Özgeçmiş Yükle",
+      "submit": "Şimdi Başvur"
+    }
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "email": "info@tfotlabs.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Future City, FC 12345",
+    "map": "Gömülü harita yer tutucusu (Google Maps iframe kullanın)",
+    "socials": {
+      "general": "Sosyal medyada bizi takip edin"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TFOT Labs. Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "socials": {
+      "ru": ["VK", "Telegram", "Instagram"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Douyin"],
+      "fr": ["Facebook", "Instagram", "LinkedIn"],
+      "de": ["LinkedIn", "Xing", "Instagram"],
+      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Instagram"],
+      "sw": ["WhatsApp", "Facebook", "Instagram"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Facebook"],
+      "it": ["WhatsApp", "Instagram", "LinkedIn"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "content": "TFOT Labs gizliliğinizi korumaya kararlıdır. Bu politika, bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar. İzin olmadan kişisel verileri paylaşmayız. Detaylar için info@tfotlabs.com ile iletişime geçin. Son güncelleme: 2024."
+  },
+  "terms": {
+    "title": "Kullanım Koşulları",
+    "content": "Bu web sitesini kullanarak koşullarımıza razı olursunuz. İçerik yalnızca bilgilendirme amaçlıdır. TFOT Labs bu koşulları güncelleme hakkını saklı tutar. Yasak: İzin verilmeyen kullanım veya kopyalama. Son güncelleme: 2024."
+  }
+}

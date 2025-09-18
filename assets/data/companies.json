@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Quantum Dynamics Inc.",
+    "description": "Pioneering quantum computing solutions for secure data processing and AI acceleration.",
+    "image": "assets/images/quantum.jpg"
+  },
+  {
+    "name": "NeuroLink Biotech",
+    "description": "Developing neural interfaces to bridge human cognition with digital realms.",
+    "image": "assets/images/neuralink.jpg"
+  },
+  {
+    "name": "AeroSpace Innovations",
+    "description": "Revolutionizing space travel with sustainable propulsion technologies.",
+    "image": "assets/images/aerospace.jpg"
+  },
+  {
+    "name": "EcoFusion Energy",
+    "description": "Harnessing fusion power for clean, limitless energy sources.",
+    "image": "assets/images/fusion.jpg"
+  },
+  {
+    "name": "VR Worlds Corp",
+    "description": "Creating immersive virtual reality environments for education and entertainment.",
+    "image": "assets/images/vr.jpg"
+  },
+  {
+    "name": "AI Ethics Lab",
+    "description": "Ensuring responsible AI development through ethical frameworks and audits.",
+    "image": "assets/images/aiethics.jpg"
+  },
+  {
+    "name": "BioGen Therapeutics",
+    "description": "Advancing gene editing for personalized medicine and disease eradication.",
+    "image": "assets/images/biogen.jpg"
+  },
+  {
+    "name": "CyberShield Security",
+    "description": "Next-gen cybersecurity defenses against evolving digital threats.",
+    "image": "assets/images/cyber.jpg"
+  },
+  {
+    "name": "NanoTech Materials",
+    "description": "Engineering nanomaterials for stronger, lighter, and smarter applications.",
+    "image": "assets/images/nano.jpg"
+  },
+  {
+    "name": "HoloDisplay Systems",
+    "description": "Bringing holographic interfaces to everyday computing and communication.",
+    "image": "assets/images/holo.jpg"
+  },
+  {
+    "name": "SmartCity Solutions",
+    "description": "Integrating IoT for efficient, sustainable urban infrastructure.",
+    "image": "assets/images/smartcity.jpg"
+  },
+  {
+    "name": "DeepOcean Exploration",
+    "description": "Unlocking ocean mysteries with autonomous submersible technologies.",
+    "image": "assets/images/ocean.jpg"
+  },
+  {
+    "name": "AgriTech Harvest",
+    "description": "Optimizing agriculture with AI-driven precision farming tools.",
+    "image": "assets/images/agritech.jpg"
+  },
+  {
+    "name": "RoboAssist Dynamics",
+    "description": "Building collaborative robots for industrial and domestic assistance.",
+    "image": "assets/images/robo.jpg"
+  },
+  {
+    "name": "ClimateModel AI",
+    "description": "Predicting and mitigating climate change with advanced simulations.",
+    "image": "assets/images/climate.jpg"
+  },
+  {
+    "name": "TeleMed Global",
+    "description": "Delivering remote healthcare via secure telemedicine platforms.",
+    "image": "assets/images/telemed.jpg"
+  },
+  {
+    "name": "BlockChain Secure",
+    "description": "Decentralized ledger solutions for transparent financial systems.",
+    "image": "assets/images/blockchain.jpg"
+  },
+  {
+    "name": "ExoPlanet Survey",
+    "description": "Searching for habitable worlds with cutting-edge telescopes.",
+    "image": "assets/images/exoplanet.jpg"
+  },
+  {
+    "name": "Wearable Health",
+    "description": "Smart wearables monitoring vital signs in real-time.",
+    "image": "assets/images/wearable.jpg"
+  },
+  {
+    "name": "FusionDrive Motors",
+    "description": "Electric vehicle propulsion with fusion-inspired efficiency.",
+    "image": "assets/images/fusiondrive.jpg"
+  },
+  {
+    "name": "DataForge Analytics",
+    "description": "Big data processing for actionable business intelligence.",
+    "image": "assets/images/data.jpg"
+  },
+  {
+    "name": "AugmentReality Labs",
+    "description": "Overlaying digital information on the physical world seamlessly.",
+    "image": "assets/images/ar.jpg"
+  },
+  {
+    "name": "Sustainable Materials",
+    "description": "Eco-friendly composites from recycled and bio-based sources.",
+    "image": "assets/images/sustainable.jpg"
+  },
+  {
+    "name": "QuantumNet Comm",
+    "description": "Secure quantum-encrypted global communication networks.",
+    "image": "assets/images/quantumnet.jpg"
+  },
+  {
+    "name": "MindMap Neural",
+    "description": "Mapping brain activity for enhanced cognitive therapies.",
+    "image": "assets/images/mindmap.jpg"
+  }
+]

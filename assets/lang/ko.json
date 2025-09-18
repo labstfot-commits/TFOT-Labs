@@ -1,0 +1,107 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "홈",
+      "about": "소개",
+      "companies": "회사",
+      "franchise": "프랜차이즈",
+      "careers": "커리어",
+      "contact": "연락처"
+    },
+    "languages": {
+      "ru": "러시아어",
+      "en": "영어",
+      "zh": "중국어",
+      "ja": "일본어",
+      "fr": "프랑스어",
+      "de": "독일어",
+      "hi": "힌디어",
+      "it": "이탈리아어",
+      "es": "스페인어",
+      "ko": "한국어",
+      "ar": "아랍어",
+      "he": "히브리어",
+      "sw": "스와힐리어",
+      "pt": "포르투갈어",
+      "tr": "터키어"
+    }
+  },
+  "index": {
+    "slogan": "기술과 혁신의 미래를 개척하다",
+    "cta": "우리의 우주를 탐험하세요"
+  },
+  "about": {
+    "title": "TFOT Labs 소개",
+    "history": "2020년에 설립된 TFOT Labs는 기술 발전의 선두에 서 있으며, 최첨단 연구와 실용적인 응용을 결합하여 내일의 세계를 형성합니다.",
+    "mission": "우리의 사명은 지속 가능한 혁신을 통해 미래의 도전을 해결하는 변혁적인 기술로 글로벌 커뮤니티를 강화하는 것입니다.",
+    "values": [
+      "혁신: 대담한 아이디어로 경계를 넓히다.",
+      "청렴: 모든 노력에서 윤리적 기준을 유지하다.",
+      "협력: 집단적 성공을 위한 파트너십을 육성하다.",
+      "지속 가능성: 친환경 관행에 헌신하다."
+    ]
+  },
+  "companies": {
+    "title": "우리의 포트폴리오 회사"
+  },
+  "franchise": {
+    "title": "프랜차이즈 기회",
+    "info": "TFOT Labs 네트워크에 참여하여 지역에 미래 지향적 혁신을 가져오세요. 우리의 프랜차이즈 모델은 성공을 위한 포괄적인 지원, 교육, 자원을 제공합니다.",
+    "form": {
+      "name": "전체 이름",
+      "email": "이메일 주소",
+      "message": "메시지",
+      "submit": "신청 제출"
+    }
+  },
+  "careers": {
+    "title": "TFOT Labs 커리어",
+    "vacancies": "우리는 항상 재능 있는 개인을 찾고 있습니다. 현재 공석: 소프트웨어 엔지니어, 데이터 과학자, 제품 매니저. 업데이트를 확인하세요.",
+    "form": {
+      "position": "지원하는 직위",
+      "resume": "이력서 업로드",
+      "submit": "지금 지원"
+    }
+  },
+  "contact": {
+    "title": "연락처",
+    "email": "info@tfotlabs.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Future City, FC 12345",
+    "map": "임베디드 맵 플레이스홀더 (Google Maps iframe 사용)",
+    "socials": {
+      "general": "소셜 미디어에서 팔로우하세요"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TFOT Labs. 모든 권리 보유.",
+    "privacy": "개인정보 보호정책",
+    "terms": "이용 약관",
+    "socials": {
+      "ru": ["VK", "Telegram", "Instagram"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Douyin"],
+      "fr": ["Facebook", "Instagram", "LinkedIn"],
+      "de": ["LinkedIn", "Xing", "Instagram"],
+      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Instagram"],
+      "sw": ["WhatsApp", "Facebook", "Instagram"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Facebook"],
+      "it": ["WhatsApp", "Instagram", "LinkedIn"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "개인정보 보호정책",
+    "content": "TFOT Labs는 귀하의 프라이버시를 보호하는 데 전념합니다. 이 정책은 우리가 귀하의 정보를 어떻게 수집, 사용 및 보호하는지 설명합니다. 동의 없이 개인 데이터를 공유하지 않습니다. 세부 사항은 info@tfotlabs.com으로 문의하세요. 마지막 업데이트: 2024."
+  },
+  "terms": {
+    "title": "이용 약관",
+    "content": "이 웹사이트를 사용함으로써 우리의 약관에 동의합니다. 콘텐츠는 정보 제공 목적으로만 사용됩니다. TFOT Labs는 이 약관을 업데이트할 권리를 보유합니다. 금지: 무단 사용 또는 복제. 마지막 업데이트: 2024."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "בית",
+      "about": "אודות",
+      "companies": "חברות",
+      "franchise": "זיכיון",
+      "careers": "קריירה",
+      "contact": "צור קשר"
+    },
+    "languages": {
+      "ru": "רוסית",
+      "en": "אנגלית",
+      "zh": "סינית",
+      "ja": "יפנית",
+      "fr": "צרפתית",
+      "de": "גרמנית",
+      "hi": "הינדית",
+      "it": "איטלקית",
+      "es": "ספרדית",
+      "ko": "קוריאנית",
+      "ar": "ערבית",
+      "he": "עברית",
+      "sw": "סווהילית",
+      "pt": "פורטוגזית",
+      "tr": "טורקית"
+    }
+  },
+  "index": {
+    "slogan": "חלוץ עתיד הטכנולוגיה והחדשנות",
+    "cta": "חקור את היקום שלנו"
+  },
+  "about": {
+    "title": "אודות TFOT Labs",
+    "history": "נוסדה בשנת 2020, TFOT Labs נמצאת בחזית ההתקדמות הטכנולוגית, משלבת מחקר מתקדם עם יישומים מעשיים כדי לעצב את עולם המחר.",
+    "mission": "המשימה שלנו היא לחדש בצורה בר קיימא, למתן קהילות גלובליות באמצעות טכנולוגיות משנות שמתמודדות עם אתגרי העתיד.",
+    "values": [
+      "חדשנות: דחיפת הגבולות עם רעיונות נועזים.",
+      "יושרה: שמירה על סטנדרטים אתיים בכל המאמצים.",
+      "שיתוף פעולה: טיפוח שותפויות להצלחה קולקטיבית.",
+      "קיימות: מחויבות לתרגול ידידותי לסביבה."
+    ]
+  },
+  "companies": {
+    "title": "החברות בתיק שלנו"
+  },
+  "franchise": {
+    "title": "הזדמנויות זיכיון",
+    "info": "הצטרף לרשת TFOT Labs והבא חדשנות עתידנית לאזור שלך. דגם הזיכיון שלנו מציע תמיכה מקיפה, הכשרה ומשאבים להצלחה.",
+    "form": {
+      "name": "שם מלא",
+      "email": "כתובת דוא\"ל",
+      "message": "הודעה",
+      "submit": "שלח בקשה"
+    }
+  },
+  "careers": {
+    "title": "קריירה ב-TFOT Labs",
+    "vacancies": "אנו תמיד מחפשים אנשים מוכשרים. משרות פתוחות נוכחיות: מהנדס תוכנה, מדען נתונים, מנהל מוצר. בדוק עדכונים.",
+    "form": {
+      "position": "המשרה שאליה אתה מגיש מועמדות",
+      "resume": "העלה קורות חיים",
+      "submit": "הגש מועמדות עכשיו"
+    }
+  },
+  "contact": {
+    "title": "צור קשר",
+    "email": "info@tfotlabs.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Future City, FC 12345",
+    "map": "מקום מילוי למפה מוטמעת (השתמש במסגרת Google Maps)",
+    "socials": {
+      "general": "עקוב אחרינו ברשתות החברתיות"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TFOT Labs. כל הזכויות שמורות.",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תנאי שימוש",
+    "socials": {
+      "ru": ["VK", "Telegram", "Instagram"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Douyin"],
+      "fr": ["Facebook", "Instagram", "LinkedIn"],
+      "de": ["LinkedIn", "Xing", "Instagram"],
+      "hi": ["WhatsApp", "Instagram", "Facebook"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Instagram"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Instagram"],
+      "sw": ["WhatsApp", "Facebook", "Instagram"],
+      "pt": ["WhatsApp", "Instagram", "Facebook"],
+      "es": ["WhatsApp", "Instagram", "Facebook"],
+      "it": ["WhatsApp", "Instagram", "LinkedIn"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "מדיניות פרטיות",
+    "content": "TFOT Labs מחויבת להגן על הפרטיות שלך. מדיניות זו מסבירה כיצד אנו אוספים, משתמשים ומגנים על המידע שלך. איננו משתפים מידע אישי ללא הסכמה. לפרטים, צור קשר ב-info@tfotlabs.com. עדכון אחרון: 2024."
+  },
+  "terms": {
+    "title": "תנאי שימוש",
+    "content": "באמצעות שימוש באתר זה, אתה מסכים לתנאים שלנו. התוכן מיועד למטרות מידע בלבד. TFOT Labs שומרת את הזכות לעדכן תנאים אלה. אסור: שימוש או שכפול לא מורשה. עדכון אחרון: 2024."
+  }
+}
