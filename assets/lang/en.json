@@ -50,7 +50,7 @@
     "info": "Join the TFOT Labs network and bring futuristic innovation to your region. Our franchise model offers comprehensive support, training, and resources for success.",
     "form": {
       "name": "Full Name",
-      "email": "Email Address",
+      "email": "labstfot@gmail.com",
       "message": "Message",
       "submit": "Submit Application"
     }
@@ -66,9 +66,9 @@
   },
   "contact": {
     "title": "Contact Us",
-    "email": "info@tfotlabs.com",
+    "email": "labstfot@gmail.com",
     "phone": "+1 (555) 123-4567",
-    "address": "123 Innovation Drive, Future City, FC 12345",
+    "address": "Saint Petersburg, Russia",
     "map": "Embedded map placeholder (use Google Maps iframe)",
     "socials": {
       "general": "Follow us on social media"
@@ -98,10 +98,8 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "content": "TFOT Labs is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information. We do not share personal data without consent. For details, contact us at info@tfotlabs.com. Last updated: 2024."
+    "content": "TFOT Labs is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information. We do not share personal data without consent. For details, contact us at labstfot@gmail.com. Last updated: 2024."
   },
   "terms": {
     "title": "Terms of Use",
-    "content": "By using this website, you agree to our terms. Content is for informational purposes only. TFOT Labs reserves the right to update these terms. Prohibited: unauthorized use or reproduction. Last updated: 2024."
-  }
-}
+    "content": "By using this website, you agree to our terms. Content is for informational purposes only

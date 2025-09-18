@@ -1,127 +1,127 @@
 [
   {
-    "name": "Quantum Dynamics Inc.",
-    "description": "Pioneering quantum computing solutions for secure data processing and AI acceleration.",
-    "image": "assets/images/quantum.jpg"
+    "name": "Nebula",
+    "description": "Sports broadcasting platform for live events and interactive viewing experiences.",
+    "image": "assets/images/nebula.jpg"
   },
   {
-    "name": "NeuroLink Biotech",
-    "description": "Developing neural interfaces to bridge human cognition with digital realms.",
-    "image": "assets/images/neuralink.jpg"
+    "name": "Codeon",
+    "description": "App for learning programming with tutorials and challenges.",
+    "image": "assets/images/codeon.jpg"
   },
   {
-    "name": "AeroSpace Innovations",
-    "description": "Revolutionizing space travel with sustainable propulsion technologies.",
-    "image": "assets/images/aerospace.jpg"
+    "name": "Linguix",
+    "description": "App for learning languages with AI lessons and practice.",
+    "image": "assets/images/linguix.jpg"
   },
   {
-    "name": "EcoFusion Energy",
-    "description": "Harnessing fusion power for clean, limitless energy sources.",
-    "image": "assets/images/fusion.jpg"
+    "name": "Snap Repair",
+    "description": "Network of tech repair service centers.",
+    "image": "assets/images/snaprepair.jpg"
   },
   {
-    "name": "VR Worlds Corp",
-    "description": "Creating immersive virtual reality environments for education and entertainment.",
-    "image": "assets/images/vr.jpg"
+    "name": "Blatota Nax",
+    "description": "Chain of tattoo salons for custom art.",
+    "image": "assets/images/blatotanax.jpg"
   },
   {
-    "name": "AI Ethics Lab",
-    "description": "Ensuring responsible AI development through ethical frameworks and audits.",
-    "image": "assets/images/aiethics.jpg"
+    "name": "Kinalia",
+    "description": "Luxury boutiques for clothing, perfumes, and shoes.",
+    "image": "assets/images/kinalia.jpg"
   },
   {
-    "name": "BioGen Therapeutics",
-    "description": "Advancing gene editing for personalized medicine and disease eradication.",
-    "image": "assets/images/biogen.jpg"
+    "name": "Platera",
+    "description": "Network of restaurants with diverse cuisines.",
+    "image": "assets/images/platera.jpg"
   },
   {
-    "name": "CyberShield Security",
-    "description": "Next-gen cybersecurity defenses against evolving digital threats.",
-    "image": "assets/images/cyber.jpg"
+    "name": "Nixa",
+    "description": "Dating app with smart matching.",
+    "image": "assets/images/nixa.jpg"
   },
   {
-    "name": "NanoTech Materials",
-    "description": "Engineering nanomaterials for stronger, lighter, and smarter applications.",
-    "image": "assets/images/nano.jpg"
+    "name": "Vivra Bank",
+    "description": "Digital neobank for banking and investments.",
+    "image": "assets/images/vivrabank.jpg"
   },
   {
-    "name": "HoloDisplay Systems",
-    "description": "Bringing holographic interfaces to everyday computing and communication.",
-    "image": "assets/images/holo.jpg"
+    "name": "Luvry",
+    "description": "18+ boutique for premium adult products.",
+    "image": "assets/images/luvry.jpg"
   },
   {
-    "name": "SmartCity Solutions",
-    "description": "Integrating IoT for efficient, sustainable urban infrastructure.",
-    "image": "assets/images/smartcity.jpg"
+    "name": "Structara",
+    "description": "Construction company for sustainable projects.",
+    "image": "assets/images/structara.jpg"
   },
   {
-    "name": "DeepOcean Exploration",
-    "description": "Unlocking ocean mysteries with autonomous submersible technologies.",
-    "image": "assets/images/ocean.jpg"
+    "name": "Drifta",
+    "description": "Chain of coffee shops with specialty brews.",
+    "image": "assets/images/drifta.jpg"
   },
   {
-    "name": "AgriTech Harvest",
-    "description": "Optimizing agriculture with AI-driven precision farming tools.",
-    "image": "assets/images/agritech.jpg"
+    "name": "Mookie",
+    "description": "Network of bakeries for fresh pastries.",
+    "image": "assets/images/mookie.jpg"
   },
   {
-    "name": "RoboAssist Dynamics",
-    "description": "Building collaborative robots for industrial and domestic assistance.",
-    "image": "assets/images/robo.jpg"
+    "name": "Aerava",
+    "description": "Airline for domestic and international flights.",
+    "image": "assets/images/aerava.jpg"
   },
   {
-    "name": "ClimateModel AI",
-    "description": "Predicting and mitigating climate change with advanced simulations.",
-    "image": "assets/images/climate.jpg"
+    "name": "Tivvo",
+    "description": "Taxi service app with real-time tracking.",
+    "image": "assets/images/tivvo.jpg"
   },
   {
-    "name": "TeleMed Global",
-    "description": "Delivering remote healthcare via secure telemedicine platforms.",
-    "image": "assets/images/telemed.jpg"
+    "name": "BRVK",
+    "description": "Chain of barbershops for grooming services.",
+    "image": "assets/images/brvk.jpg"
   },
   {
-    "name": "BlockChain Secure",
-    "description": "Decentralized ledger solutions for transparent financial systems.",
-    "image": "assets/images/blockchain.jpg"
+    "name": "Blushé",
+    "description": "Women's salons for beauty and wellness.",
+    "image": "assets/images/blushe.jpg"
   },
   {
-    "name": "ExoPlanet Survey",
-    "description": "Searching for habitable worlds with cutting-edge telescopes.",
-    "image": "assets/images/exoplanet.jpg"
+    "name": "Светлая Память",
+    "description": "Ritual agency for funeral services.",
+    "image": "assets/images/svetlayapamyat.jpg"
   },
   {
-    "name": "Wearable Health",
-    "description": "Smart wearables monitoring vital signs in real-time.",
-    "image": "assets/images/wearable.jpg"
+    "name": "WebTown",
+    "description": "Internet provider for high-speed connectivity.",
+    "image": "assets/images/webtown.jpg"
   },
   {
-    "name": "FusionDrive Motors",
-    "description": "Electric vehicle propulsion with fusion-inspired efficiency.",
-    "image": "assets/images/fusiondrive.jpg"
+    "name": "HMesu",
+    "description": "Museum with AI heads for interactive exhibits.",
+    "image": "assets/images/hmesu.jpg"
   },
   {
-    "name": "DataForge Analytics",
-    "description": "Big data processing for actionable business intelligence.",
-    "image": "assets/images/data.jpg"
+    "name": "SantRobo",
+    "description": "Advanced robotics for industrial use.",
+    "image": "assets/images/santrobo.jpg"
   },
   {
-    "name": "AugmentReality Labs",
-    "description": "Overlaying digital information on the physical world seamlessly.",
-    "image": "assets/images/ar.jpg"
+    "name": "YW Tech",
+    "description": "Bioprosthetics and implants technology.",
+    "image": "assets/images/ywtech.jpg"
   },
   {
-    "name": "Sustainable Materials",
-    "description": "Eco-friendly composites from recycled and bio-based sources.",
-    "image": "assets/images/sustainable.jpg"
+    "name": "EneCtron",
+    "description": "Electric transport and charging solutions.",
+    "image": "assets/images/enelectron.jpg"
   },
   {
-    "name": "QuantumNet Comm",
-    "description": "Secure quantum-encrypted global communication networks.",
-    "image": "assets/images/quantumnet.jpg"
+    "name": "SkyLib",
+    "description": "Secure VPN for privacy and access.",
+    "image": "assets/images/skylib.jpg"
   },
   {
-    "name": "MindMap Neural",
-    "description": "Mapping brain activity for enhanced cognitive therapies.",
-    "image": "assets/images/mindmap.jpg"
+    "name": "ElizabethAI",
+    "description": "AI assistant for productivity and home integration.",
+    "image": "assets/images/elizabethai.jpg"
   }
 ]
