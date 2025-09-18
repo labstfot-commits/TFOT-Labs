@@ -148,5 +148,17 @@
     "description": "AI assistant for productivity and home integration.",
     "category": "Artificial Intelligence",
     "image": "assets/images/eliza.jpg"
+  },
+  {
+    "name": "HFMuseu",
+    "description": "An innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity.",
+    "category": "Culture & Entertainment",
+    "image": "assets/images/hfmuseu.jpg"
+  },
+  {
+    "name": "Heyya",
+    "description": "A creative advertising agency delivering bold campaigns and modern branding solutions for businesses.",
+    "category": "Marketing",
+    "image": "assets/images/heyya.jpg"
   }
 ]

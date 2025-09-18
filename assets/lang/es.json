@@ -169,6 +169,16 @@
         "title": "Eliza",
         "desc": "Asistente de IA para productividad e integración en el hogar.",
         "cat": "Inteligencia artificial"
+      },
+      {
+        "title": "HFMuseu",
+        "desc": "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna.",
+        "cat": "Cultura y entretenimiento"
+      },
+      {
+        "title": "Heyya",
+        "desc": "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas.",
+        "cat": "Marketing"
       }
     ]
   },

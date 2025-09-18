@@ -198,6 +198,13 @@ async function loadCompanies() {
       }
       // For other langs without specific companies data, use json fields directly
     }
+
+    // Fallback for undefined translations
+    companies.forEach(company => {
+      company.title = company.title || company.name;
+      company.desc = company.desc || company.description;
+      company.cat = company.cat || company.category;
+    });
     const container = document.querySelector('.companies-list');
     if (container) {
       console.log('Rendering companies to .companies-list');

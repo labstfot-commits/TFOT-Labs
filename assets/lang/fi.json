@@ -175,6 +175,16 @@
         "title": "Eliza",
         "desc": "AI-avustaja tuottavuudelle ja kotiautomaatiolle.",
         "cat": "Tekoäly"
+      },
+      {
+        "title": "HFMuseu",
+        "desc": "Innovaatiotaiteen tila, joka esittelee päitä ja maalauksia, sekoittaen klassista inspiraatiota moderniin luovuuteen.",
+        "cat": "Kulttuuri ja viihde"
+      },
+      {
+        "title": "Heyya",
+        "desc": "Luova mainostoimisto, joka tarjoaa rohkeita kampanjoita ja moderneja brändäysratkaisuja yrityksille.",
+        "cat": "Markkinointi"
       }
     ]
   },
