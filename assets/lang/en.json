@@ -1,3 +1,4 @@
+
 {
   "header": {
     "logo": "TFOT Labs",
@@ -10,32 +11,39 @@
       "contact": "Contact"
     },
     "languages": {
-      "ru": "Русский",
+      "ru": "Russian",
       "en": "English",
-      "zh": "中文",
-      "ja": "日本語",
-      "fr": "Français",
-      "de": "Deutsch",
-      "hi": "हिंदी",
-      "it": "Italiano",
-      "es": "Español",
-      "ko": "한국어",
-      "ar": "العربية",
-      "he": "עברית",
-      "sw": "Kiswahili",
-      "pt": "Português",
-      "tr": "Türkçe"
+      "zh": "Chinese",
+      "ja": "Japanese",
+      "fr": "French",
+      "de": "German",
+      "hi": "Hindi",
+      "it": "Italian",
+      "es": "Spanish",
+      "ko": "Korean",
+      "ar": "Arabic",
+      "he": "Hebrew",
+      "sw": "Swahili",
+      "pt": "Portuguese",
+      "tr": "Turkish"
     }
   },
   "index": {
-    "slogan": "Pioneering the Future of Technology and Innovation",
-    "cta": "Explore Our Universe",
+    "slogan": {
+      "US": "Pioneering the Future of Technology and Innovation in the United States",
+      "GB": "Pioneering the Future of Technology and Innovation in the United Kingdom",
+      "default": "Pioneering the Future of Technology and Innovation"
+    },
     "learnMore": "Discover Us"
   },
   "about": {
     "title": "About TFOT Labs",
     "history": "Founded in 2014, TFOT Labs has been at the forefront of technological advancement, blending cutting-edge research with practical applications to shape tomorrow's world.",
-    "mission": "Our mission is to innovate sustainably, empowering global communities through transformative technologies that address the challenges of the future.",
+    "mission": {
+      "US": "Our mission is to innovate sustainably, empowering communities in the United States through transformative technologies that address the challenges of the future.",
+      "GB": "Our mission is to innovate sustainably, empowering communities in the United Kingdom through transformative technologies that address the challenges of the future.",
+      "default": "Our mission is to innovate sustainably, empowering global communities through transformative technologies that address the challenges of the future."
+    },
     "values": [
       "Innovation: Pushing boundaries with bold ideas.",
       "Integrity: Upholding ethical standards in all endeavors.",
@@ -102,7 +110,71 @@
       "AI assistant for productivity and home integration.",
       "An innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity.",
       "A creative advertising agency delivering bold campaigns and modern branding solutions for businesses."
-    ]
+    ],
+    "regions": {
+      "US": {
+        "descriptions": [
+          "Sports broadcasting platform for live events and interactive viewing experiences in the United States.",
+          "App for learning programming with tutorials and challenges tailored for the US market.",
+          "App for learning languages with AI lessons and practice.",
+          "Network of tech repair service centers in the US.",
+          "Chain of tattoo salons for custom art.",
+          "Luxury boutiques for clothing, perfumes, and shoes in the US.",
+          "Network of restaurants with diverse cuisines.",
+          "Dating app with smart matching in the US.",
+          "Digital neobank for banking and investments.",
+          "18+ boutique for premium adult products in the US.",
+          "Construction company for sustainable projects.",
+          "Chain of coffee shops with specialty brews in the US.",
+          "Network of bakeries for fresh pastries.",
+          "Airline for domestic and international flights in the US.",
+          "Taxi service app with real-time tracking.",
+          "Chain of barbershops for grooming services in the US.",
+          "Women's salons for beauty and wellness.",
+          "Ritual agency for funeral services in the US.",
+          "Internet provider for high-speed connectivity.",
+          "Museum with AI heads for interactive exhibits in the US.",
+          "Advanced robotics for industrial use.",
+          "Bioprosthetics and implants technology in the US.",
+          "Electric transport and charging solutions.",
+          "Secure VPN for privacy and access in the US.",
+          "AI assistant for productivity and home integration.",
+          "An innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity in the US.",
+          "A creative advertising agency delivering bold campaigns and modern branding solutions for businesses."
+        ]
+      },
+      "GB": {
+        "descriptions": [
+          "Sports broadcasting platform for live events and interactive viewing experiences in the United Kingdom.",
+          "App for learning programming with tutorials and challenges tailored for the UK market.",
+          "App for learning languages with AI lessons and practice.",
+          "Network of tech repair service centers in the UK.",
+          "Chain of tattoo salons for custom art.",
+          "Luxury boutiques for clothing, perfumes, and shoes in the UK.",
+          "Network of restaurants with diverse cuisines.",
+          "Dating app with smart matching in the UK.",
+          "Digital neobank for banking and investments.",
+          "18+ boutique for premium adult products in the UK.",
+          "Construction company for sustainable projects.",
+          "Chain of coffee shops with specialty brews in the UK.",
+          "Network of bakeries for fresh pastries.",
+          "Airline for domestic and international flights in the UK.",
+          "Taxi service app with real-time tracking.",
+          "Chain of barbershops for grooming services in the UK.",
+          "Women's salons for beauty and wellness.",
+          "Ritual agency for funeral services in the UK.",
+          "Internet provider for high-speed connectivity.",
+          "Museum with AI heads for interactive exhibits in the UK.",
+          "Advanced robotics for industrial use.",
+          "Bioprosthetics and implants technology in the UK.",
+          "Electric transport and charging solutions.",
+          "Secure VPN for privacy and access in the UK.",
+          "AI assistant for productivity and home integration.",
+          "An innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity in the UK.",
+          "A creative advertising agency delivering bold campaigns and modern branding solutions for businesses."
+        ]
+      }
+    }
   },
   "franchise": {
     "title": "Franchise Opportunities",
@@ -225,45 +297,8 @@
         "city": "Manchester (Etihad Stadium)",
         "phone": "+44 161 123 4567",
         "email": "labstfot@gmail.com",
-        "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484!2d-2.2004!3d53.4831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1f5b5b5b5b5%3A0x8f6b7b5b5b5b5b5b!2sEtihad%20Stadium%2C%20Manchester!5e0!3m2!1sen!2sus!4v1630000000000\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+        "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374!2d-2.2009!3d53.4831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sChIJ8RHG5qYShxAR4yW3iWj3q4M!2sEtihad%20Stadium!5e0!3m2!1sen!2sus!4v1630000000000\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
       }
-    ],
-    "socials": {
-      "general": "Follow us on social media"
-    },
-    "regions": {
-      "US": "United States",
-      "GB": "United Kingdom"
-    }
-  },
-  "footer": {
-    "copyright": "© 2025 TFOT Labs. All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Use",
-    "socials": {
-      "ru": ["VK", "Telegram", "Twitter"],
-      "en": ["Facebook", "Instagram", "Snapchat"],
-      "zh": ["WeChat", "Weibo", "Twitter"],
-      "fr": ["Facebook", "Instagram", "Twitter"],
-      "de": ["LinkedIn", "Xing", "Twitter"],
-      "hi": ["WhatsApp", "Instagram", "Twitter"],
-      "ja": ["Line", "Twitter", "Instagram"],
-      "ko": ["KakaoTalk", "Naver", "Twitter"],
-      "ar": ["WhatsApp", "Facebook", "Twitter"],
-      "he": ["WhatsApp", "Facebook", "Twitter"],
-      "sw": ["WhatsApp", "Facebook", "Twitter"],
-      "pt": ["WhatsApp", "Instagram", "Twitter"],
-      "es": ["WhatsApp", "Instagram", "Twitter"],
-      "it": ["WhatsApp", "Instagram", "Twitter"],
-      "tr": ["Instagram", "WhatsApp", "Twitter"]
-    }
-  },
-  "privacy": {
-    "title": "Privacy Policy",
-    "content": "TFOT Labs is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information. We do not share personal data without consent. For details, contact us at labstfot@gmail.com. Last updated: 2024."
-  },
-  "terms": {
-    "title": "Terms of Use",
-    "content": "By using this website, you agree to our terms. Content is for informational purposes only. TFOT Labs reserves the right to update these terms. Prohibited: unauthorized use or reproduction. Last updated: 2024."
+    ]
   }
 }

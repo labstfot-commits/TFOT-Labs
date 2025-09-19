@@ -58,7 +58,7 @@ function getRegionName(code, lang) {
   return names[code] || code;
 }
 
-let currentLang = localStorage.getItem('lang') || 'en';
+let currentLang = localStorage.getItem('tfot_lang') || 'en';
 let translations = {};
 let companies = [];
 
@@ -96,7 +96,7 @@ async function loadLang(lang) {
     translations = await response.json();
     console.log(`Language ${lang} loaded successfully`);
     currentLang = lang;
-    localStorage.setItem('lang', lang);
+    localStorage.setItem('tfot_lang', lang);
     updateContent();
     updateSocials();
     if (document.querySelector('.companies-list')) {
@@ -110,6 +110,9 @@ async function loadLang(lang) {
       initRegionSelector();
     }
     setRTL();
+    initLangSwitcher();
+    if (['en', 'es', 'pt'].includes(lang)) initRegionSelector();
+    animateSections();
   } catch (error) {
     console.error(`Error loading language ${lang}:`, error);
     // Fallback to English
@@ -139,15 +142,30 @@ function updateContent() {
       }
       value = value[k];
     }
+    // Handle object for region-specific
+    if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
+      const region = localStorage.getItem('tfot_region') || currentLang.toUpperCase();
+      value = value[region] || value.default || Object.values(value)[0] || '';
+    }
     if (typeof value === 'string') {
       el.textContent = value;
     } else if (Array.isArray(value)) {
       el.innerHTML = value.map(v => `<li>${v}</li>`).join('');
     } else {
-      value = ''; // Fallback for non-string/non-array
+      el.textContent = value || '';
     }
   });
   console.log('Content update completed');
+  animateSections();
+}
+
+function animateSections() {
+  const sections = document.querySelectorAll('.glass, .hero, #companies, .vacancies-section, .apply-section, .location-card');
+  sections.forEach((section, index) => {
+    setTimeout(() => {
+      section.classList.add('visible');
+    }, index * 200);
+  });
 }
 
 // Load and display careers vacancies
@@ -210,13 +228,23 @@ async function loadCompanies() {
       console.log('Rendering companies to .companies-list');
       container.innerHTML = companies.map(company => `
         <div class="company-card">
-          <img src="${company.image || `https://via.placeholder.com/200x150?text=${encodeURIComponent(company.name)}`}" alt="${company.name}" class="company-logo">
+          <img src="${company.image || `https://via.placeholder.com/200x150?text=${encodeURIComponent(company.name)}`}" alt="${company.name}" class="${`company-logo ${company.name === 'Eliza' ? 'eliza-logo' : ''}`}">
           <h3>${company.title}</h3>
           ${company.cat ? `<p class="category">${company.cat}</p>` : ''}
           <p>${company.desc}</p>
         </div>
       `).join('');
+      
+      // Staggered glassmorphism fade-in animation
+      const cards = container.querySelectorAll('.company-card');
+      cards.forEach((card, index) => {
+        setTimeout(() => {
+          card.classList.add('visible');
+        }, index * 150); // 0.15s stagger for smooth sequence
+      });
+      
       console.log('Companies rendered successfully');
+      animateSections();
     } else {
       console.warn('No .companies-list element found');
     }
@@ -288,22 +316,194 @@ function initLangSwitcher() {
     LANGUAGES.forEach(lang => {
       const option = document.createElement('option');
       option.value = lang;
-      option.textContent = FLAGS[lang];
+      option.textContent = FLAGS[lang] || lang.toUpperCase();
       if (lang === currentLang) {
         option.selected = true;
       }
       select.appendChild(option);
     });
     select.addEventListener('change', (e) => {
-      loadLang(e.target.value);
-      if (document.querySelector('.companies-list')) {
-        loadCompanies();
-      }
-      if (window.location.pathname.includes('careers.html')) {
-        loadCareers();
-      }
+      const newLang = e.target.value;
+      const defaultRegion = getDefaultRegion(newLang);
+      applyLocale(newLang, defaultRegion || localStorage.getItem('tfot_region'));
     });
   }
+}
+
+// Global function for language switch animation
+const REGION_ANGLES = {
+  'MX': 0, 'ES': 180, 'AR': 180, 'CL': 210, 'PE': 240,
+  'BR': 90, 'PT': 90,
+  'US': 30, 'GB': 60,
+  'ru': 120, 'zh': 270, 'ja': 300, 'fr': 150, 'de': 135, 'hi': 240, 'it': 165, 'ko': 330, 'ar': 210, 'he': 195, 'sw': 225, 'tr': 180, 'nl': 165, 'da': 150, 'no': 135, 'sv': 120, 'fi': 105
+};
+
+function getDefaultRegion(lang) {
+  const defaults = {
+    'en': 'en-us',
+    'es': 'es-es',
+    'pt': 'pt-pt'
+  };
+  return defaults[lang] || '';
+}
+
+function applyLocale(locale, region) {
+  localStorage.setItem('tfot_lang', locale);
+  localStorage.setItem('tfot_region', region || '');
+  loadLang(locale).then(() => {
+    // Update region selector active state
+    document.querySelectorAll('.flag-btn').forEach(btn => btn.classList.remove('active'));
+    const activeBtn = document.querySelector(`[data-region="${region}"]`);
+    if (activeBtn) activeBtn.classList.add('active');
+    // Render region-specific content
+    if (window.location.pathname.includes('contact.html')) {
+      loadContacts();
+    } else {
+      updateContent();
+      if (document.querySelector('.companies-list')) loadCompanies();
+      if (window.location.pathname.includes('careers.html')) loadCareers();
+    }
+    animateSections();
+  });
+}
+
+function getRegionAngle(code) {
+  return REGION_ANGLES[code] || 0;
+}
+
+function showGlobe(newLang, region = null) {
+  // Create modal overlay
+  const modal = document.createElement('div');
+  modal.id = 'globe-modal';
+  modal.style.cssText = `
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex; justify-content: center; align-items: center;
+    z-index: 9999;
+    opacity: 0; transition: opacity 0.3s ease;
+  `;
+  
+  // Create globe element
+  const globeClass = region ? `${newLang} ${region}` : newLang;
+  const globe = document.createElement('div');
+  globe.className = `globe spinning ${globeClass}`;
+  globe.style.cssText = `
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #3498db, #2c3e50 40%, #34495e);
+    position: relative;
+    animation: spin 3s linear;
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.5);
+    transition: transform 1s ease;
+  `;
+  
+  // Highlight after spin
+  globe.addEventListener('animationend', () => {
+    globe.classList.remove('spinning');
+    globe.classList.add('highlighted');
+    setTimeout(() => {
+      applyLocale(newLang, region);
+      const angle = getRegionAngle(region || newLang);
+      globe.style.transform = `rotateY(${angle}deg)`;
+      modal.style.opacity = '0';
+      setTimeout(() => {
+        document.body.removeChild(modal);
+      }, 300);
+    }, 500);
+  });
+  
+  modal.appendChild(globe);
+  document.body.appendChild(modal);
+  requestAnimationFrame(() => modal.style.opacity = '1');
+}
+
+// Global function for portfolio animation
+function showPortfolioAnimation() {
+  const modal = document.createElement('div');
+  modal.id = 'portfolio-modal';
+  modal.style.cssText = `
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.8); z-index: 9998;
+    display: flex; justify-content: center; align-items: center;
+    opacity: 0; transition: opacity 0.3s ease;
+  `;
+  
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', '0 0 300 200');
+  svg.setAttribute('width', '300');
+  svg.setAttribute('height', '200');
+  svg.style.cssText = 'filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3)); transform-style: preserve-3d; perspective: 1000px;';
+  
+  // Suitcase body
+  const body = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  body.setAttribute('x', '50');
+  body.setAttribute('y', '80');
+  body.setAttribute('width', '200');
+  body.setAttribute('height', '80');
+  body.setAttribute('fill', '#4a4a4a');
+  body.setAttribute('rx', '5');
+  body.setAttribute('ry', '5');
+  body.classList.add('suitcase-body');
+  
+  // Suitcase lid
+  const lid = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  lid.setAttribute('x', '50');
+  lid.setAttribute('y', '50');
+  lid.setAttribute('width', '200');
+  lid.setAttribute('height', '30');
+  lid.setAttribute('fill', '#6a6a6a');
+  lid.setAttribute('rx', '5');
+  lid.setAttribute('ry', '5');
+  lid.classList.add('suitcase-lid');
+  
+  // Handle
+  const handle = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  handle.setAttribute('x', '130');
+  handle.setAttribute('y', '45');
+  handle.setAttribute('width', '40');
+  handle.setAttribute('height', '8');
+  handle.setAttribute('fill', '#8a8a8a');
+  handle.setAttribute('rx', '4');
+  
+  // Straps
+  const strap1 = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  strap1.setAttribute('x', '70');
+  strap1.setAttribute('y', '90');
+  strap1.setAttribute('width', '160');
+  strap1.setAttribute('height', '6');
+  strap1.setAttribute('fill', '#333');
+  
+  const strap2 = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  strap2.setAttribute('x', '70');
+  strap2.setAttribute('y', '130');
+  strap2.setAttribute('width', '160');
+  strap2.setAttribute('height', '6');
+  strap2.setAttribute('fill', '#333');
+  
+  svg.appendChild(lid);
+  lid.appendChild(handle);
+  svg.appendChild(body);
+  svg.appendChild(strap1);
+  svg.appendChild(strap2);
+  modal.appendChild(svg);
+  document.body.appendChild(modal);
+  
+  requestAnimationFrame(() => modal.style.opacity = '1');
+  
+  // Trigger lid opening after show
+  setTimeout(() => {
+    lid.classList.add('open');
+  }, 100);
+  
+  // Animate on end
+  lid.addEventListener('animationend', () => {
+    modal.style.opacity = '0';
+    setTimeout(() => {
+      document.body.removeChild(modal);
+      window.location.href = 'companies.html#companies';
+    }, 300);
+  });
 }
 
 // Basic form handling
@@ -317,6 +517,30 @@ function initForms() {
       console.log('Form submitted:', data);
       alert('Thank you for your submission! We will contact you soon.');
       form.reset();
+    });
+  });
+}
+
+function initNavTransitions() {
+  document.querySelectorAll('.menu a').forEach(a => {
+    a.addEventListener('click', (e) => {
+      // Only for internal links
+      if (!a.href.startsWith(window.location.origin) || a.getAttribute('href').startsWith('#')) return;
+      e.preventDefault();
+      const targetHref = a.getAttribute('href');
+      const wrapper = document.querySelector('.section-wrapper');
+      if (!wrapper) {
+        window.location.href = targetHref;
+        return;
+      }
+      wrapper.classList.add('section-exit');
+      requestAnimationFrame(() => wrapper.classList.add('section-exit-active'));
+      const onEnd = (evt) => {
+        if (evt.propertyName !== 'opacity') return;
+        wrapper.removeEventListener('transitionend', onEnd);
+        window.location.href = targetHref;
+      };
+      wrapper.addEventListener('transitionend', onEnd);
     });
   });
 }
@@ -335,9 +559,14 @@ async function loadContacts() {
       return;
     }
     let locations = localeData.locations;
-    const region = localStorage.getItem('region') || (currentLang === 'en' ? 'US' : currentLang === 'es' ? 'ES' : currentLang === 'pt' ? 'PT' : null);
-    if (['en', 'es', 'pt'].includes(currentLang) && region) {
-      locations = locations.filter(loc => loc.country_code === region);
+    const tfot_region = localStorage.getItem('tfot_region') || (currentLang === 'en' ? 'en-us' : currentLang === 'es' ? 'es-es' : currentLang === 'pt' ? 'pt-pt' : null);
+    let country_code = null;
+    if (tfot_region) {
+      const parts = tfot_region.split('-');
+      country_code = parts.length > 1 ? parts[1].toUpperCase() : tfot_region.toUpperCase();
+    }
+    if (country_code && ['en', 'es', 'pt'].includes(currentLang)) {
+      locations = locations.filter(loc => loc.country_code === country_code);
     } // For other langs, show all
     const container = document.getElementById('contacts-container');
     if (container) {
@@ -345,7 +574,7 @@ async function loadContacts() {
         const flag = getFlagFromCode(location.country_code);
         const mapEmbed = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020!2d${location.lng}!3d${location.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${location.lat}%2C${location.lng}!5e0!3m2!1s${currentLang}!2sus!4v1720000000000`;
         return `
-          <div class="location-card">
+          <div class="location-card glass">
             <h3>${location.name || location.city} ${flag}</h3>
             <p>${location.address || ''}</p>
             <p>Phone: ${location.phone || ''} | Email: ${location.email || ''}</p>
@@ -353,7 +582,15 @@ async function loadContacts() {
           </div>
         `;
       }).join('');
+      // Staggered animation for location cards
+      const cards = container.querySelectorAll('.location-card');
+      cards.forEach((card, index) => {
+        setTimeout(() => {
+          card.classList.add('visible');
+        }, index * 200);
+      });
     }
+    animateSections();
   } catch (error) {
     console.error('Error loading contacts:', error);
   }
@@ -361,50 +598,135 @@ async function loadContacts() {
 
 // Initialize app on load
 document.addEventListener('DOMContentLoaded', () => {
+  // Inject CSS for animations
+  const style = document.createElement('style');
+  style.textContent = `
+    @keyframes spin { from { transform: rotateY(0deg); } to { transform: rotateY(360deg); } }
+    @keyframes glow { from { opacity: 0.7; } to { opacity: 1; } }
+    .globe.highlighted { animation: none; box-shadow: 0 0 30px rgba(0, 255, 136, 0.8); }
+    .globe.ru::after { content: '🇷🇺'; position: absolute; top: 20%; right: 20%; font-size: 40px; text-shadow: 0 0 10px red; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.en::after { content: '🇺🇸'; position: absolute; top: 40%; left: 30%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.zh::after { content: '🇨🇳'; position: absolute; top: 30%; right: 40%; font-size: 40px; text-shadow: 0 0 10px orange; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.ja::after { content: '🇯🇵'; position: absolute; top: 50%; left: 20%; font-size: 40px; text-shadow: 0 0 10px red; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.fr::after { content: '🇫🇷'; position: absolute; top: 25%; left: 35%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.de::after { content: '🇩🇪'; position: absolute; top: 45%; right: 25%; font-size: 40px; text-shadow: 0 0 10px black; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.hi::after { content: '🇮🇳'; position: absolute; top: 60%; left: 40%; font-size: 40px; text-shadow: 0 0 10px orange; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.it::after { content: '🇮🇹'; position: absolute; top: 35%; right: 30%; font-size: 40px; text-shadow: 0 0 10px green; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.es::after { content: '🇪🇸'; position: absolute; top: 20%; left: 25%; font-size: 40px; text-shadow: 0 0 10px red; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.ko::after { content: '🇰🇷'; position: absolute; top: 55%; right: 35%; font-size: 40px; text-shadow: 0 0 10px red; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.ar::after { content: '🇸🇦'; position: absolute; top: 15%; left: 45%; font-size: 40px; text-shadow: 0 0 10px green; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.he::after { content: '🇮🇱'; position: absolute; top: 70%; right: 40%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.sw::after { content: '🇹🇿'; position: absolute; top: 65%; left: 30%; font-size: 40px; text-shadow: 0 0 10px green; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.pt::after { content: '🇵🇹'; position: absolute; top: 40%; right: 15%; font-size: 40px; text-shadow: 0 0 10px green; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.tr::after { content: '🇹🇷'; position: absolute; top: 50%; left: 50%; font-size: 40px; text-shadow: 0 0 10px red; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.nl::after { content: '🇳🇱'; position: absolute; top: 30%; left: 15%; font-size: 40px; text-shadow: 0 0 10px orange; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.da::after { content: '🇩🇰'; position: absolute; top: 25%; right: 45%; font-size: 40px; text-shadow: 0 0 10px red; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.no::after { content: '🇳🇴'; position: absolute; top: 55%; left: 25%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.sv::after { content: '🇸🇪'; position: absolute; top: 45%; right: 20%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.fi::after { content: '🇫🇮'; position: absolute; top: 35%; left: 40%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
+  `;
+  document.head.appendChild(style);
+
   // Detect language or use stored
-  const storedLang = localStorage.getItem('lang');
+  const storedLang = localStorage.getItem('tfot_lang') || navigator.language.split('-')[0] || 'en';
+  const storedRegion = localStorage.getItem('tfot_region') || '';
   if (storedLang && LANGUAGES.includes(storedLang)) {
-    loadLang(storedLang);
+    applyLocale(storedLang, storedRegion);
   } else {
     detectLang();
   }
   initLangSwitcher();
   initForms();
+  initNavTransitions();
+  // Enter animation
+  const wrapper = document.querySelector('.section-wrapper');
+  if (wrapper) {
+    wrapper.classList.add('section-enter');
+    requestAnimationFrame(() => wrapper.classList.add('section-enter-active'));
+    setTimeout(() => {
+      wrapper.classList.remove('section-enter', 'section-enter-active');
+    }, 700);
+  }
   if (window.location.pathname.includes('contact.html')) {
     initRegionSelector();
   }
+  
+  // Portfolio button listener
+  const portfolioBtn = document.getElementById('portfolio-btn');
+  if (portfolioBtn) {
+    portfolioBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      showPortfolioAnimation();
+    });
+  }
+  
+  // Smooth scroll to hash on load
+  if (window.location.hash) {
+    setTimeout(() => {
+      const target = document.querySelector(window.location.hash);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+      animateSections();
+    }, 500);
+  } else {
+    animateSections();
+  }
 });
 
-// Region selector for es/pt
 function initRegionSelector() {
-  const select = document.getElementById('region-select');
-  if (!select) return;
+  let selector = document.querySelector('.region-selector');
+  if (!selector) {
+    selector = document.createElement('div');
+    selector.className = 'region-selector';
+    selector.setAttribute('role', 'tablist');
+    selector.setAttribute('aria-label', 'Region selector');
+    const langSelect = document.getElementById('lang-select');
+    if (langSelect && langSelect.parentNode) {
+      langSelect.parentNode.insertBefore(selector, langSelect.nextSibling);
+    }
+  }
+  selector.innerHTML = '';
 
   const showSelector = ['en', 'es', 'pt'].includes(currentLang);
-  select.style.display = showSelector ? 'block' : 'none';
+  selector.style.display = showSelector ? 'flex' : 'none';
   if (!showSelector) return;
 
-  let options = [];
+  let regions = [];
   if (currentLang === 'en') {
-    options = ['US', 'GB'];
+    regions = [
+      {locale: 'en', region: 'en-us', flag: '🇺🇸', label: 'English - United States'},
+      {locale: 'en', region: 'en-gb', flag: '🇬🇧', label: 'English - United Kingdom'}
+    ];
   } else if (currentLang === 'es') {
-    options = ['ES', 'MX', 'AR', 'CL', 'PE'];
+    regions = [
+      {locale: 'es', region: 'es-es', flag: '🇪🇸', label: 'Español - España'},
+      {locale: 'es', region: 'es-mx', flag: '🇲🇽', label: 'Español - México'},
+      {locale: 'es', region: 'es-ar', flag: '🇦🇷', label: 'Español - Argentina'},
+      {locale: 'es', region: 'es-cl', flag: '🇨🇱', label: 'Español - Chile'},
+      {locale: 'es', region: 'es-pe', flag: '🇵🇪', label: 'Español - Perú'}
+    ];
   } else if (currentLang === 'pt') {
-    options = ['PT', 'BR'];
+    regions = [
+      {locale: 'pt', region: 'pt-pt', flag: '🇵🇹', label: 'Português - Portugal'},
+      {locale: 'pt', region: 'pt-br', flag: '🇧🇷', label: 'Português - Brasil'}
+    ];
   }
 
-  select.innerHTML = options.map(code => {
-    const name = getRegionName(code, currentLang);
-    return `<option value="${code}">${name} ${REGION_FLAGS[code] || ''}</option>`;
-  }).join('');
-
-  let defaultRegion = currentLang === 'en' ? 'US' : currentLang === 'es' ? 'ES' : 'PT';
-  const savedRegion = localStorage.getItem('region') || defaultRegion;
-  select.value = savedRegion;
-  localStorage.setItem('region', savedRegion);
-
-  select.addEventListener('change', (e) => {
-    localStorage.setItem('region', e.target.value);
-    loadContacts();
+  regions.forEach(r => {
+    const btn = document.createElement('button');
+    btn.className = 'flag-btn';
+    btn.dataset.locale = r.locale;
+    btn.dataset.region = r.region;
+    btn.setAttribute('aria-label', r.label);
+    btn.textContent = r.flag;
+    if (localStorage.getItem('tfot_region') === r.region) {
+      btn.classList.add('active');
+    }
+    btn.addEventListener('click', () => {
+      showGlobe(r.locale, r.region);
+      applyLocale(r.locale, r.region);
+    });
+    selector.appendChild(btn);
   });
 }

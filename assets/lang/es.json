@@ -10,31 +10,45 @@
       "contact": "Contacto"
     },
     "languages": {
-      "ru": "🇷🇺",
-      "en": "🇺🇸",
-      "zh": "🇨🇳",
-      "ja": "🇯🇵",
-      "fr": "🇫🇷",
-      "de": "🇩🇪",
-      "hi": "🇮🇳",
-      "it": "🇮🇹",
-      "es": "🇪🇸",
-      "ko": "🇰🇷",
-      "ar": "🇸🇦",
-      "he": "🇮🇱",
-      "sw": "🇹🇿",
-      "pt": "🇧🇷",
-      "tr": "🇹🇷"
+      "ru": "Ruso",
+      "en": "Inglés",
+      "zh": "Chino",
+      "ja": "Japonés",
+      "fr": "Francés",
+      "de": "Alemán",
+      "hi": "Hindi",
+      "it": "Italiano",
+      "es": "Español",
+      "ko": "Coreano",
+      "ar": "Árabe",
+      "he": "Hebreo",
+      "sw": "Suajili",
+      "pt": "Portugués",
+      "tr": "Turco"
     }
   },
   "index": {
-    "slogan": "Pionero del futuro de la tecnología e innovación",
+    "slogan": {
+      "ES": "Pionero del futuro de la tecnología e innovación en España",
+      "MX": "Pionero del futuro de la tecnología e innovación en México",
+      "AR": "Pionero del futuro de la tecnología e innovación en Argentina",
+      "CL": "Pionero del futuro de la tecnología e innovación en Chile",
+      "PE": "Pionero del futuro de la tecnología e innovación en Perú",
+      "default": "Pionero del futuro de la tecnología e innovación"
+    },
     "learnMore": "Conócenos"
   },
   "about": {
     "title": "Acerca de TFOT Labs",
     "history": "Fundada en 2014, TFOT Labs está a la vanguardia del progreso tecnológico, combinando investigaciones de vanguardia con aplicaciones prácticas para dar forma al mundo de mañana.",
-    "mission": "Nuestra misión es innovar de manera sostenible, empoderando comunidades globales a través de tecnologías transformadoras que abordan los desafíos del futuro.",
+    "mission": {
+      "ES": "Nuestra misión es innovar de manera sostenible, empoderando comunidades en España a través de tecnologías transformadoras que abordan los desafíos del futuro.",
+      "MX": "Nuestra misión es innovar de manera sostenible, empoderando comunidades en México a través de tecnologías transformadoras que abordan los desafíos del futuro.",
+      "AR": "Nuestra misión es innovar de manera sostenible, empoderando comunidades en Argentina a través de tecnologías transformadoras que abordan los desafíos del futuro.",
+      "CL": "Nuestra misión es innovar de manera sostenible, empoderando comunidades en Chile a través de tecnologías transformadoras que abordan los desafíos del futuro.",
+      "PE": "Nuestra misión es innovar de manera sostenible, empoderando comunidades en Perú a través de tecnologías transformadoras que abordan los desafíos del futuro.",
+      "default": "Nuestra misión es innovar de manera sostenible, empoderando comunidades globales a través de tecnologías transformadoras que abordan los desafíos del futuro."
+    },
     "values": [
       "Innovación: Empujar los límites con ideas audaces.",
       "Integridad: Mantener estándares éticos en todos los esfuerzos.",
@@ -44,170 +58,249 @@
   },
   "companies": {
     "title": "Nuestras empresas del portafolio",
-    "companies": [
-      {
-        "title": "Nebula",
-        "desc": "Plataforma de transmisión deportiva para eventos en vivo y experiencias de visualización interactivas.",
-        "cat": "Deportes"
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "HMesu",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza",
+      "HFMuseu",
+      "Heyya"
+    ],
+    "descriptions": [
+      "Plataforma de transmisión deportiva para eventos en vivo y experiencias de visualización interactivas.",
+      "App para aprender programación con tutoriales y desafíos.",
+      "App para aprender idiomas con lecciones de IA y práctica.",
+      "Red de centros de reparación de tecnología.",
+      "Cadena de salones de tatuajes para arte personalizado.",
+      "Boutiques de lujo para ropa, perfumes y zapatos.",
+      "Red de restaurantes con cocinas diversas.",
+      "App de citas con emparejamiento inteligente.",
+      "Neobanco digital para banca e inversiones.",
+      "Boutique 18+ para productos premium para adultos.",
+      "Compañía de construcción para proyectos sostenibles.",
+      "Cadena de cafeterías con cervezas especializadas.",
+      "Red de panaderías para pasteles frescos.",
+      "Aerolínea para vuelos domésticos e internacionales.",
+      "App de servicio de taxi con seguimiento en tiempo real.",
+      "Cadena de barberías para servicios de grooming.",
+      "Salones para mujeres para belleza y bienestar.",
+      "Agencia ritual para servicios funerarios.",
+      "Proveedor de internet para conectividad de alta velocidad.",
+      "Museo con cabezas de IA para exposiciones interactivas.",
+      "Robótica avanzada para uso industrial.",
+      "Tecnología de bioprótesis e implantes.",
+      "Soluciones de transporte eléctrico y carga.",
+      "VPN segura para privacidad y acceso.",
+      "Asistente de IA para productividad e integración en el hogar.",
+      "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna.",
+      "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas."
+    ],
+    "regions": {
+      "ES": {
+        "descriptions": [
+          "Plataforma de transmisión deportiva para eventos en vivo y experiencias de visualización interactivas en España.",
+          "App para aprender programación con tutoriales y desafíos adaptados al mercado español.",
+          "App para aprender idiomas con lecciones de IA y práctica, incluyendo español.",
+          "Red de centros de reparación de tecnología en España.",
+          "Cadena de salones de tatuajes para arte personalizado en España.",
+          "Boutiques de lujo para ropa, perfumes y zapatos en España.",
+          "Red de restaurantes con cocinas diversas en España.",
+          "App de citas con emparejamiento inteligente en España.",
+          "Neobanco digital para banca e inversiones en España.",
+          "Boutique 18+ para productos premium para adultos en España.",
+          "Compañía de construcción para proyectos sostenibles en España.",
+          "Cadena de cafeterías con cervezas especializadas en España.",
+          "Red de panaderías para pasteles frescos en España.",
+          "Aerolínea para vuelos domésticos e internacionales en España.",
+          "App de servicio de taxi con seguimiento en tiempo real en España.",
+          "Cadena de barberías para servicios de grooming en España.",
+          "Salones para mujeres para belleza y bienestar en España.",
+          "Agencia ritual para servicios funerarios en España.",
+          "Proveedor de internet para conectividad de alta velocidad en España.",
+          "Museo con cabezas de IA para exposiciones interactivas en España.",
+          "Robótica avanzada para uso industrial en España.",
+          "Tecnología de bioprótesis e implantes en España.",
+          "Soluciones de transporte eléctrico y carga en España.",
+          "VPN segura para privacidad y acceso en España.",
+          "Asistente de IA para productividad e integración en el hogar en España.",
+          "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en España.",
+          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en España."
+        ]
       },
-      {
-        "title": "Codeon",
-        "desc": "App para aprender programación con tutoriales y desafíos.",
-        "cat": "Educación"
+      "MX": {
+        "descriptions": [
+          "Plataforma de transmisión deportiva para eventos en vivo y experiencias de visualización interactivas en México.",
+          "App para aprender programación con tutoriales y desafíos adaptados al mercado mexicano.",
+          "App para aprender idiomas con lecciones de IA y práctica, incluyendo español mexicano.",
+          "Red de centros de reparación de tecnología en México.",
+          "Cadena de salones de tatuajes para arte personalizado en México.",
+          "Boutiques de lujo para ropa, perfumes y zapatos en México.",
+          "Red de restaurantes con cocinas diversas en México.",
+          "App de citas con emparejamiento inteligente en México.",
+          "Neobanco digital para banca e inversiones en México.",
+          "Boutique 18+ para productos premium para adultos en México.",
+          "Compañía de construcción para proyectos sostenibles en México.",
+          "Cadena de cafeterías con cervezas especializadas en México.",
+          "Red de panaderías para pasteles frescos en México.",
+          "Aerolínea para vuelos domésticos e internacionales en México.",
+          "App de servicio de taxi con seguimiento en tiempo real en México.",
+          "Cadena de barberías para servicios de grooming en México.",
+          "Salones para mujeres para belleza y bienestar en México.",
+          "Agencia ritual para servicios funerarios en México.",
+          "Proveedor de internet para conectividad de alta velocidad en México.",
+          "Museo con cabezas de IA para exposiciones interactivas en México.",
+          "Robótica avanzada para uso industrial en México.",
+          "Tecnología de bioprótesis e implantes en México.",
+          "Soluciones de transporte eléctrico y carga en México.",
+          "VPN segura para privacidad y acceso en México.",
+          "Asistente de IA para productividad e integración en el hogar en México.",
+          "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en México.",
+          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en México."
+        ]
       },
-      {
-        "title": "Linguix",
-        "desc": "App para aprender idiomas con lecciones de IA y práctica.",
-        "cat": "Educación"
+      "AR": {
+        "descriptions": [
+          "Plataforma de transmisión deportiva para eventos en vivo y experiencias de visualización interactivas en Argentina.",
+          "App para aprender programación con tutoriales y desafíos adaptados al mercado argentino.",
+          "App para aprender idiomas con lecciones de IA y práctica, incluyendo español rioplatense.",
+          "Red de centros de reparación de tecnología en Argentina.",
+          "Cadena de salones de tatuajes para arte personalizado en Argentina.",
+          "Boutiques de lujo para ropa, perfumes y zapatos en Argentina.",
+          "Red de restaurantes con cocinas diversas en Argentina.",
+          "App de citas con emparejamiento inteligente en Argentina.",
+          "Neobanco digital para banca e inversiones en Argentina.",
+          "Boutique 18+ para productos premium para adultos en Argentina.",
+          "Compañía de construcción para proyectos sostenibles en Argentina.",
+          "Cadena de cafeterías con cervezas especializadas en Argentina.",
+          "Red de panaderías para pasteles frescos en Argentina.",
+          "Aerolínea para vuelos domésticos e internacionales en Argentina.",
+          "App de servicio de taxi con seguimiento en tiempo real en Argentina.",
+          "Cadena de barberías para servicios de grooming en Argentina.",
+          "Salones para mujeres para belleza y bienestar en Argentina.",
+          "Agencia ritual para servicios funerarios en Argentina.",
+          "Proveedor de internet para conectividad de alta velocidad en Argentina.",
+          "Museo con cabezas de IA para exposiciones interactivas en Argentina.",
+          "Robótica avanzada para uso industrial en Argentina.",
+          "Tecnología de bioprótesis e implantes en Argentina.",
+          "Soluciones de transporte eléctrico y carga en Argentina.",
+          "VPN segura para privacidad y acceso en Argentina.",
+          "Asistente de IA para productividad e integración en el hogar en Argentina.",
+          "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en Argentina.",
+          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en Argentina."
+        ]
       },
-      {
-        "title": "Snap Repair",
-        "desc": "Red de centros de reparación de tecnología.",
-        "cat": "Servicios"
+      "CL": {
+        "descriptions": [
+          "Plataforma de transmisión deportiva para eventos en vivo y experiencias de visualización interactivas en Chile.",
+          "App para aprender programación con tutoriales y desafíos adaptados al mercado chileno.",
+          "App para aprender idiomas con lecciones de IA y práctica, incluyendo español chileno.",
+          "Red de centros de reparación de tecnología en Chile.",
+          "Cadena de salones de tatuajes para arte personalizado en Chile.",
+          "Boutiques de lujo para ropa, perfumes y zapatos en Chile.",
+          "Red de restaurantes con cocinas diversas en Chile.",
+          "App de citas con emparejamiento inteligente en Chile.",
+          "Neobanco digital para banca e inversiones en Chile.",
+          "Boutique 18+ para productos premium para adultos en Chile.",
+          "Compañía de construcción para proyectos sostenibles en Chile.",
+          "Cadena de cafeterías con cervezas especializadas en Chile.",
+          "Red de panaderías para pasteles frescos en Chile.",
+          "Aerolínea para vuelos domésticos e internacionales en Chile.",
+          "App de servicio de taxi con seguimiento en tiempo real en Chile.",
+          "Cadena de barberías para servicios de grooming en Chile.",
+          "Salones para mujeres para belleza y bienestar en Chile.",
+          "Agencia ritual para servicios funerarios en Chile.",
+          "Proveedor de internet para conectividad de alta velocidad en Chile.",
+          "Museo con cabezas de IA para exposiciones interactivas en Chile.",
+          "Robótica avanzada para uso industrial en Chile.",
+          "Tecnología de bioprótesis e implantes en Chile.",
+          "Soluciones de transporte eléctrico y carga en Chile.",
+          "VPN segura para privacidad y acceso en Chile.",
+          "Asistente de IA para productividad e integración en el hogar en Chile.",
+          "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en Chile.",
+          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en Chile."
+        ]
       },
-      {
-        "title": "Blatota Nax",
-        "desc": "Cadena de salones de tatuajes para arte personalizado.",
-        "cat": "Belleza"
-      },
-      {
-        "title": "Kinalia",
-        "desc": "Boutiques de lujo para ropa, perfumes y zapatos.",
-        "cat": "Minorista"
-      },
-      {
-        "title": "Platera",
-        "desc": "Red de restaurantes con cocinas diversas.",
-        "cat": "Alimentos y bebidas"
-      },
-      {
-        "title": "Nixa",
-        "desc": "App de citas con emparejamiento inteligente.",
-        "cat": "Social y citas"
-      },
-      {
-        "title": "Vivra Bank",
-        "desc": "Neobanco digital para banca e inversiones.",
-        "cat": "Finanzas"
-      },
-      {
-        "title": "Luvry",
-        "desc": "Boutique 18+ para productos premium para adultos.",
-        "cat": "Minorista adulto"
-      },
-      {
-        "title": "Structara",
-        "desc": "Compañía de construcción para proyectos sostenibles.",
-        "cat": "Construcción"
-      },
-      {
-        "title": "Drifta",
-        "desc": "Cadena de cafeterías con cervezas especializadas.",
-        "cat": "Alimentos y bebidas"
-      },
-      {
-        "title": "Mookie",
-        "desc": "Red de panaderías para pasteles frescos.",
-        "cat": "Alimentos y bebidas"
-      },
-      {
-        "title": "Aerava",
-        "desc": "Aerolínea para vuelos domésticos e internacionales.",
-        "cat": "Viajes"
-      },
-      {
-        "title": "Tivvo",
-        "desc": "App de servicio de taxi con seguimiento en tiempo real.",
-        "cat": "Transporte"
-      },
-      {
-        "title": "BRVK",
-        "desc": "Cadena de barberías para servicios de grooming.",
-        "cat": "Belleza"
-      },
-      {
-        "title": "Blushé",
-        "desc": "Salones para mujeres para belleza y bienestar.",
-        "cat": "Belleza y bienestar"
-      },
-      {
-        "title": "Светлая Память",
-        "desc": "Agencia ritual para servicios funerarios.",
-        "cat": "Servicios"
-      },
-      {
-        "title": "WebTown",
-        "desc": "Proveedor de internet para conectividad de alta velocidad.",
-        "cat": "Telecomunicaciones"
-      },
-      {
-        "title": "HMesu",
-        "desc": "Museo con cabezas de IA para exposiciones interactivas.",
-        "cat": "Cultura y entretenimiento"
-      },
-      {
-        "title": "SantRobo",
-        "desc": "Robótica avanzada para uso industrial.",
-        "cat": "Robótica"
-      },
-      {
-        "title": "YW Tech",
-        "desc": "Tecnología de bioprótesis e implantes.",
-        "cat": "Tecnología de salud"
-      },
-      {
-        "title": "EneCtron",
-        "desc": "Soluciones de transporte eléctrico y carga.",
-        "cat": "Vehículos eléctricos"
-      },
-      {
-        "title": "SkyLib",
-        "desc": "VPN segura para privacidad y acceso.",
-        "cat": "Seguridad"
-      },
-      {
-        "title": "Eliza",
-        "desc": "Asistente de IA para productividad e integración en el hogar.",
-        "cat": "Inteligencia artificial"
-      },
-      {
-        "title": "HFMuseu",
-        "desc": "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna.",
-        "cat": "Cultura y entretenimiento"
-      },
-      {
-        "title": "Heyya",
-        "desc": "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas.",
-        "cat": "Marketing"
+      "PE": {
+        "descriptions": [
+          "Plataforma de transmisión deportiva para eventos en vivo y experiencias de visualización interactivas en Perú.",
+          "App para aprender programación con tutoriales y desafíos adaptados al mercado peruano.",
+          "App para aprender idiomas con lecciones de IA y práctica, incluyendo español en Perú.",
+          "Red de centros de reparación de tecnología en Perú.",
+          "Cadena de salones de tatuajes para arte personalizado en Perú.",
+          "Boutiques de lujo para ropa, perfumes y zapatos en Perú.",
+          "Red de restaurantes con cocinas diversas en Perú.",
+          "App de citas con emparejamiento inteligente en Perú.",
+          "Neobanco digital para banca e inversiones en Perú.",
+          "Boutique 18+ para productos premium para adultos en Perú.",
+          "Compañía de construcción para proyectos sostenibles en Perú.",
+          "Cadena de cafeterías con cervezas especializadas en Perú.",
+          "Red de panaderías para pasteles frescos en Perú.",
+          "Aerolínea para vuelos domésticos e internacionales en Perú.",
+          "App de servicio de taxi con seguimiento en tiempo real en Perú.",
+          "Cadena de barberías para servicios de grooming en Perú.",
+          "Salones para mujeres para belleza y bienestar en Perú.",
+          "Agencia ritual para servicios funerarios en Perú.",
+          "Proveedor de internet para conectividad de alta velocidad en Perú.",
+          "Museo con cabezas de IA para exposiciones interactivas en Perú.",
+          "Robótica avanzada para uso industrial en Perú.",
+          "Tecnología de bioprótesis e implantes en Perú.",
+          "Soluciones de transporte eléctrico y carga en Perú.",
+          "VPN segura para privacidad y acceso en Perú.",
+          "Asistente de IA para productividad e integración en el hogar en Perú.",
+          "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en Perú.",
+          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en Perú."
+        ]
       }
-    ]
+    }
   },
   "franchise": {
-    "title": "Oportunidades de franquicia",
-    "info": "Únete a la red TFOT Labs y trae innovación futurista a tu región. Nuestro modelo de franquicia ofrece soporte integral, capacitación y recursos para el éxito.",
+    "title": "Oportunidades de Franquicia",
+    "info": "Únete a la red de TFOT Labs y lleva la innovación futurista a tu región. Nuestro modelo de franquicia ofrece soporte integral, capacitación y recursos para el éxito.",
     "form": {
-      "name": "Nombre completo",
-      "email": "Dirección de correo electrónico",
+      "name": "Nombre Completo",
+      "email": "Dirección de Correo Electrónico",
       "message": "Mensaje",
-      "submit": "Enviar solicitud"
+      "submit": "Enviar Solicitud"
     }
   },
   "careers": {
     "title": "Carreras en TFOT Labs",
     "intro": "Únete a nuestro equipo innovador y da forma al futuro de la tecnología. Buscamos profesionales apasionados para impulsar nuestra misión.",
     "openPositions": "Posiciones Abiertas",
+    "apply": "Aplicar para una Posición",
     "vacancies": [
       {
-        "title": "Ingeniero de Software",
+        "title": "Software Engineer",
         "responsibilities": [
           "Desarrollar y mantener aplicaciones web escalables utilizando frameworks modernos como React y Node.js.",
-          "Colaborar con equipos cross-funcionales para diseñar e implementar nuevas características.",
-          "Escribir código limpio y eficiente y participar en revisiones de código.",
-          "Optimizar el rendimiento de las aplicaciones y asegurar la calidad del código."
+          "Colaborar con equipos multifuncionales para diseñar e implementar nuevas características.",
+          "Escribir código limpio, eficiente y participar en revisiones de código.",
+          "Optimizar el rendimiento de la aplicación y asegurar la calidad del código."
         ]
       },
       {
-        "title": "Científico de Datos",
+        "title": "Data Scientist",
         "responsibilities": [
           "Analizar conjuntos de datos complejos para extraer insights accionables utilizando Python, R y herramientas de machine learning.",
           "Construir modelos predictivos para apoyar decisiones de negocio y desarrollo de productos.",
@@ -216,43 +309,43 @@
         ]
       },
       {
-        "title": "Gerente de Producto",
+        "title": "Product Manager",
         "responsibilities": [
-          "Definir la visión del producto y roadmap en colaboración con equipos de ingeniería, diseño y negocio.",
+          "Definir la visión y roadmap del producto en colaboración con equipos de ingeniería, diseño y negocio.",
           "Recopilar y priorizar requisitos de clientes y stakeholders.",
           "Supervisar el ciclo de vida del producto desde la ideación hasta el lanzamiento e iteración.",
           "Rastrear métricas clave y realizar pruebas A/B para optimizar la experiencia del usuario."
         ]
       },
       {
-        "title": "Diseñador UX/UI",
+        "title": "UX/UI Designer",
         "responsibilities": [
           "Diseñar interfaces de usuario intuitivas y experiencias para aplicaciones web y móviles.",
           "Crear wireframes, prototipos y mockups de alta fidelidad utilizando herramientas como Figma o Adobe XD.",
-          "Realizar investigaciones de usuario y pruebas de usabilidad para informar decisiones de diseño.",
+          "Realizar investigación de usuarios y pruebas de usabilidad para informar decisiones de diseño.",
           "Colaborar con desarrolladores para asegurar que los diseños se implementen con precisión."
         ]
       },
       {
-        "title": "Especialista en Marketing",
+        "title": "Marketing Specialist",
         "responsibilities": [
-          "Desarrollar y ejecutar campañas de marketing a través de canales digitales para promover los productos de TFOT Labs.",
-          "Analizar el rendimiento de las campañas y optimizar para ROI utilizando herramientas como Google Analytics.",
-          "Crear contenido convincente para redes sociales, email y sitio web.",
+          "Desarrollar y ejecutar campañas de marketing a través de canales digitales para promover productos de TFOT Labs.",
+          "Analizar el rendimiento de campañas y optimizar para ROI utilizando herramientas como Google Analytics.",
+          "Crear contenido atractivo para redes sociales, email y sitio web.",
           "Gestionar asociaciones de marca y eventos para aumentar la visibilidad."
         ]
       },
       {
-        "title": "Gerente de RRHH",
+        "title": "HR Manager",
         "responsibilities": [
           "Supervisar procesos de reclutamiento, onboarding y relaciones con empleados.",
           "Desarrollar estrategias de adquisición de talento y gestionar revisiones de desempeño.",
-          "Fomentar una cultura empresarial positiva a través de programas de formación y engagement.",
-          "Asegurar el cumplimiento de las leyes laborales y las mejores prácticas de RRHH."
+          "Fomentar una cultura positiva de la compañía a través de programas de entrenamiento y engagement.",
+          "Asegurar cumplimiento con leyes laborales y mejores prácticas de HR."
         ]
       },
       {
-        "title": "Ingeniero DevOps",
+        "title": "DevOps Engineer",
         "responsibilities": [
           "Construir y mantener pipelines CI/CD utilizando Jenkins, GitHub Actions y Docker.",
           "Gestionar infraestructura en la nube en AWS o Azure para escalabilidad y confiabilidad.",
@@ -261,73 +354,49 @@
         ]
       },
       {
-        "title": "Investigador de IA",
+        "title": "AI Researcher",
         "responsibilities": [
-          "Realizar investigaciones sobre técnicas avanzadas de IA, incluyendo machine learning y procesamiento de lenguaje natural.",
+          "Realizar investigación en técnicas avanzadas de IA, incluyendo machine learning y procesamiento de lenguaje natural.",
           "Desarrollar prototipos y proof-of-concepts para nuevas aplicaciones de IA.",
           "Publicar hallazgos y contribuir a proyectos open-source.",
-          "Colaborar con equipos de producto para integrar la investigación en soluciones del mundo real."
+          "Colaborar con equipos de producto para integrar investigación en soluciones del mundo real."
         ]
       },
       {
-        "title": "Gerente de Proyecto",
+        "title": "Project Manager",
         "responsibilities": [
-          "Liderar equipos cross-funcionales para entregar proyectos a tiempo, dentro del alcance y presupuesto.",
+          "Liderar equipos multifuncionales para entregar proyectos a tiempo, dentro del alcance y presupuesto.",
           "Definir hitos del proyecto, rastrear progreso y mitigar riesgos.",
           "Facilitar la comunicación entre stakeholders y miembros del equipo.",
-          "Utilizar herramientas como Jira o Asana para gestionar workflows y reporting."
+          "Utilizar herramientas como Jira o Asana para gestionar flujos de trabajo y reportes."
         ]
       }
     ],
-    "apply": "Solicitar un puesto",
     "form": {
-      "position": "Puesto al que aplicas",
-      "resume": "Subir currículum",
-      "submit": "Aplicar ahora"
+      "position": "Puesto al que Aplica",
+      "resume": "Subir Currículum",
+      "submit": "Aplicar Ahora"
     }
   },
   "contact": {
     "title": "Contáctanos",
-    "locations": [],
-    "socials": {
-      "general": "Síguenos en redes sociales"
-    },
-    "regions": {
-      "ES": "España",
-      "MX": "México",
-      "AR": "Argentina",
-      "CL": "Chile",
-      "PE": "Perú"
-    }
-  },
-  "footer": {
-    "copyright": "© 2025 TFOT Labs. Todos los derechos reservados.",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de uso",
-    "socials": {
-      "ru": ["VK", "Telegram", "Twitter"],
-      "en": ["Twitter", "LinkedIn", "Instagram"],
-      "zh": ["WeChat", "Weibo", "Twitter"],
-      "fr": ["Facebook", "Instagram", "Twitter"],
-      "de": ["LinkedIn", "Xing", "Twitter"],
-      "hi": ["WhatsApp", "Instagram", "Twitter"],
-      "ja": ["Line", "Twitter", "Instagram"],
-      "ko": ["KakaoTalk", "Naver", "Twitter"],
-      "ar": ["WhatsApp", "Facebook", "Twitter"],
-      "he": ["WhatsApp", "Facebook", "Twitter"],
-      "sw": ["WhatsApp", "Facebook", "Twitter"],
-      "pt": ["WhatsApp", "Instagram", "Twitter"],
-      "es": ["WhatsApp", "Instagram", "LinkedIn"],
-      "it": ["WhatsApp", "Instagram", "Twitter"],
-      "tr": ["Instagram", "WhatsApp", "Twitter"]
-    }
-  },
-  "privacy": {
-    "title": "Política de privacidad",
-    "content": "TFOT Labs se compromete a proteger tu privacidad. Esta política explica cómo recolectamos, usamos y protegemos tu información. No compartimos datos personales sin consentimiento. Para detalles, contáctanos en labstfot@gmail.com. Última actualización: 2024."
-  },
-  "terms": {
-    "title": "Términos de uso",
-    "content": "Al usar este sitio web, aceptas nuestros términos. El contenido es solo para fines informativos. TFOT Labs se reserva el derecho de actualizar estos términos. Prohibido: uso o reproducción no autorizada. Última actualización: 2024."
+    "locations": [
+      {
+        "flag": "🇺🇸",
+        "country": "Estados Unidos",
+        "city": "Nueva York (Times Square)",
+        "phone": "+1 (212) 555-1234",
+        "email": "labstfot@gmail.com",
+        "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022!2d-73.987!3d40.7589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0x2d9b2c6c5b5e5f5e!2sTimes%20Square%2C%20New%20York!5e0!3m2!1sen!2sus!4v1630000000000\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+      },
+      {
+        "flag": "🇬🇧",
+        "country": "Reino Unido",
+        "city": "Manchester (Etihad Stadium)",
+        "phone": "+44 161 123 4567",
+        "email": "labstfot@gmail.com",
+        "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374!2d-2.2009!3d53.4831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sChIJ8RHG5qYShxAR4yW3iWj3q4M!2sEtihad%20Stadium!5e0!3m2!1sen!2sus!4v1630000000000\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+      }
+    ]
   }
 }
