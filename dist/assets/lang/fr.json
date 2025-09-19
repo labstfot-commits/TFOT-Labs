@@ -1,0 +1,252 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Accueil",
+      "about": "À propos",
+      "companies": "Entreprises",
+      "franchise": "Franchise",
+      "careers": "Carrières",
+      "contact": "Contact"
+    },
+    "languages": {
+      "ru": "🇷🇺",
+      "en": "🇺🇸",
+      "zh": "🇨🇳",
+      "ja": "🇯🇵",
+      "fr": "🇫🇷",
+      "de": "🇩🇪",
+      "hi": "🇮🇳",
+      "it": "🇮🇹",
+      "es": "🇪🇸",
+      "ko": "🇰🇷",
+      "ar": "🇸🇦",
+      "he": "🇮🇱",
+      "sw": "🇹🇿",
+      "pt": "🇧🇷",
+      "tr": "🇹🇷"
+    }
+  },
+  "index": {
+    "slogan": "Pionnier de l'avenir de la technologie et de l'innovation",
+    "learnMore": "Découvrez-nous"
+  },
+  "about": {
+    "title": "À propos de TFOT Labs",
+    "history": "Fondée en 2014, TFOT Labs est à l'avant-garde du progrès technologique, fusionnant des recherches de pointe avec des applications pratiques pour façonner le monde de demain.",
+    "mission": "Notre mission est d'innover de manière durable, en habilitant les communautés mondiales à travers des technologies transformatrices qui abordent les défis de l'avenir.",
+    "values": [
+      "Innovation : Pousser les limites avec des idées audacieuses.",
+      "Intégrité : Respecter les normes éthiques dans toutes les initiatives.",
+      "Collaboration : Favoriser les partenariats pour un succès collectif.",
+      "Durabilité : Engagés dans des pratiques respectueuses de l'environnement."
+    ]
+  },
+  "companies": {
+    "title": "Nos entreprises du portefeuille",
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "HMesu",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza"
+    ],
+    "descriptions": [
+      "Plateforme de diffusion sportive pour événements en direct et expériences de visionnage interactives.",
+      "App pour apprendre la programmation avec tutoriels et défis.",
+      "App pour apprendre les langues avec leçons IA et pratique.",
+      "Réseau de centres de réparation tech.",
+      "Chaîne de salons de tatouage pour art personnalisé.",
+      "Boutiques de luxe pour vêtements, parfums et chaussures.",
+      "Réseau de restaurants avec cuisines diverses.",
+      "App de rencontre avec appariement intelligent.",
+      "Néobanque numérique pour banque et investissements.",
+      "Boutique 18+ pour produits premium pour adultes.",
+      "Entreprise de construction pour projets durables.",
+      "Chaîne de cafés avec bières spécialisées.",
+      "Réseau de boulangeries pour pâtisseries fraîches.",
+      "Compagnie aérienne pour vols domestiques et internationaux.",
+      "App de service de taxi avec suivi en temps réel.",
+      "Chaîne de barbiers pour services de grooming.",
+      "Salons pour femmes pour beauté et bien-être.",
+      "Agence rituelle pour services funéraires.",
+      "Fournisseur d'internet pour connectivité haute vitesse.",
+      "Musée avec têtes IA pour expositions interactives.",
+      "Robotique avancée pour usage industriel.",
+      "Technologie de bioprothèses et implants.",
+      "Solutions de transport électrique et charge.",
+      "VPN sécurisé pour confidentialité et accès.",
+      "Assistant IA pour productivité et intégration domestique."
+    ]
+  },
+  "franchise": {
+    "title": "Opportunités de franchise",
+    "info": "Rejoignez le réseau TFOT Labs et apportez l'innovation futuriste à votre région. Notre modèle de franchise offre un soutien complet, une formation et des ressources pour le succès.",
+    "form": {
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "message": "Message",
+      "submit": "Soumettre la candidature"
+    }
+  },
+  "careers": {
+    "title": "Carrières chez TFOT Labs",
+    "intro": "Rejoignez notre équipe innovante et façonnez l'avenir de la technologie. Nous recherchons des professionnels passionnés pour faire avancer notre mission.",
+    "openPositions": "Postes ouverts",
+    "vacancies": [
+      {
+        "title": "Ingénieur Logiciel",
+        "responsibilities": [
+          "Développer et maintenir des applications web scalables en utilisant des frameworks modernes comme React et Node.js.",
+          "Collaborer avec des équipes interfonctionnelles pour concevoir et implémenter de nouvelles fonctionnalités.",
+          "Écrire du code propre et efficace et participer aux revues de code.",
+          "Optimiser les performances des applications et assurer la qualité du code."
+        ]
+      },
+      {
+        "title": "Scientifique des Données",
+        "responsibilities": [
+          "Analyser des ensembles de données complexes pour extraire des insights actionnables en utilisant Python, R et des outils d'apprentissage automatique.",
+          "Construire des modèles prédictifs pour soutenir les décisions commerciales et le développement de produits.",
+          "Visualiser les tendances des données et présenter les résultats aux parties prenantes.",
+          "Collaborer avec les équipes d'ingénierie pour déployer les modèles en production."
+        ]
+      },
+      {
+        "title": "Chef de Produit",
+        "responsibilities": [
+          "Définir la vision du produit et la feuille de route en collaboration avec les équipes d'ingénierie, de design et d'affaires.",
+          "Recueillir et prioriser les exigences des clients et des parties prenantes.",
+          "Superviser le cycle de vie du produit de l'idéation au lancement et à l'itération.",
+          "Suivre les métriques clés et mener des tests A/B pour optimiser l'expérience utilisateur."
+        ]
+      },
+      {
+        "title": "Designer UX/UI",
+        "responsibilities": [
+          "Concevoir des interfaces utilisateur intuitives et des expériences pour les applications web et mobiles.",
+          "Créer des wireframes, prototypes et mockups haute fidélité en utilisant des outils comme Figma ou Adobe XD.",
+          "Mener des recherches utilisateurs et des tests d'utilisabilité pour informer les décisions de design.",
+          "Collaborer avec les développeurs pour assurer une implémentation précise des designs."
+        ]
+      },
+      {
+        "title": "Spécialiste Marketing",
+        "responsibilities": [
+          "Développer et exécuter des campagnes marketing à travers les canaux numériques pour promouvoir les produits TFOT Labs.",
+          "Analyser les performances des campagnes et optimiser pour le ROI en utilisant des outils comme Google Analytics.",
+          "Créer du contenu convaincant pour les médias sociaux, les emails et le site web.",
+          "Gérer les partenariats de marque et les événements pour augmenter la visibilité."
+        ]
+      },
+      {
+        "title": "Gestionnaire RH",
+        "responsibilities": [
+          "Superviser les processus de recrutement, d'onboarding et de relations employés.",
+          "Développer des stratégies d'acquisition de talents et gérer les revues de performance.",
+          "Favoriser une culture d'entreprise positive à travers des programmes de formation et d'engagement.",
+          "Assurer la conformité aux lois du travail et aux meilleures pratiques RH."
+        ]
+      },
+      {
+        "title": "Ingénieur DevOps",
+        "responsibilities": [
+          "Construire et maintenir des pipelines CI/CD en utilisant Jenkins, GitHub Actions et Docker.",
+          "Gérer l'infrastructure cloud sur AWS ou Azure pour la scalabilité et la fiabilité.",
+          "Implémenter des systèmes de monitoring et d'alerting pour assurer la santé du système.",
+          "Automatiser les processus de déploiement et collaborer avec les équipes de développement."
+        ]
+      },
+      {
+        "title": "Chercheur en IA",
+        "responsibilities": [
+          "Mener des recherches sur des techniques avancées d'IA, y compris l'apprentissage automatique et le traitement du langage naturel.",
+          "Développer des prototypes et des preuves de concept pour de nouvelles applications IA.",
+          "Publier les résultats et contribuer à des projets open-source.",
+          "Collaborer avec les équipes produits pour intégrer la recherche dans des solutions réelles."
+        ]
+      },
+      {
+        "title": "Chef de Projet",
+        "responsibilities": [
+          "Diriger des équipes interfonctionnelles pour livrer des projets dans les délais, dans la portée et le budget.",
+          "Définir les jalons du projet, suivre les progrès et atténuer les risques.",
+          "Faciliter la communication entre les parties prenantes et les membres de l'équipe.",
+          "Utiliser des outils comme Jira ou Asana pour gérer les workflows et les rapports."
+        ]
+      }
+    ],
+    "apply": "Postuler pour un poste",
+    "form": {
+      "position": "Poste auquel vous postulez",
+      "resume": "Télécharger le CV",
+      "submit": "Postuler maintenant"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "locations": [
+      {
+        "flag": "🇫🇷",
+        "country": "France",
+        "city": "Paris (Tour Eiffel)",
+        "phone": "+33 1 23 45 67 89",
+        "email": "labstfot@gmail.com",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.052057944296!2d2.2944713157464137!3d48.8583700793102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower%2C%20Champ%20de%20Mars%2C%2075007%20Paris%2C%20France!5e0!3m2!1sfr!2sfr!4v1726660000000"
+      }
+    ],
+    "socials": {
+      "general": "Suivez-nous sur les réseaux sociaux"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 TFOT Labs. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "socials": {
+      "ru": ["VK", "Telegram", "Twitter"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Twitter"],
+      "fr": ["Instagram", "WhatsApp", "Snapchat"],
+      "de": ["LinkedIn", "Xing", "Twitter"],
+      "hi": ["WhatsApp", "Instagram", "Twitter"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Twitter"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Twitter"],
+      "sw": ["WhatsApp", "Facebook", "Twitter"],
+      "pt": ["WhatsApp", "Instagram", "Twitter"],
+      "es": ["WhatsApp", "Instagram", "Twitter"],
+      "it": ["WhatsApp", "Instagram", "Twitter"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "content": "TFOT Labs s'engage à protéger votre vie privée. Cette politique explique comment nous collectons, utilisons et protégeons vos informations. Nous ne partageons pas de données personnelles sans consentement. Pour plus de détails, contactez-nous à labstfot@gmail.com. Dernière mise à jour : 2024."
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "content": "En utilisant ce site web, vous acceptez nos conditions. Le contenu est à des fins informatives uniquement. TFOT Labs se réserve le droit de mettre à jour ces conditions. Interdit : utilisation ou reproduction non autorisée. Dernière mise à jour : 2024."
+  }
+}

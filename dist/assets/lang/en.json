@@ -1,0 +1,314 @@
+
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "companies": "Companies",
+      "franchise": "Franchise",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "languages": {
+      "ru": "Russian",
+      "en": "English",
+      "zh": "Chinese",
+      "ja": "Japanese",
+      "fr": "French",
+      "de": "German",
+      "hi": "Hindi",
+      "it": "Italian",
+      "es": "Spanish",
+      "ko": "Korean",
+      "ar": "Arabic",
+      "he": "Hebrew",
+      "sw": "Swahili",
+      "pt": "Portuguese",
+      "tr": "Turkish"
+    }
+  },
+  "index": {
+    "slogan": {
+      "US": "Pioneering the Future of Technology and Innovation in the United States",
+      "GB": "Pioneering the Future of Technology and Innovation in the United Kingdom",
+      "default": "Pioneering the Future of Technology and Innovation"
+    },
+    "learnMore": "Discover Us"
+  },
+  "about": {
+    "title": "About TFOT Labs",
+    "history": "Founded in 2014, TFOT Labs has been at the forefront of technological advancement, blending cutting-edge research with practical applications to shape tomorrow's world.",
+    "mission": {
+      "US": "Our mission is to innovate sustainably, empowering communities in the United States through transformative technologies that address the challenges of the future.",
+      "GB": "Our mission is to innovate sustainably, empowering communities in the United Kingdom through transformative technologies that address the challenges of the future.",
+      "default": "Our mission is to innovate sustainably, empowering global communities through transformative technologies that address the challenges of the future."
+    },
+    "values": [
+      "Innovation: Pushing boundaries with bold ideas.",
+      "Integrity: Upholding ethical standards in all endeavors.",
+      "Collaboration: Fostering partnerships for collective success.",
+      "Sustainability: Committed to eco-friendly practices."
+    ]
+  },
+  "companies": {
+    "title": "Our Portfolio Companies",
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "HMesu",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza",
+      "HFMuseu",
+      "Heyya"
+    ],
+    "descriptions": [
+      "Sports broadcasting platform for live events and interactive viewing experiences.",
+      "App for learning programming with tutorials and challenges.",
+      "App for learning languages with AI lessons and practice.",
+      "Network of tech repair service centers.",
+      "Chain of tattoo salons for custom art.",
+      "Luxury boutiques for clothing, perfumes, and shoes.",
+      "Network of restaurants with diverse cuisines.",
+      "Dating app with smart matching.",
+      "Digital neobank for banking and investments.",
+      "18+ boutique for premium adult products.",
+      "Construction company for sustainable projects.",
+      "Chain of coffee shops with specialty brews.",
+      "Network of bakeries for fresh pastries.",
+      "Airline for domestic and international flights.",
+      "Taxi service app with real-time tracking.",
+      "Chain of barbershops for grooming services.",
+      "Women's salons for beauty and wellness.",
+      "Ritual agency for funeral services.",
+      "Internet provider for high-speed connectivity.",
+      "Museum with AI heads for interactive exhibits.",
+      "Advanced robotics for industrial use.",
+      "Bioprosthetics and implants technology.",
+      "Electric transport and charging solutions.",
+      "Secure VPN for privacy and access.",
+      "AI assistant for productivity and home integration.",
+      "An innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity.",
+      "A creative advertising agency delivering bold campaigns and modern branding solutions for businesses."
+    ],
+    "regions": {
+      "US": {
+        "descriptions": [
+          "Sports broadcasting platform for live events and interactive viewing experiences in the United States.",
+          "App for learning programming with tutorials and challenges tailored for the US market.",
+          "App for learning languages with AI lessons and practice.",
+          "Network of tech repair service centers in the US.",
+          "Chain of tattoo salons for custom art.",
+          "Luxury boutiques for clothing, perfumes, and shoes in the US.",
+          "Network of restaurants with diverse cuisines.",
+          "Dating app with smart matching in the US.",
+          "Digital neobank for banking and investments.",
+          "18+ boutique for premium adult products in the US.",
+          "Construction company for sustainable projects.",
+          "Chain of coffee shops with specialty brews in the US.",
+          "Network of bakeries for fresh pastries.",
+          "Airline for domestic and international flights in the US.",
+          "Taxi service app with real-time tracking.",
+          "Chain of barbershops for grooming services in the US.",
+          "Women's salons for beauty and wellness.",
+          "Ritual agency for funeral services in the US.",
+          "Internet provider for high-speed connectivity.",
+          "Museum with AI heads for interactive exhibits in the US.",
+          "Advanced robotics for industrial use.",
+          "Bioprosthetics and implants technology in the US.",
+          "Electric transport and charging solutions.",
+          "Secure VPN for privacy and access in the US.",
+          "AI assistant for productivity and home integration.",
+          "An innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity in the US.",
+          "A creative advertising agency delivering bold campaigns and modern branding solutions for businesses."
+        ]
+      },
+      "GB": {
+        "descriptions": [
+          "Sports broadcasting platform for live events and interactive viewing experiences in the United Kingdom.",
+          "App for learning programming with tutorials and challenges tailored for the UK market.",
+          "App for learning languages with AI lessons and practice.",
+          "Network of tech repair service centers in the UK.",
+          "Chain of tattoo salons for custom art.",
+          "Luxury boutiques for clothing, perfumes, and shoes in the UK.",
+          "Network of restaurants with diverse cuisines.",
+          "Dating app with smart matching in the UK.",
+          "Digital neobank for banking and investments.",
+          "18+ boutique for premium adult products in the UK.",
+          "Construction company for sustainable projects.",
+          "Chain of coffee shops with specialty brews in the UK.",
+          "Network of bakeries for fresh pastries.",
+          "Airline for domestic and international flights in the UK.",
+          "Taxi service app with real-time tracking.",
+          "Chain of barbershops for grooming services in the UK.",
+          "Women's salons for beauty and wellness.",
+          "Ritual agency for funeral services in the UK.",
+          "Internet provider for high-speed connectivity.",
+          "Museum with AI heads for interactive exhibits in the UK.",
+          "Advanced robotics for industrial use.",
+          "Bioprosthetics and implants technology in the UK.",
+          "Electric transport and charging solutions.",
+          "Secure VPN for privacy and access in the UK.",
+          "AI assistant for productivity and home integration.",
+          "An innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity in the UK.",
+          "A creative advertising agency delivering bold campaigns and modern branding solutions for businesses."
+        ]
+      }
+    }
+  },
+  "franchise": {
+    "title": "Franchise Opportunities",
+    "info": "Join the TFOT Labs network and bring futuristic innovation to your region. Our franchise model offers comprehensive support, training, and resources for success.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Message",
+      "submit": "Submit Application"
+    }
+  },
+  "careers": {
+    "title": "Careers at TFOT Labs",
+    "intro": "Join our innovative team and shape the future of technology. We are seeking passionate professionals to drive our mission forward.",
+    "openPositions": "Open Positions",
+    "apply": "Apply for a Position",
+    "vacancies": [
+      {
+        "title": "Software Engineer",
+        "responsibilities": [
+          "Develop and maintain scalable web applications using modern frameworks like React and Node.js.",
+          "Collaborate with cross-functional teams to design and implement new features.",
+          "Write clean, efficient code and participate in code reviews.",
+          "Optimize application performance and ensure code quality."
+        ]
+      },
+      {
+        "title": "Data Scientist",
+        "responsibilities": [
+          "Analyze complex datasets to extract actionable insights using Python, R, and machine learning tools.",
+          "Build predictive models to support business decisions and product development.",
+          "Visualize data trends and present findings to stakeholders.",
+          "Collaborate with engineering teams to deploy models into production."
+        ]
+      },
+      {
+        "title": "Product Manager",
+        "responsibilities": [
+          "Define product vision and roadmap in collaboration with engineering, design, and business teams.",
+          "Gather and prioritize requirements from customers and stakeholders.",
+          "Oversee product lifecycle from ideation to launch and iteration.",
+          "Track key metrics and conduct A/B testing to optimize user experience."
+        ]
+      },
+      {
+        "title": "UX/UI Designer",
+        "responsibilities": [
+          "Design intuitive user interfaces and experiences for web and mobile applications.",
+          "Create wireframes, prototypes, and high-fidelity mockups using tools like Figma or Adobe XD.",
+          "Conduct user research and usability testing to inform design decisions.",
+          "Collaborate with developers to ensure designs are implemented accurately."
+        ]
+      },
+      {
+        "title": "Marketing Specialist",
+        "responsibilities": [
+          "Develop and execute marketing campaigns across digital channels to promote TFOT Labs products.",
+          "Analyze campaign performance and optimize for ROI using tools like Google Analytics.",
+          "Create compelling content for social media, email, and website.",
+          "Manage brand partnerships and events to increase visibility."
+        ]
+      },
+      {
+        "title": "HR Manager",
+        "responsibilities": [
+          "Oversee recruitment, onboarding, and employee relations processes.",
+          "Develop talent acquisition strategies and manage performance reviews.",
+          "Foster a positive company culture through training and engagement programs.",
+          "Ensure compliance with labor laws and HR best practices."
+        ]
+      },
+      {
+        "title": "DevOps Engineer",
+        "responsibilities": [
+          "Build and maintain CI/CD pipelines using Jenkins, GitHub Actions, and Docker.",
+          "Manage cloud infrastructure on AWS or Azure for scalability and reliability.",
+          "Implement monitoring and alerting systems to ensure system health.",
+          "Automate deployment processes and collaborate with development teams."
+        ]
+      },
+      {
+        "title": "AI Researcher",
+        "responsibilities": [
+          "Conduct research on advanced AI techniques, including machine learning and natural language processing.",
+          "Develop prototypes and proof-of-concepts for new AI applications.",
+          "Publish findings and contribute to open-source projects.",
+          "Collaborate with product teams to integrate research into real-world solutions."
+        ]
+      },
+      {
+        "title": "Project Manager",
+        "responsibilities": [
+          "Lead cross-functional teams to deliver projects on time, within scope, and budget.",
+          "Define project milestones, track progress, and mitigate risks.",
+          "Facilitate communication between stakeholders and team members.",
+          "Use tools like Jira or Asana to manage workflows and reporting."
+        ]
+      }
+    ],
+    "form": {
+      "position": "Position Applying For",
+      "resume": "Upload Resume",
+      "submit": "Apply Now"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "locations": [
+      {
+        "flag": "🇺🇸",
+        "country": "USA",
+        "city": "New York (Times Square)",
+        "phone": "+1 (212) 555-1234",
+        "email": "labstfot@gmail.com",
+        "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022!2d-73.987!3d40.7589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0x2d9b2c6c5b5e5f5e!2sTimes%20Square%2C%20New%20York!5e0!3m2!1sen!2sus!4v1630000000000\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+      },
+      {
+        "flag": "🇬🇧",
+        "country": "United Kingdom",
+        "city": "Manchester (Etihad Stadium)",
+        "phone": "+44 161 123 4567",
+        "email": "labstfot@gmail.com",
+        "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374!2d-2.2009!3d53.4831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sChIJ8RHG5qYShxAR4yW3iWj3q4M!2sEtihad%20Stadium!5e0!3m2!1sen!2sus!4v1630000000000\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2024 TFOT Labs. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "socials": {
+      "en": ["Facebook", "Instagram", "LinkedIn", "Twitter/X"],
+      "en-us": ["Facebook", "Instagram", "LinkedIn", "Twitter/X"],
+      "en-gb": ["Facebook", "Instagram", "LinkedIn", "Twitter/X"]
+    }
+  }
+}

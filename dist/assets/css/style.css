@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Orbitron:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0a0a0a;
+  color: white;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to right, #00ff88, #007bff, #000);
+  padding: 1rem 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 255, 136, 0.3);
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.logo {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 400;
+}
+
+.menu a:hover {
+  color: #00ff88;
+}
+
+.lang-switcher {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 180px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  flex: 1;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.slogan {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Orbitron', monospace;
+}
+
+.cta {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: linear-gradient(to right, #007bff, #00ff88);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.cta:hover {
+  transform: scale(1.05);
+}
+
+.values {
+  list-style: none;
+}
+
+.values li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.values li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  color: #00ff88;
+}
+
+.companies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.vacancies-section {
+  margin-bottom: 3rem;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.job-card {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  border-left: 4px solid #00ff88;
+}
+
+.job-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 255, 136, 0.2);
+}
+
+.job-card h3 {
+  color: #00ff88;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.job-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.job-card li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.job-card li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  color: #007bff;
+}
+
+.apply-section {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  background: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.apply-section label {
+  margin-bottom: 0;
+}
+
+.apply-section button {
+  width: 200px;
+}
+
+.company-card {
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.company-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 255, 136, 0.2);
+}
+
+.company-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.company-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
+}
+
+.eliza-logo {
+  transform: scale(0.8);
+  margin: 0 auto 1rem;
+}
+
+@media (max-width: 768px) {
+  .company-logo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .eliza-logo {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: white;
+  border-radius: 4px;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: #888;
+}
+
+form button {
+  background: linear-gradient(to right, #007bff, #00ff88);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #00ff88;
+}
+
+footer {
+  background: #06203a;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-logo {
+  height: 100px;
+}
+
+.copyright {
+  flex: 1;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00ff88;
+}
+
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .menu {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .values li::before {
+  left: auto;
+  right: 0;
+  transform: scaleX(-1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .menu {
+    gap: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .slogan {
+    font-size: 2rem;
+  }
+}
+
+/* Futuristic glow effect */
+.company-card, .cta, form button {
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.1);
+}
+
+.company-card:hover, .cta:hover, form button:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+}
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-file-upload input[type="file"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.custom-file-upload i {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+
+#portfolio-modal {
+  backdrop-filter: blur(5px);
+}
+
+#portfolio-modal svg {
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+}
+
+.front-cover {
+  transform: rotateY(0deg);
+  transition: transform 1s ease-in-out;
+}
+
+.front-cover.open {
+  transform: rotateY(-90deg);
+}
+
+.back-cover {
+  transform: rotateY(90deg);
+  transition: transform 1s ease-in-out;
+}
+
+.back-cover.open {
+  transform: rotateY(0deg);
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 136, 0.3);
+  border-radius: 50%;
+  color: white;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  background: rgba(0, 255, 136, 0.2);
+  color: #00ff88;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
+  text-decoration: none;
+}
+
+/* Glassmorphism styles */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.8s ease;
+  opacity: 1;
+}
+
+.hero,
+#companies,
+.vacancies-section,
+.apply-section {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.8s ease;
+  opacity: 1;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+/* Fallback for browsers without backdrop-filter */
+@supports not (backdrop-filter: blur(10px)) {
+  .glass,
+  .hero,
+  #companies,
+  .vacancies-section,
+  .apply-section,
+  #globe-modal,
+  #portfolio-modal {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: none;
+    transition: opacity 0.8s ease;
+  }
+}
+
+/* Enhance modals with glassmorphism */
+#globe-modal,
+#portfolio-modal {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.5s ease;
+}
+
+/* Staggered fade-in for company cards */
+.company-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.company-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ensure logos are adaptive and consistent */
+.company-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.company-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
+}
+
+/* Remove special eliza scaling if not needed, but keep for existing */
+.eliza-logo {
+  transform: scale(0.8);
+  margin: 0 auto 1rem;
+}
+
+@media (max-width: 768px) {
+  .company-logo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .eliza-logo {
+    width: 96px;
+    height: 96px;
+  }
+  
+  .glass,
+  .hero,
+  #companies {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Portfolio opening animation keyframes */
+@keyframes openFront {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(-90deg); }
+}
+
+@keyframes openBack {
+  0% { transform: rotateY(90deg); }
+  100% { transform: rotateY(0deg); }
+}
+
+.front-cover.open {
+  animation: openFront 0.8s ease-in-out forwards;
+}
+
+.back-cover.open {
+  animation: openBack 0.8s ease-in-out forwards;
+}
+
+/* Section fade-in for glassmorphism transitions */
+.section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero, #companies, section {
+  animation-delay: 0.2s;
+}
+
+/* Refined glassmorphism with iOS-like blur and hover */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transition: opacity 0.6s ease, backdrop-filter 0.6s ease;
+}
+
+.glass.visible {
+  opacity: 1;
+}
+
+.glass:hover {
+  backdrop-filter: blur(16px);
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+}
+
+.hero, #companies {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.hero.visible, #companies.visible {
+  opacity: 1;
+}
+
+/* Fallback for unsupported browsers */
+@supports not (backdrop-filter: blur(12px)) {
+  .glass, .hero, #companies, .vacancies-section, .apply-section, .location-card {
+    background: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .glass:hover, .hero:hover, #companies:hover, .vacancies-section:hover, .apply-section:hover, .location-card:hover {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+  }
+
+  .glass.visible, .hero.visible, #companies.visible, .vacancies-section.visible, .apply-section.visible, .location-card.visible {
+    transform: scale(1);
+  }
+}
+
+/* Suitcase portfolio animation keyframes */
+@keyframes openLid {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(-90deg);
+  }
+}
+
+.suitcase-lid.open {
+  animation: openLid 1.2s ease-in-out forwards;
+}
+
+/* Glassmorphism transitions */
+.section-wrapper {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.glass-overlay {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.04); /* тонкий светлый слой */
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  opacity: 0;
+  transform: scale(1.01);
+  transition: opacity 0.6s ease-out, backdrop-filter 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  z-index: 5;
+}
+
+/* classes for transitions */
+.section-enter .glass-overlay,
+.section-exit-active .glass-overlay {
+  opacity: 0;
+  transform: scale(1.01);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+.section-enter-active .glass-overlay,
+.section-exit .glass-overlay {
+  opacity: 1;
+  transform: scale(1.0);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* fallback for browsers without backdrop-filter */
+@supports not (backdrop-filter: blur(1px)) {
+  .glass-overlay {
+    background: rgba(10,20,40,0.6);
+    opacity: 0.0;
+  }
+  .section-enter-active .glass-overlay,
+  .section-exit .glass-overlay {
+    opacity: 0.5;
+    transform: none;
+  }
+}
+
+/* Region selector styles */
+.region-selector {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 0.25rem 0;
+  max-width: 100%;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.region-selector::-webkit-scrollbar {
+  height: 4px;
+}
+
+.region-selector::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
+  border-radius: 2px;
+}
+
+.region-selector::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
+}
+
+.flag-btn {
+  background: transparent;
+  border: 1px solid white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  transition: background 0.3s ease;
+  flex-shrink: 0;
+}
+
+.flag-btn:hover,
+.flag-btn.active {
+  background: rgba(255,255,255,0.1);
+}
+
+/* Glassmorphism effect for menu items: Home, Companies, About, Franchise, Careers, Contact */
+nav ul li {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+nav ul li:hover {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.15);
+  border-radius: 8px;
+}
+
+/* Ensure smooth flow between items on hover */
+nav ul {
+  display: flex;
+  gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* White background for specific company logos: Snap Repair and Linguix */
+.logo-wrapper {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  display: inline-block;
+  margin: 0 auto 1rem;
+}
+
+.logo-wrapper .company-logo {
+  background: transparent;
+  border: none;
+  padding: 0;
+  max-width: 130px;
+  max-height: 130px;
+}
+
+@media (max-width: 768px) {
+  .logo-wrapper {
+    padding: 5px;
+  }
+  
+  .logo-wrapper .company-logo {
+    max-width: 110px;
+    max-height: 110px;
+  }
+}
+
+/* Minimal footer for home page - remove thick line under footer, leave neat minimal bottom */
+.home footer {
+  border: none;
+  box-shadow: none;
+}
+
+.home footer::after {
+  display: none;
+}

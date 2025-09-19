@@ -1,0 +1,317 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "首页",
+      "about": "关于我们",
+      "companies": "公司",
+      "franchise": "特许经营",
+      "careers": "职业机会",
+      "contact": "联系我们"
+    },
+    "languages": {
+      "ru": "俄语",
+      "en": "英语",
+      "zh": "中文",
+      "ja": "日语",
+      "fr": "法语",
+      "de": "德语",
+      "hi": "印地语",
+      "it": "意大利语",
+      "es": "西班牙语",
+      "ko": "韩语",
+      "ar": "阿拉伯语",
+      "he": "希伯来语",
+      "sw": "斯瓦希里语",
+      "pt": "葡萄牙语",
+      "tr": "土耳其语"
+    }
+  },
+  "index": {
+    "slogan": "开创技术和创新的未来",
+    "cta": "探索我们的宇宙",
+    "learnMore": "了解我们"
+  },
+  "about": {
+    "title": "关于 TFOT Labs",
+    "history": "成立于 2014 年，TFOT Labs 一直处于技术进步的前沿，将尖端研究与实际应用相结合，以塑造未来的世界。",
+    "mission": "我们的使命是可持续创新，通过解决未来挑战的变革性技术赋能全球社区。",
+    "values": [
+      "创新：用大胆的想法推动边界。",
+      "诚信：在所有努力中维护道德标准。",
+      "合作：促进集体成功的伙伴关系。",
+      "可持续性：致力于环保实践。"
+    ]
+  },
+  "companies": {
+    "title": "我们的投资组合公司",
+    "companies": [
+      {
+        "title": "Nebula",
+        "desc": "体育直播平台，用于直播事件和互动观看体验。",
+        "cat": "体育"
+      },
+      {
+        "title": "Codeon",
+        "desc": "学习编程的应用程序，提供教程和挑战。",
+        "cat": "教育"
+      },
+      {
+        "title": "Linguix",
+        "desc": "语言学习应用程序，使用AI课程和练习。",
+        "cat": "教育"
+      },
+      {
+        "title": "Snap Repair",
+        "desc": "技术维修服务中心网络。",
+        "cat": "服务"
+      },
+      {
+        "title": "Blatota Nax",
+        "desc": "定制艺术纹身沙龙连锁。",
+        "cat": "美容"
+      },
+      {
+        "title": "Kinalia",
+        "desc": "奢侈精品店，提供服装、香水和鞋子。",
+        "cat": "零售"
+      },
+      {
+        "title": "Platera",
+        "desc": "拥有多样菜系的餐厅网络。",
+        "cat": "食品和饮料"
+      },
+      {
+        "title": "Nixa",
+        "desc": "智能匹配约会应用。",
+        "cat": "社交与约会"
+      },
+      {
+        "title": "Vivra Bank",
+        "desc": "数字新银行，用于银行和投资。",
+        "cat": "金融"
+      },
+      {
+        "title": "Luvry",
+        "desc": "18+精品店，提供优质成人产品。",
+        "cat": "成人零售"
+      },
+      {
+        "title": "Structara",
+        "desc": "建筑公司，专注于可持续项目。",
+        "cat": "建筑"
+      },
+      {
+        "title": "Drifta",
+        "desc": "特色酿造咖啡店连锁。",
+        "cat": "食品和饮料"
+      },
+      {
+        "title": "Mookie",
+        "desc": "新鲜糕点面包店网络。",
+        "cat": "食品和饮料"
+      },
+      {
+        "title": "Aerava",
+        "desc": "国内和国际航班航空公司。",
+        "cat": "旅行"
+      },
+      {
+        "title": "Tivvo",
+        "desc": "实时跟踪出租车服务应用。",
+        "cat": "交通"
+      },
+      {
+        "title": "BRVK",
+        "desc": "理发店连锁，提供修饰服务。",
+        "cat": "美容"
+      },
+      {
+        "title": "Blushé",
+        "desc": "女性美容和健康沙龙。",
+        "cat": "美容与健康"
+      },
+      {
+        "title": "Светлая Память",
+        "desc": "葬礼服务仪式代理。",
+        "cat": "服务"
+      },
+      {
+        "title": "WebTown",
+        "desc": "高速连接互联网提供商。",
+        "cat": "电信"
+      },
+      {
+        "title": "HMesu",
+        "desc": "互动展览AI头博物馆。",
+        "cat": "文化与娱乐"
+      },
+      {
+        "title": "SantRobo",
+        "desc": "工业用高级机器人。",
+        "cat": "机器人技术"
+      },
+      {
+        "title": "YW Tech",
+        "desc": "生物假体和植入技术。",
+        "cat": "健康科技"
+      },
+      {
+        "title": "EneCtron",
+        "desc": "电动交通和充电解决方案。",
+        "cat": "电动汽车"
+      },
+      {
+        "title": "SkyLib",
+        "desc": "隐私和访问安全VPN。",
+        "cat": "安全"
+      },
+      {
+        "title": "Eliza",
+        "desc": "生产力和家庭集成AI助手。",
+        "cat": "人工智能"
+      }
+    ]
+  },
+  "franchise": {
+    "title": "特许经营机会",
+    "info": "加入 TFOT Labs 网络，将未来主义创新带到您的地区。我们的特许经营模式提供全面的支持、培训和成功资源。",
+    "form": {
+      "name": "全名",
+      "email": "电子邮件地址",
+      "message": "消息",
+      "submit": "提交申请"
+    }
+  },
+  "careers": {
+    "title": "TFOT Labs 的职业机会",
+    "intro": "加入我们的创新团队，塑造技术的未来。我们正在寻找热情的专业人士来推动我们的使命。",
+    "openPositions": "开放职位",
+    "vacancies": [
+      {
+        "title": "软件工程师",
+        "responsibilities": [
+          "使用现代框架如 React 和 Node.js 开发和维护可扩展的 web 应用程序。",
+          "与跨职能团队合作设计和实现新功能。",
+          "编写干净、高效的代码并参与代码审查。",
+          "优化应用程序性能并确保代码质量。"
+        ]
+      },
+      {
+        "title": "数据科学家",
+        "responsibilities": [
+          "使用 Python、R 和机器学习工具分析复杂数据集以提取可操作的洞察。",
+          "构建预测模型以支持业务决策和产品开发。",
+          "可视化数据趋势并向利益相关者呈现发现。",
+          "与工程团队合作将模型部署到生产环境。"
+        ]
+      },
+      {
+        "title": "产品经理",
+        "responsibilities": [
+          "与工程、设计和业务团队合作定义产品愿景和路线图。",
+          "从客户和利益相关者收集并优先考虑需求。",
+          "监督产品生命周期从构想到推出和迭代。",
+          "跟踪关键指标并进行 A/B 测试以优化用户体验。"
+        ]
+      },
+      {
+        "title": "UX/UI 设计师",
+        "responsibilities": [
+          "为 web 和移动应用程序设计直观的用户界面和体验。",
+          "使用 Figma 或 Adobe XD 等工具创建线框图、原型和高保真模拟图。",
+          "进行用户研究和可用性测试以告知设计决策。",
+          "与开发人员合作确保设计准确实施。"
+        ]
+      },
+      {
+        "title": "营销专家",
+        "responsibilities": [
+          "开发和执行跨数字渠道的营销活动以推广 TFOT Labs 产品。",
+          "使用 Google Analytics 等工具分析活动性能并优化 ROI。",
+          "为社交媒体、电子邮件和网站创建引人入胜的内容。",
+          "管理品牌合作伙伴关系和事件以增加可见性。"
+        ]
+      },
+      {
+        "title": "HR 经理",
+        "responsibilities": [
+          "监督招聘、入职和员工关系流程。",
+          "开发人才获取策略并管理绩效审查。",
+          "通过培训和参与程序促进积极的公司文化。",
+          "确保遵守劳动法和 HR 最佳实践。"
+        ]
+      },
+      {
+        "title": "DevOps 工程师",
+        "responsibilities": [
+          "使用 Jenkins、GitHub Actions 和 Docker 构建和维护 CI/CD 管道。",
+          "管理 AWS 或 Azure 上的云基础设施以实现可扩展性和可靠性。",
+          "实施监控和警报系统以确保系统健康。",
+          "自动化部署流程并与开发团队合作。"
+        ]
+      },
+      {
+        "title": "AI 研究员",
+        "responsibilities": [
+          "开展高级 AI 技术研究，包括机器学习和自然语言处理。",
+          "开发新 AI 应用的原型和概念验证。",
+          "发布发现并贡献于开源项目。",
+          "与产品团队合作将研究整合到现实世界解决方案中。"
+        ]
+      },
+      {
+        "title": "项目经理",
+        "responsibilities": [
+          "领导跨职能团队按时、按范围和预算交付项目。",
+          "定义项目里程碑、跟踪进度并缓解风险。",
+          "促进利益相关者和团队成员之间的沟通。",
+          "使用 Jira 或 Asana 等工具管理工作流和报告。"
+        ]
+      }
+    ],
+    "apply": "申请职位",
+    "form": {
+      "position": "申请职位",
+      "resume": "上传简历",
+      "submit": "立即申请"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "locations": [],
+    "socials": {
+      "general": "在社交媒体上关注我们"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 TFOT Labs。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "socials": {
+      "ru": ["VK", "Telegram", "Twitter"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "TikTok"],
+      "fr": ["Facebook", "Instagram", "Twitter"],
+      "de": ["LinkedIn", "Xing", "Twitter"],
+      "hi": ["WhatsApp", "Instagram", "Twitter"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Twitter"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Twitter"],
+      "sw": ["WhatsApp", "Facebook", "Twitter"],
+      "pt": ["WhatsApp", "Instagram", "Twitter"],
+      "es": ["WhatsApp", "Instagram", "Twitter"],
+      "it": ["WhatsApp", "Instagram", "Twitter"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "content": "TFOT Labs 致力于保护您的隐私。本政策解释了我们如何收集、使用和保护您的信息。我们不会在未经同意的情况下分享个人信息。详情请联系 info@tfotlabs.com。最后更新：2024 年。"
+  },
+  "terms": {
+    "title": "使用条款",
+    "content": "使用本网站即表示您同意我们的条款。内容仅供参考。TFOT Labs 保留更新这些条款的权利。禁止：未经授权的使用或复制。最后更新：2024 年。"
+  }
+}

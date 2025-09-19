@@ -1,0 +1,261 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Hem",
+      "about": "Om oss",
+      "companies": "Företag",
+      "franchise": "Franchise",
+      "careers": "Karriärer",
+      "contact": "Kontakt"
+    },
+    "languages": {
+      "ru": "Ryska",
+      "en": "Engelska",
+      "zh": "Kinesiska",
+      "ja": "Japanska",
+      "fr": "Franska",
+      "de": "Tyska",
+      "hi": "Hindi",
+      "it": "Italienska",
+      "es": "Spanska",
+      "ko": "Koreanska",
+      "ar": "Arabiska",
+      "he": "Hebreiska",
+      "sw": "Swahili",
+      "pt": "Portugisiska",
+      "tr": "Turkiska"
+    }
+  },
+  "index": {
+    "slogan": "Pionjärer för framtidens teknik och innovation",
+    "cta": "Utforska vårt universum",
+    "learnMore": "Upptäck oss"
+  },
+  "about": {
+    "title": "Om TFOT Labs",
+    "history": "Grundat 2014 har TFOT Labs varit i framkant för teknologisk utveckling och blandar banbrytande forskning med praktiska tillämpningar för att forma morgondagens värld.",
+    "mission": "Vårt uppdrag är att innovera hållbart och stärka globala samhällen genom transformativa teknologier som adresserar framtidens utmaningar.",
+    "values": [
+      "Innovation: Skjuter gränser med djärva idéer.",
+      "Integritet: Upprätthåller etiska standarder i alla strävanden.",
+      "Samarbete: Främjar partnerskap för kollektiv framgång.",
+      "Hållbarhet: Åtagna till miljövänliga praxis."
+    ]
+  },
+  "companies": {
+    "title": "Våra portföljföretag",
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "HMesu",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza"
+    ],
+    "descriptions": [
+      "Sportutsändningsplattform för liveevenemang och interaktiva visningsupplevelser.",
+      "App för att lära sig programmering med handledningar och utmaningar.",
+      "App för att lära sig språk med AI-lektioner och övningar.",
+      "Nätverk av tekniska reparationsservicecenter.",
+      "Kedja av tatueringsstudior för anpassad konst.",
+      "Lyxboutiquer för kläder, parfymer och skor.",
+      "Nätverk av restauranger med mångsidiga kök.",
+      "Dejtingapp med smart matchning.",
+      "Digital neobank för bank och investeringar.",
+      "18+ butik för premiumvuxenprodukter.",
+      "Byggföretag för hållbara projekt.",
+      "Kedja av kaféer med specialkaffe.",
+      "Nätverk av bagerier för färska bakverk.",
+      "Flygbolag för inrikes- och utrikesflyg.",
+      "Taxitjänstapp med realtidsspårning.",
+      "Kedja av barberare för groomingtjänster.",
+      "Kvinnors salonger för skönhet och välbefinnande.",
+      "Ritualbyrå för begravningstjänster.",
+      "Internetleverantör för höghastighetsanslutning.",
+      "Museum med AI-huvuden för interaktiva utställningar.",
+      "Avancerad robotik för industriellt bruk.",
+      "Bioprostetiska och implantatteknologier.",
+      "Elektrisk transport och laddningslösningar.",
+      "Säker VPN för integritet och åtkomst.",
+      "AI-assistent för produktivitet och hemintegration."
+    ]
+  },
+  "franchise": {
+    "title": "Franchise-möjligheter",
+    "info": "Gå med i TFOT Labs-nätverket och ta framtidens innovation till din region. Vår franchisemodell erbjuder omfattande stöd, utbildning och resurser för framgång.",
+    "form": {
+      "name": "Fullt namn",
+      "email": "E-postadress",
+      "message": "Meddelande",
+      "submit": "Skicka ansökan"
+    }
+  },
+  "careers": {
+    "title": "Karriärer på TFOT Labs",
+    "intro": "Gå med i vårt innovativa team och forma framtidens teknik. Vi söker passionerade professionella för att driva vårt uppdrag framåt.",
+    "openPositions": "Lediga positioner",
+    "apply": "Ansök om en position",
+    "vacancies": [
+      {
+        "title": "Programvaruutvecklare",
+        "responsibilities": [
+          "Utveckla och underhålla skalbara webbapplikationer med moderna ramverk som React och Node.js.",
+          "Samarbeta med tvärfunktionella team för att designa och implementera nya funktioner.",
+          "Skriv ren, effektiv kod och delta i kodgranskningar.",
+          "Optimera applikationsprestanda och säkerställa kodkvalitet."
+        ]
+      },
+      {
+        "title": "Datavetare",
+        "responsibilities": [
+          "Analysera komplexa dataset för att extrahera handlingsbara insikter med Python, R och maskininlärningsverktyg.",
+          "Bygg prediktiva modeller för att stödja affärsbeslut och produktutveckling.",
+          "Visualisera datatrender och presentera resultat för intressenter.",
+          "Samarbeta med ingenjörsteam för att distribuera modeller i produktion."
+        ]
+      },
+      {
+        "title": "Produktchef",
+        "responsibilities": [
+          "Definiera produktvision och roadmap i samarbete med ingenjör-, design- och affärsteam.",
+          "Samla och prioritera krav från kunder och intressenter.",
+          "Övervaka produktlivscykeln från idé till lansering och iteration.",
+          "Spåra nyckeltal och genomför A/B-testning för att optimera användarupplevelsen."
+        ]
+      },
+      {
+        "title": "UX/UI-designer",
+        "responsibilities": [
+          "Designa intuitiva användargränssnitt och upplevelser för webb- och mobilapplikationer.",
+          "Skapa wireframes, prototyper och högkvalitativa mockups med verktyg som Figma eller Adobe XD.",
+          "Genomför användarundersökningar och användbarhetstestning för att informera desigbeslut.",
+          "Samarbeta med utvecklare för att säkerställa att design implementeras korrekt."
+        ]
+      },
+      {
+        "title": "Marknadsföringsspecialist",
+        "responsibilities": [
+          "Utveckla och genomföra marknadsföringskampanjer över digitala kanaler för att främja TFOT Labs-produkter.",
+          "Analysera kampanjprestanda och optimera för ROI med verktyg som Google Analytics.",
+          "Skapa övertygande innehåll för sociala medier, e-post och webbplats.",
+          "Hantera varumärkessamarbeten och evenemang för att öka synligheten."
+        ]
+      },
+      {
+        "title": "HR-chef",
+        "responsibilities": [
+          "Övervaka rekrytering, introduktion och medarbetarrelationer.",
+          "Utveckla talanganskaffningsstrategier och hantera prestandaöversyner.",
+          "Främja en positiv företagskultur genom utbildning och engagemangsprogram.",
+          "Säkerställa efterlevnad av arbetslagar och HR-bästa praxis."
+        ]
+      },
+      {
+        "title": "DevOps-ingenjör",
+        "responsibilities": [
+          "Bygg och underhåll CI/CD-pipelines med Jenkins, GitHub Actions och Docker.",
+          "Hantera molninfrastruktur på AWS eller Azure för skalbarhet och tillförlitlighet.",
+          "Implementera övervakning och varningssystem för att säkerställa systemhälsa.",
+          "Automatisera distributionsprocesser och samarbeta med utvecklings team."
+        ]
+      },
+      {
+        "title": "AI-forskare",
+        "responsibilities": [
+          "Genomför forskning på avancerade AI-tekniker, inklusive maskininlärning och naturlig språkbehandling.",
+          "Utveckla prototyper och bevis på koncept för nya AI-applikationer.",
+          "Publicera resultat och bidra till open-source-projekt.",
+          "Samarbeta med produktteam för att integrera forskning i verkliga lösningar."
+        ]
+      },
+      {
+        "title": "Projektledare",
+        "responsibilities": [
+          "Leda tvärfunktionella team för att leverera projekt i tid, inom scope och budget.",
+          "Definiera projektmilstolpar, spåra framsteg och mildra risker.",
+          "Underlätta kommunikation mellan intressenter och teammedlemmar.",
+          "Använd verktyg som Jira eller Asana för att hantera arbetsflöden och rapportering."
+        ]
+      }
+    ],
+    "form": {
+      "position": "Position du söker",
+      "resume": "Ladda upp CV",
+      "submit": "Ansök nu"
+    }
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "locations": [
+      {
+        "flag": "🇺🇸",
+        "country": "USA",
+        "city": "New York (Times Square)",
+        "phone": "+1 (212) 555-1234",
+        "email": "labstfot@gmail.com",
+        "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022!2d-73.987!3d40.7589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0x2d9b2c6c5b5e5f5e!2sTimes%20Square%2C%20New%20York!5e0!3m2!1sen!2sus!4v1630000000000\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+      },
+      {
+        "flag": "🇬🇧",
+        "country": "United Kingdom",
+        "city": "Manchester (Etihad Stadium)",
+        "phone": "+44 161 123 4567",
+        "email": "labstfot@gmail.com",
+        "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484!2d-2.2004!3d53.4831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1f5b5b5b5b5%3A0x8f6b7b5b5b5b5b5b!2sEtihad%20Stadium%2C%20Manchester!5e0!3m2!1sen!2sus!4v1630000000000\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+      }
+    ],
+    "socials": {
+      "general": "Följ oss på sociala medier"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 TFOT Labs. Alla rättigheter förbehållna.",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "socials": {
+      "ru": ["VK", "Telegram", "Twitter"],
+      "en": ["Facebook", "Instagram", "Snapchat"],
+      "zh": ["WeChat", "Weibo", "Twitter"],
+      "fr": ["Facebook", "Instagram", "Twitter"],
+      "de": ["LinkedIn", "Xing", "Twitter"],
+      "hi": ["WhatsApp", "Instagram", "Twitter"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Twitter"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Twitter"],
+      "sw": ["WhatsApp", "Facebook", "Twitter"],
+      "pt": ["WhatsApp", "Instagram", "Twitter"],
+      "es": ["WhatsApp", "Instagram", "Twitter"],
+      "it": ["WhatsApp", "Instagram", "Twitter"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "content": "TFOT Labs är engagerade i att skydda din integritet. Denna policy förklarar hur vi samlar in, använder och skyddar din information. Vi delar inte personuppgifter utan samtycke. För detaljer, kontakta oss på labstfot@gmail.com. Senast uppdaterad: 2024."
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "content": "Genom att använda denna webbplats godkänner du våra villkor. Innehållet är endast för informationssyften. TFOT Labs förbehåller sig rätten att uppdatera dessa villkor. Förbjudet: obehörig användning eller reproduktion. Senast uppdaterad: 2024."
+  }
+}

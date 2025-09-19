@@ -1,0 +1,253 @@
+{
+  "header": {
+    "logo": "TFOT Labs",
+    "menu": {
+      "home": "Nyumbani",
+      "about": "Kuhusu",
+      "companies": "Makampuni",
+      "franchise": "Franchise",
+      "careers": "Kazi",
+      "contact": "Wasiliana nasi"
+    },
+    "languages": {
+      "ru": "Ki-Russia",
+      "en": "Kiingereza",
+      "zh": "Kichina",
+      "ja": "Kijapani",
+      "fr": "Kifaransa",
+      "de": "Kijerumani",
+      "hi": "Kihindi",
+      "it": "Kiitaliano",
+      "es": "Kihispania",
+      "ko": "Kikorea",
+      "ar": "Kiarabu",
+      "he": "Kiebrania",
+      "sw": "Kiswahili",
+      "pt": "Kireno",
+      "tr": "Kituruki"
+    }
+  },
+  "index": {
+    "slogan": "Mwanahofisha wa mustakabali wa teknolojia na uvumbuzi",
+    "cta": "Tafuta ulimwengu wetu",
+    "learnMore": "Tufahamu Sisi"
+  },
+  "about": {
+    "title": "Kuhusu TFOT Labs",
+    "history": "Ilianzishwa mwaka 2014, TFOT Labs iko mstari wa mbele wa maendeleo ya teknolojia, ikichanganya utafiti wa kisasa na matumizi ya vitendo ili kuunda ulimwengu wa kesho.",
+    "mission": "Dhamira yetu ni kuanzisha kwa uendelevu, kuwezesha jamii za kimataifa kupitia teknolojia zinazobadilisha zinazokabiliana na changamoto za mustakabali.",
+    "values": [
+      "Uvumbuzi: Kusukuma mipaka na mawazo ya ujasiri.",
+      "Uaminifu: Kuzingatia viwango vya maadili katika juhudi zote.",
+      "Ushiriki: Kuimarisha ushirikiano kwa mafanikio ya pamoja.",
+      "Uendelevu: Kuchukua mazoea yanayofaa mazingira."
+    ]
+  },
+  "companies": {
+    "title": "Makampuni yetu ya portfolio",
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "HMesu",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza"
+    ],
+    "descriptions": [
+      "Jukwaa la utangazaji wa michezo kwa matukio ya moja kwa moja na uzoefu wa kushiriki.",
+      "App ya kujifunza programu na mafunzo na changamoto.",
+      "App ya kujifunza lugha na masomo ya AI na mazoezi.",
+      "Mtandao wa vituo vya ukarabati vya teknolojia.",
+      "Mnyororo wa saluni za tatoo kwa sanaa ya kibinafsi.",
+      "Butiku za kifahari za nguo, manukato, na viatu.",
+      "Mtandao wa migahawa na vyakula tofauti.",
+      "App ya uchumbuari na upatanaji wa akili.",
+      "Neobank ya kidijitali kwa benki na uwekezaji.",
+      "Butiku 18+ ya bidhaa za watu wazima za kipekee.",
+      "Kampuni ya ujenzi kwa miradi endelevu.",
+      "Mnyororo wa maduka ya kahawa na kahawa maalum.",
+      "Mtandao wa maduka ya kuoka kwa pastry tamu.",
+      "Shirika la ndege kwa safari za ndani na nje ya nchi.",
+      "App ya huduma ya teksi na ufuatiliaji wa wakati halisi.",
+      "Mnyororo wa maduka ya kunyonya kwa huduma za utunzaji.",
+      "Saluni za wanawake kwa uzuri na ustawi.",
+      "Shirika la taratibu la huduma za mazishi.",
+      "Mtoa huduma ya intaneti kwa muunganisho wa kasi ya juu.",
+      "Jumba la kumbukumbu na vichwa vya AI kwa maonyesho ya kushiriki.",
+      "Roboti za hali ya juu kwa matumizi ya viwandani.",
+      "Teknolojia ya bioprosthetics na implants.",
+      "Suluhisho za usafiri wa umeme na shajani.",
+      "VPN salama kwa faragha na ufikiaji.",
+      "Msaidizi wa AI kwa tija na uunganishaji wa nyumbani."
+    ]
+  },
+  "franchise": {
+    "title": "Fursa za franchise",
+    "info": "Jiunge na mtandao wa TFOT Labs na ulete uvumbuzi wa mustakabali katika eneo lako. Mfumo wetu wa franchise hutoa msaada kamili, mafunzo na rasilimali kwa mafanikio.",
+    "form": {
+      "name": "Jina kamili",
+      "email": "Anwani ya barua pepe",
+      "message": "Ujumbe",
+      "submit": "Wasilisha ombi"
+    }
+  },
+  "careers": {
+    "title": "Kazi katika TFOT Labs",
+    "intro": "Jiunge na timu yetu ya uvumbuzi na uumbe mustakabali wa teknolojia. Tunatafuta wataalamu wenye shauku kukuza dhamira yetu.",
+    "openPositions": "Nafasi Zilizofunguliwa",
+    "vacancies": [
+      {
+        "title": "Mhandisi Programu",
+        "responsibilities": [
+          "Kukuza na kudumisha programu za wavuti zinazoweza kupanuka kwa kutumia fremu za kisasa kama React na Node.js.",
+          "Kushirikiana na timu za kufanya kazi mbalimbali kubuni na kutekeleza vipengele vipya.",
+          "Andika msimbo safi, wenye ufanisi na ushiriki katika mapitio ya msimbo.",
+          "Boresha utendaji wa programu na uhakikishe ubora wa msimbo."
+        ]
+      },
+      {
+        "title": "Mtaalamu wa Data",
+        "responsibilities": [
+          "Changanua seti za data ngumu ili kutoa maono yanayoweza kutekelezwa kwa kutumia Python, R, na zana za kujifunza mashine.",
+          "Jenga modeli za kutabiri kusaidia maamuzi ya biashara na maendeleo ya bidhaa.",
+          "Onesha mwenendo wa data na uwasilishe matokeo kwa wadau.",
+          "Shirikiana na timu za uhandisi kuweka modeli katika uzalishaji."
+        ]
+      },
+      {
+        "title": "Meneja wa Bidhaa",
+        "responsibilities": [
+          "Fafanua taswira ya bidhaa na ramani ya barabara kwa kushirikiana na timu za uhandisi, muundo, na biashara.",
+          "Kusanya na kuweka kipaumbele mahitaji kutoka kwa wateja na wadau.",
+          "Simamia mzunguko wa maisha ya bidhaa kutoka wazo hadi uzinduzi na kurudia.",
+          "Fuatilia vipimo muhimu na fanya majaribio A/B kuboresha uzoefu wa mtumiaji."
+        ]
+      },
+      {
+        "title": "Muumba UX/UI",
+        "responsibilities": [
+          "Buni violesura vya mtumiaji vinavyoeleweka na uzoefu kwa programu za wavuti na simu.",
+          "Tengeneza waya, prototypes, na mockups za juu kwa kutumia zana kama Figma au Adobe XD.",
+          "Fanya utafiti wa mtumiaji na majaribio ya utumiaji kutoa maamuzi ya muundo.",
+          "Shirikiana na watengenezaji kuhakikisha muundo unaweka kweli."
+        ]
+      },
+      {
+        "title": "Mtaalamu wa Masoko",
+        "responsibilities": [
+          "Kukuza na kutekeleza kampeni za masoko kupitia njia za kidijitali kuendeleza bidhaa za TFOT Labs.",
+          "Changanua utendaji wa kampeni na boresha kwa ajili ya ROI kwa kutumia zana kama Google Analytics.",
+          "Tengeneza maudhui yanayovutia kwa mitandao ya kijamii, barua pepe, na tovuti.",
+          "Dhibiti ushirikiano wa chapa na matukio kuongeza mwonekano."
+        ]
+      },
+      {
+        "title": "Meneja wa HR",
+        "responsibilities": [
+          "Simamia michakato ya kuajiri, onboarding, na uhusiano wa wafanyakazi.",
+          "Kukuza mikakati ya kupata talanta na kudhibiti mapitio ya utendaji.",
+          "Kukuza utamaduni chanya wa kampuni kupitia programu za mafunzo na ushirikiano.",
+          "Hakikisha kufuata sheria za kazi na mazoea bora ya HR."
+        ]
+      },
+      {
+        "title": "Mhandisi wa DevOps",
+        "responsibilities": [
+          "Jenga na udumie mifereji ya CI/CD kwa kutumia Jenkins, GitHub Actions, na Docker.",
+          "Dhibiti miundombinu ya wingu kwenye AWS au Azure kwa uwezo wa kupanuka na kuaminika.",
+          "Tekeza mifumo ya kufuatilia na kuonya kuhakikisha afya ya mfumo.",
+          "Otomatisha michakato ya kuweka na kushirikiana na timu za maendeleo."
+        ]
+      },
+      {
+        "title": "Mtafiti wa AI",
+        "responsibilities": [
+          "Fanya utafiti juu ya mbinu za AI za hali ya juu, ikijumuisha kujifunza mashine na usindikaji wa lugha asilia.",
+          "Kukuza prototypes na uthibitisho wa dhana kwa programu mpya za AI.",
+          "Chapisha matokeo na mchango katika miradi ya open-source.",
+          "Shirikiana na timu za bidhaa kuunganisha utafiti katika suluhisho za ulimwengu halisi."
+        ]
+      },
+      {
+        "title": "Meneja wa Mradi",
+        "responsibilities": [
+          "ongoza timu za kufanya kazi mbalimbali kutoa miradi kwa wakati, ndani ya wigo, na bajeti.",
+          "Fafanua hatua za mradi, fuatilia maendeleo, na kupunguza hatari.",
+          "Rahisisha mawasiliano kati ya wadau na wanachama wa timu.",
+          "Tumia zana kama Jira au Asana kudhibiti mifumo ya kazi na ripoti."
+        ]
+      }
+    ],
+    "apply": "Omba Nafasi",
+    "form": {
+      "position": "Nafasi unayoomba",
+      "resume": "Pakia CV",
+      "submit": "Omba sasa"
+    }
+  },
+  "contact": {
+    "title": "Wasiliana nasi",
+    "locations": [
+      {
+        "flag": "🇹🇿",
+        "country": "Tanzania",
+        "city": "Dar es Salaam (National Museum of Tanzania)",
+        "phone": "+255 22 123 4567",
+        "email": "labstfot@gmail.com",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975!2d39.2083!3d-6.7924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4a5b5b5b5b5b%3A0x8f6b7b5b5b5b5b5b!2sNational%20Museum%20and%20House%20of%20Culture%2C%20Dar%20es%20Salaam!5e0!3m2!1sen!2stz!4v1726660000000"
+      }
+    ],
+    "socials": {
+      "general": "Fuatilia kwenye mitandao ya kijamii"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 TFOT Labs. Haki zote zimehifadhiwa.",
+    "privacy": "Sera ya faragha",
+    "terms": "Masharti ya matumizi",
+    "socials": {
+      "ru": ["VK", "Telegram", "Twitter"],
+      "en": ["Twitter", "LinkedIn", "Instagram"],
+      "zh": ["WeChat", "Weibo", "Twitter"],
+      "fr": ["Facebook", "Instagram", "Twitter"],
+      "de": ["LinkedIn", "Xing", "Twitter"],
+      "hi": ["WhatsApp", "Instagram", "Twitter"],
+      "ja": ["Line", "Twitter", "Instagram"],
+      "ko": ["KakaoTalk", "Naver", "Twitter"],
+      "ar": ["WhatsApp", "Facebook", "Twitter"],
+      "he": ["WhatsApp", "Facebook", "Twitter"],
+      "sw": ["Facebook", "Instagram", "WhatsApp"],
+      "pt": ["WhatsApp", "Instagram", "Twitter"],
+      "es": ["WhatsApp", "Instagram", "Twitter"],
+      "it": ["WhatsApp", "Instagram", "Twitter"],
+      "tr": ["Instagram", "WhatsApp", "Twitter"]
+    }
+  },
+  "privacy": {
+    "title": "Sera ya faragha",
+    "content": "TFOT Labs imehusishwa kulinda faragha yako. Sera hii inaelezea jinsi tunavyokusanya, kutumia na kulinda maelezo yako. Hatushiriki data ya kibinafsi bila idhini. Kwa maelezo, wasiliana nasi kwa info@tfotlabs.com. Sasisho la mwisho: 2024."
+  },
+  "terms": {
+    "title": "Masharti ya matumizi",
+    "content": "Kwa kutumia tovuti hii, unakubali masharti yetu. Maudhui ni kwa madhumuni ya taarifa pekee. TFOT Labs inahifadhi haki ya kusasisha masharti haya. Imezuiliwa: matumizi au nakili isiyoruhusiwa. Sasisho la mwisho: 2024."
+  }
+}
