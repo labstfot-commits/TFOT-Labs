@@ -3,7 +3,7 @@
     "name": "Nebula",
     "description": "Sports broadcasting platform for live events and interactive viewing experiences.",
     "category": "Sports Broadcasting",
-    "image": "assets/images/nebula.jpg"
+    "image": "assets/images/Nebula.png"
   },
   {
     "name": "Codeon",
@@ -21,7 +21,7 @@
     "name": "Snap Repair",
     "description": "Network of tech repair service centers.",
     "category": "Services",
-    "image": "assets/images/snaprepair.jpg"
+    "image": "assets/images/SnapRepair.png"
   },
   {
     "name": "Blatota Nax",
@@ -105,7 +105,7 @@
     "name": "Светлая Память",
     "description": "Ritual agency for funeral services.",
     "category": "Services",
-    "image": "assets/images/svetlayapamyat.jpg"
+    "image": "assets/images/SvetlayaPamat.png"
   },
   {
     "name": "WebTown",
@@ -147,7 +147,7 @@
     "name": "Eliza",
     "description": "AI assistant for productivity and home integration.",
     "category": "Artificial Intelligence",
-    "image": "assets/images/eliza.jpg"
+    "image": "assets/images/Eliza.png"
   },
   {
     "name": "HFMuseu",
