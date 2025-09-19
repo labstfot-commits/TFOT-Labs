@@ -95,6 +95,12 @@ main {
   flex: 1;
 }
 
+@media (min-width: 768px) {
+  main {
+    margin-top: 200px;
+  }
+}
+
 section {
   margin-bottom: 3rem;
 }
@@ -428,7 +434,7 @@ footer {
   }
 
   .region-selector {
-    display: none !important;
+    display: flex !important;
   }
 
   main {
