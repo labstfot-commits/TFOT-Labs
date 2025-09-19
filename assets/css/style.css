@@ -393,6 +393,16 @@ footer {
   .slogan {
     font-size: 2rem;
   }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .companies-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Futuristic glow effect */
@@ -458,6 +468,7 @@ footer {
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .social-links a {
@@ -842,4 +853,15 @@ nav ul {
 
 .home footer::after {
   display: none;
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+  h1 { font-size: 1.8rem; }
+  p { font-size: 1rem; }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  p { font-size: 0.9rem; }
 }
