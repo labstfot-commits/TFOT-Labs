@@ -334,7 +334,9 @@
       "pt": ["WhatsApp", "Instagram", "Facebook"],
       "es": ["WhatsApp", "Instagram", "Twitter"],
       "it": ["WhatsApp", "Instagram", "Twitter"],
-      "tr": ["Instagram", "WhatsApp", "Twitter"]
+      "tr": ["Instagram", "WhatsApp", "Twitter"],
+      "pt-pt": ["Facebook", "Instagram", "LinkedIn", "Twitter/X"],
+      "pt-br": ["Facebook", "Instagram", "LinkedIn", "Twitter/X"]
     }
   },
   "privacy": {

@@ -114,12 +114,6 @@
     "image": "images/companies/placeholder.svg"
   },
   {
-    "name": "HMesu",
-    "description": "Museum with AI heads for interactive exhibits.",
-    "category": "Culture & Entertainment",
-    "image": "images/companies/placeholder.svg"
-  },
-  {
     "name": "SantRobo",
     "description": "Advanced robotics for industrial use.",
     "category": "Robotics",
@@ -148,12 +142,6 @@
     "description": "AI assistant for productivity and home integration.",
     "category": "Artificial Intelligence",
     "image": "images/companies/Eliza.png"
-  },
-  {
-    "name": "HFMuseu",
-    "description": "An innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity.",
-    "category": "Culture & Entertainment",
-    "image": "images/companies/placeholder.svg"
   },
   {
     "name": "Heyya",

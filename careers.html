@@ -43,30 +43,33 @@
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h1 data-i18n="careers.title">Careers at TFOT Labs</h1>
-      <p data-i18n="careers.intro">Join our innovative team and shape the future of technology. We are seeking passionate professionals to drive our mission forward.</p>
-      
-      <section class="vacancies-section">
-        <h2 data-i18n="careers.openPositions">Open Positions</h2>
-        <div id="jobs-container" class="jobs-grid"></div>
+  <div class="section-wrapper">
+    <div class="glass-overlay"></div>
+    <main>
+      <section class="glass">
+        <h1 data-i18n="careers.title">Careers at TFOT Labs</h1>
+        <p data-i18n="careers.intro">Join our innovative team and shape the future of technology. We are seeking passionate professionals to drive our mission forward.</p>
+        
+        <section class="vacancies-section">
+          <h2 data-i18n="careers.openPositions">Open Positions</h2>
+          <div id="jobs-container" class="jobs-grid"></div>
+        </section>
+        
+        <section class="apply-section">
+          <h2 data-i18n="careers.apply">Apply for a Position</h2>
+          <form>
+            <label for="position" data-i18n="careers.form.position">Position Applying For</label>
+            <input type="text" id="position" name="position" required>
+            <label for="resume" class="custom-file-upload" data-i18n="careers.form.resume">
+              <i class="fas fa-arrow-up"></i>
+              <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </label>
+            <button type="submit" data-i18n="careers.form.submit">Apply Now</button>
+          </form>
+        </section>
       </section>
-      
-      <section class="apply-section">
-        <h2 data-i18n="careers.apply">Apply for a Position</h2>
-        <form>
-          <label for="position" data-i18n="careers.form.position">Position Applying For</label>
-          <input type="text" id="position" name="position" required>
-          <label for="resume" class="custom-file-upload" data-i18n="careers.form.resume">
-            <i class="fas fa-arrow-up"></i>
-            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
-          </label>
-          <button type="submit" data-i18n="careers.form.submit">Apply Now</button>
-        </form>
-      </section>
-    </section>
-  </main>
+    </main>
+  </div>
 
   <footer>
     <div class="footer-content">

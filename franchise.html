@@ -43,21 +43,26 @@
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h1 data-i18n="franchise.title">Franchise Opportunities</h1>
-      <p data-i18n="franchise.info">Join the TFOT Labs network and bring futuristic innovation to your region. Our franchise model offers comprehensive support, training, and resources for success.</p>
-      <form>
-        <label for="name" data-i18n="franchise.form.name">Full Name</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email" data-i18n="franchise.form.email">Email Address</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message" data-i18n="franchise.form.message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-        <button type="submit" data-i18n="franchise.form.submit">Submit Application</button>
-      </form>
-    </section>
-  </main>
+  <div class="section-wrapper">
+    <div class="glass-overlay"></div>
+    <main>
+      <section class="glass">
+        <h1 data-i18n="franchise.title">Franchise Opportunities</h1>
+        <p data-i18n="franchise.info">Join the TFOT Labs network and bring futuristic innovation to your region. Our franchise model offers comprehensive support, training, and resources for success.</p>
+      </section>
+      <section class="apply-section">
+        <form>
+          <label for="name" data-i18n="franchise.form.name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email" data-i18n="franchise.form.email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message" data-i18n="franchise.form.message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit" data-i18n="franchise.form.submit">Submit Application</button>
+        </form>
+      </section>
+    </main>
+  </div>
 
   <footer>
     <div class="footer-content">

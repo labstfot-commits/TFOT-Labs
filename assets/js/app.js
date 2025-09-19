@@ -99,6 +99,7 @@ async function loadLang(lang) {
     localStorage.setItem('tfot_lang', lang);
     updateContent();
     updateSocials();
+    updateLangSelectDisplay();
     if (document.querySelector('.companies-list')) {
       loadCompanies();
     }
@@ -129,6 +130,10 @@ async function loadLang(lang) {
 // Update all DOM elements with data-i18n attribute
 function updateContent() {
   console.log('Starting content update for lang:', currentLang);
+  const sections = document.querySelectorAll('.glass, .hero, #companies, .vacancies-section, .apply-section, .location-card');
+  sections.forEach(section => {
+    section.classList.remove('visible');
+  });
   const elements = document.querySelectorAll('[data-i18n]');
   console.log(`Found ${elements.length} elements with data-i18n`);
   elements.forEach(el => {
@@ -256,8 +261,13 @@ async function loadCompanies() {
 // Update footer socials based on current lang
 function updateSocials() {
   const socialContainers = document.querySelectorAll('.social-links');
-  if (socialContainers.length > 0 && translations.footer && translations.footer.socials && translations.footer.socials[currentLang]) {
-    const networks = translations.footer.socials[currentLang];
+  if (socialContainers.length > 0 && translations.footer && translations.footer.socials) {
+    const region = localStorage.getItem('tfot_region') || currentLang;
+    let socialKey = currentLang;
+    if (['en', 'es', 'pt'].includes(currentLang) && region.startsWith(currentLang + '-')) {
+      socialKey = region;
+    }
+    const networks = translations.footer.socials[socialKey] || translations.footer.socials[currentLang] || [];
     const html = networks.map(network => {
       const iconMap = {
         'VK': 'fab fa-vk', 'Telegram': 'fab fa-telegram', 'Instagram': 'fab fa-instagram',
@@ -322,10 +332,13 @@ function initLangSwitcher() {
       }
       select.appendChild(option);
     });
+    // Update display for multi-flag languages
+    updateLangSelectDisplay();
     select.addEventListener('change', (e) => {
       const newLang = e.target.value;
+      if (newLang === currentLang) return;
       const defaultRegion = getDefaultRegion(newLang);
-      applyLocale(newLang, defaultRegion || localStorage.getItem('tfot_region'));
+      showGlobe(newLang, defaultRegion);
     });
   }
 }
@@ -335,7 +348,7 @@ const REGION_ANGLES = {
   'MX': 0, 'ES': 180, 'AR': 180, 'CL': 210, 'PE': 240,
   'BR': 90, 'PT': 90,
   'US': 30, 'GB': 60,
-  'ru': 120, 'zh': 270, 'ja': 300, 'fr': 150, 'de': 135, 'hi': 240, 'it': 165, 'ko': 330, 'ar': 210, 'he': 195, 'sw': 225, 'tr': 180, 'nl': 165, 'da': 150, 'no': 135, 'sv': 120, 'fi': 105
+  'RU': 120, 'CN': 270, 'JP': 300, 'FR': 150, 'DE': 135, 'IN': 240, 'IT': 165, 'KR': 330, 'SA': 210, 'IL': 195, 'TZ': 225, 'TR': 180, 'NL': 165, 'DK': 150, 'NO': 135, 'SE': 120, 'FI': 105
 };
 
 function getDefaultRegion(lang) {
@@ -351,6 +364,7 @@ function applyLocale(locale, region) {
   localStorage.setItem('tfot_lang', locale);
   localStorage.setItem('tfot_region', region || '');
   loadLang(locale).then(() => {
+    updateLangSelectDisplay();
     // Update region selector active state
     document.querySelectorAll('.flag-btn').forEach(btn => btn.classList.remove('active'));
     const activeBtn = document.querySelector(`[data-region="${region}"]`);
@@ -368,7 +382,18 @@ function applyLocale(locale, region) {
 }
 
 function getRegionAngle(code) {
-  return REGION_ANGLES[code] || 0;
+  let country;
+  if (code.includes('-')) {
+    country = code.split('-')[1].toUpperCase();
+  } else {
+    const langToCountry = {
+      'en': 'US', 'ru': 'RU', 'zh': 'CN', 'ja': 'JP', 'fr': 'FR', 'de': 'DE', 'hi': 'IN',
+      'it': 'IT', 'es': 'ES', 'ko': 'KR', 'ar': 'SA', 'he': 'IL', 'sw': 'TZ', 'pt': 'PT',
+      'tr': 'TR', 'nl': 'NL', 'da': 'DK', 'no': 'NO', 'sv': 'SE', 'fi': 'FI'
+    };
+    country = langToCountry[code] || code.toUpperCase();
+  }
+  return REGION_ANGLES[country] || 0;
 }
 
 function showGlobe(newLang, region = null) {
@@ -385,7 +410,8 @@ function showGlobe(newLang, region = null) {
   `;
   
   // Create globe element
-  const globeClass = region ? `${newLang} ${region}` : newLang;
+  const country = region ? region.split('-')[1].toLowerCase() : null;
+  const globeClass = country ? `${newLang} ${country}` : newLang;
   const globe = document.createElement('div');
   globe.className = `globe spinning ${globeClass}`;
   globe.style.cssText = `
@@ -624,6 +650,15 @@ document.addEventListener('DOMContentLoaded', () => {
     .globe.no::after { content: '🇳🇴'; position: absolute; top: 55%; left: 25%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
     .globe.sv::after { content: '🇸🇪'; position: absolute; top: 45%; right: 20%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
     .globe.fi::after { content: '🇫🇮'; position: absolute; top: 35%; left: 40%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.en.us::after { content: '🇺🇸'; position: absolute; top: 40%; left: 30%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.es.es::after { content: '🇪🇸'; position: absolute; top: 20%; left: 25%; font-size: 40px; text-shadow: 0 0 10px red; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.pt.pt::after { content: '🇵🇹'; position: absolute; top: 40%; right: 15%; font-size: 40px; text-shadow: 0 0 10px green; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.es.mx::after { content: '🇲🇽'; position: absolute; top: 20%; left: 20%; font-size: 40px; text-shadow: 0 0 10px green; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.es.ar::after { content: '🇦🇷'; position: absolute; top: 20%; right: 20%; font-size: 40px; text-shadow: 0 0 10px lightblue; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.es.cl::after { content: '🇨🇱'; position: absolute; top: 50%; left: 20%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.es.pe::after { content: '🇵🇪'; position: absolute; top: 60%; right: 20%; font-size: 40px; text-shadow: 0 0 10px red; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.pt.br::after { content: '🇧🇷'; position: absolute; top: 40%; left: 40%; font-size: 40px; text-shadow: 0 0 10px green; animation: glow 1s ease-in-out infinite alternate; }
+    .globe.en.gb::after { content: '🇬🇧'; position: absolute; top: 40%; right: 30%; font-size: 40px; text-shadow: 0 0 10px blue; animation: glow 1s ease-in-out infinite alternate; }
   `;
   document.head.appendChild(style);
 
@@ -729,4 +764,33 @@ function initRegionSelector() {
     });
     selector.appendChild(btn);
   });
+}
+function updateLangSelectDisplay() {
+  const select = document.getElementById('lang-select');
+  if (!select) return;
+
+  const selectedOption = select.options[select.selectedIndex];
+  const lang = currentLang;
+  const region = localStorage.getItem('tfot_region') || getDefaultRegion(lang);
+
+  let displayFlag = FLAGS[lang];
+  if (['en', 'es', 'pt'].includes(lang) && region) {
+    const flagMap = {
+      // English
+      'en-us': '🇺🇸',
+      'en-gb': '🇬🇧',
+      // Spanish
+      'es-es': '🇪🇸',
+      'es-mx': '🇲🇽',
+      'es-ar': '🇦🇷',
+      'es-cl': '🇨🇱',
+      'es-pe': '🇵🇪',
+      // Portuguese
+      'pt-pt': '🇵🇹',
+      'pt-br': '🇧🇷'
+    };
+    displayFlag = flagMap[region] || FLAGS[lang];
+  }
+
+  selectedOption.textContent = displayFlag || lang.toUpperCase();
 }

@@ -606,14 +606,16 @@ footer {
 /* Section fade-in for glassmorphism transitions */
 .section {
   opacity: 0;
-  transition: opacity 0.6s ease;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .section.visible {
   opacity: 1;
+  transform: translateY(0);
 }
 
-.hero, #companies {
+.hero, #companies, section {
   animation-delay: 0.2s;
 }
 
@@ -685,6 +687,9 @@ footer {
 .section-wrapper {
   position: relative;
   overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .glass-overlay {
@@ -736,6 +741,26 @@ footer {
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 0.25rem 0;
+  max-width: 100%;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.region-selector::-webkit-scrollbar {
+  height: 4px;
+}
+
+.region-selector::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
+  border-radius: 2px;
+}
+
+.region-selector::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
 }
 
 .flag-btn {
@@ -747,9 +772,74 @@ footer {
   font-size: 1.5rem;
   color: white;
   transition: background 0.3s ease;
+  flex-shrink: 0;
 }
 
 .flag-btn:hover,
 .flag-btn.active {
   background: rgba(255,255,255,0.1);
+}
+
+/* Glassmorphism effect for menu items: Home, Companies, About, Franchise, Careers, Contact */
+nav ul li {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+nav ul li:hover {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.15);
+  border-radius: 8px;
+}
+
+/* Ensure smooth flow between items on hover */
+nav ul {
+  display: flex;
+  gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* White background for specific company logos: Snap Repair and Linguix */
+.logo-wrapper {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  display: inline-block;
+  margin: 0 auto 1rem;
+}
+
+.logo-wrapper .company-logo {
+  background: transparent;
+  border: none;
+  padding: 0;
+  max-width: 130px;
+  max-height: 130px;
+}
+
+@media (max-width: 768px) {
+  .logo-wrapper {
+    padding: 5px;
+  }
+  
+  .logo-wrapper .company-logo {
+    max-width: 110px;
+    max-height: 110px;
+  }
+}
+
+/* Minimal footer for home page - remove thick line under footer, leave neat minimal bottom */
+.home footer {
+  border: none;
+  box-shadow: none;
+}
+
+.home footer::after {
+  display: none;
 }
