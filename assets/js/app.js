@@ -369,6 +369,9 @@ function applyLocale(locale, region) {
     document.querySelectorAll('.flag-btn').forEach(btn => btn.classList.remove('active'));
     const activeBtn = document.querySelector(`[data-region="${region}"]`);
     if (activeBtn) activeBtn.classList.add('active');
+    // Close mobile menu
+    const menu = document.querySelector('.menu');
+    if (menu) menu.classList.remove('active');
     // Render region-specific content
     if (window.location.pathname.includes('contact.html')) {
       loadContacts();
@@ -624,6 +627,40 @@ async function loadContacts() {
 
 // Initialize app on load
 document.addEventListener('DOMContentLoaded', () => {
+  // Create burger menu button
+  const createBurger = () => {
+    const burger = document.createElement('button');
+    burger.innerHTML = '☰';
+    burger.className = 'burger';
+    burger.setAttribute('aria-label', 'Toggle menu');
+    burger.style.background = 'none';
+    burger.style.border = 'none';
+    burger.style.fontSize = '1.5rem';
+    burger.style.color = 'white';
+    burger.style.cursor = 'pointer';
+    burger.style.padding = '0.5rem';
+    return burger;
+  };
+
+  const burger = createBurger();
+  const nav = document.querySelector('nav');
+  const menu = document.querySelector('.menu');
+  const langSelect = document.getElementById('lang-select');
+  if (nav && menu && langSelect) {
+    nav.insertBefore(burger, langSelect.nextSibling);
+
+    burger.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+
+    // Close menu on link click
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('active');
+      });
+    });
+  }
+
   // Inject CSS for animations
   const style = document.createElement('style');
   style.textContent = `
