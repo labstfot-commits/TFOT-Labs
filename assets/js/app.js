@@ -210,7 +210,7 @@ async function loadCompanies() {
       console.log('Rendering companies to .companies-list');
       container.innerHTML = companies.map(company => `
         <div class="company-card">
-          <img src="https://via.placeholder.com/200x150?text=${encodeURIComponent(company.name)}" alt="${company.name}" class="company-logo">
+          <img src="${company.image || `https://via.placeholder.com/200x150?text=${encodeURIComponent(company.name)}`}" alt="${company.name}" class="company-logo">
           <h3>${company.title}</h3>
           ${company.cat ? `<p class="category">${company.cat}</p>` : ''}
           <p>${company.desc}</p>
