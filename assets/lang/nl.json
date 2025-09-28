@@ -50,137 +50,92 @@
   },
   "companies": {
     "title": "Onze Portfolio Bedrijven",
-    "companies": [
-      {
-        "title": "Nebula",
-        "desc": "Sportuitzendingsplatform voor live evenementen en interactieve kijkervaringen.",
-        "cat": "Sport"
-      },
-      {
-        "title": "Codeon",
-        "desc": "App voor het leren van programmeren met tutorials en uitdagingen.",
-        "cat": "Onderwijs"
-      },
-      {
-        "title": "Linguix",
-        "desc": "App voor het leren van talen met AI-lessen en praktijk.",
-        "cat": "Onderwijs"
-      },
-      {
-        "title": "Snap Repair",
-        "desc": "Netwerk van tech-reparatiecentra.",
-        "cat": "Diensten"
-      },
-      {
-        "title": "Blatota Nax",
-        "desc": "Keten van tatoeagesalons voor op maat gemaakte kunst.",
-        "cat": "Schoonheid"
-      },
-      {
-        "title": "Kinalia",
-        "desc": "Luxeboutiques voor kleding, parfums en schoenen.",
-        "cat": "Detailhandel"
-      },
-      {
-        "title": "Platera",
-        "desc": "Netwerk van restaurants met diverse keukens.",
-        "cat": "Voedsel en Drank"
-      },
-      {
-        "title": "Nixa",
-        "desc": "Dating-app met slimme matching.",
-        "cat": "Sociaal en Dating"
-      },
-      {
-        "title": "Vivra Bank",
-        "desc": "Digitale neobank voor bankieren en investeringen.",
-        "cat": "Financiën"
-      },
-      {
-        "title": "Luvry",
-        "desc": "18+ boutique voor premium volwassen producten.",
-        "cat": "Volwassen Detailhandel"
-      },
-      {
-        "title": "Structara",
-        "desc": "Bouwbedrijf voor duurzame projecten.",
-        "cat": "Bouw"
-      },
-      {
-        "title": "Drifta",
-        "desc": "Keten van koffiewinkels met speciale brouw.",
-        "cat": "Voedsel en Drank"
-      },
-      {
-        "title": "Mookie",
-        "desc": "Netwerk van bakkerijen voor verse gebak.",
-        "cat": "Voedsel en Drank"
-      },
-      {
-        "title": "Aerava",
-        "desc": "Luchtvaartmaatschappij voor binnenlandse en internationale vluchten.",
-        "cat": "Reizen"
-      },
-      {
-        "title": "Tivvo",
-        "desc": "Taxi-service-app met real-time tracking.",
-        "cat": "Transport"
-      },
-      {
-        "title": "BRVK",
-        "desc": "Keten van barbierwinkels voor grooming-diensten.",
-        "cat": "Schoonheid"
-      },
-      {
-        "title": "Blushé",
-        "desc": "Vrouwen salons voor schoonheid en welzijn.",
-        "cat": "Schoonheid en Gezondheid"
-      },
-      {
-        "title": "Светлая Память",
-        "desc": "Ritueel agentschap voor uitvaartdiensten.",
-        "cat": "Diensten"
-      },
-      {
-        "title": "WebTown",
-        "desc": "Internetprovider voor hoge-snelheid connectiviteit.",
-        "cat": "Telecommunicatie"
-      },
-      {
-        "title": "HMesu",
-        "desc": "Museum met AI-koppen voor interactieve tentoonstellingen.",
-        "cat": "Cultuur en Amusement"
-      },
-      {
-        "title": "SantRobo",
-        "desc": "Geavanceerde robotica voor industrieel gebruik.",
-        "cat": "Robotica"
-      },
-      {
-        "title": "YW Tech",
-        "desc": "Bioprosthetica en implant technologie.",
-        "cat": "Gezondheidstechnologie"
-      },
-      {
-        "title": "EneCtron",
-        "desc": "Elektrisch transport en oplaadoplossingen.",
-        "cat": "Elektrische Voertuigen"
-      },
-      {
-        "title": "SkyLib",
-        "desc": "Veilige VPN voor privacy en toegang.",
-        "cat": "Beveiliging"
-      },
-      {
-        "title": "Eliza",
-        "desc": "AI-assistent voor productiviteit en thuisintegratie.",
-        "cat": "Kunstmatige Intelligentie"
-      },
-      {
-        "title": "Heyya",
-        "desc": "Heyya is een modern reclamebureau dat zich specialiseert in digitale marketing, branding en creatieve campagnes. We ontwikkelen sociale media-strategieën, creëren boeiende inhoud en beheren advertentiebudgetten voor maximale efficiëntie. Heyya helpt bedrijven om op te vallen op de markt en nieuwe klanten aan te trekken.",
-        "cat": "Marketing"
-      }
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "HMesu",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza",
+      "Heyya",
+      "TransAeroPort"
+    ],
+    "descriptions": [
+      "Sportuitzendingsplatform voor live evenementen en interactieve kijkervaringen.",
+      "App voor het leren van programmeren met tutorials en uitdagingen.",
+      "App voor het leren van talen met AI-lessen en praktijk.",
+      "Netwerk van tech-reparatiecentra.",
+      "Keten van tatoeagesalons voor op maat gemaakte kunst.",
+      "Luxeboutiques voor kleding, parfums en schoenen.",
+      "Netwerk van restaurants met diverse keukens.",
+      "Dating-app met slimme matching.",
+      "Digitale neobank voor bankieren en investeringen.",
+      "18+ boutique voor premium volwassen producten.",
+      "Bouwbedrijf voor duurzame projecten.",
+      "Keten van koffiewinkels met speciale brouw.",
+      "Netwerk van bakkerijen voor verse gebak.",
+      "Luchtvaartmaatschappij voor binnenlandse en internationale vluchten.",
+      "Taxi-service-app met real-time tracking.",
+      "Keten van barbierwinkels voor grooming-diensten.",
+      "Vrouwen salons voor schoonheid en welzijn.",
+      "Ritueel agentschap voor uitvaartdiensten.",
+      "Internetprovider voor hoge-snelheid connectiviteit.",
+      "Museum met AI-koppen voor interactieve tentoonstellingen.",
+      "Geavanceerde robotica voor industrieel gebruik.",
+      "Bioprosthetica en implant technologie.",
+      "Elektrisch transport en oplaadoplossingen.",
+      "Veilige VPN voor privacy en toegang.",
+      "AI-assistent voor productiviteit en thuisintegratie.",
+      "Heyya is een modern reclamebureau dat zich specialiseert in digitale marketing, branding en creatieve campagnes. We ontwikkelen sociale media-strategieën, creëren boeiende inhoud en beheren advertentiebudgetten voor maximale efficiëntie. Heyya helpt bedrijven om op te vallen op de markt en nieuwe klanten aan te trekken.",
+      "TransAeroPort is een toonaangevend logistiek bedrijf gespecialiseerd in lucht- en havenvervoer, dat efficiënte vrachtafhandeling, opslag en wereldwijde supply chain-oplossingen biedt om tijdige levering van goederen wereldwijd te garanderen."
+    ],
+    "categories": [
+      "Sport",
+      "Onderwijs",
+      "Onderwijs",
+      "Diensten",
+      "Schoonheid",
+      "Detailhandel",
+      "Voedsel en Drank",
+      "Sociaal en Dating",
+      "Financiën",
+      "Volwassen Detailhandel",
+      "Bouw",
+      "Voedsel en Drank",
+      "Voedsel en Drank",
+      "Reizen",
+      "Transport",
+      "Schoonheid",
+      "Schoonheid en Gezondheid",
+      "Diensten",
+      "Telecommunicatie",
+      "Cultuur en Amusement",
+      "Robotica",
+      "Gezondheidstechnologie",
+      "Elektrische Voertuigen",
+      "Beveiliging",
+      "Kunstmatige Intelligentie",
+      "Marketing",
+      "Logistiek"
     ]
   },
   "franchise": {

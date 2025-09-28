@@ -60,142 +60,92 @@
       "robotics": "Robótica",
       "robotics-desc": "Uso de robôs na automação."
     },
-    "companies": [
-      {
-        "title": "Nebula",
-        "desc": "Plataforma de transmissão esportiva para eventos ao vivo e experiências de visualização interativas.",
-        "cat": "Esportes"
-      },
-      {
-        "title": "Codeon",
-        "desc": "Aplicativo para aprender programação com tutoriais e desafios.",
-        "cat": "Educação"
-      },
-      {
-        "title": "Linguix",
-        "desc": "Aplicativo para aprender idiomas com lições de IA e prática.",
-        "cat": "Educação"
-      },
-      {
-        "title": "Snap Repair",
-        "desc": "Rede de centros de serviço de reparo tecnológico.",
-        "cat": "Serviços"
-      },
-      {
-        "title": "Blatota Nax",
-        "desc": "Rede de salões de tatuagem para arte personalizada.",
-        "cat": "Beleza"
-      },
-      {
-        "title": "Kinalia",
-        "desc": "Butiques de luxo para roupas, perfumes e sapatos.",
-        "cat": "Varejo"
-      },
-      {
-        "title": "Platera",
-        "desc": "Rede de restaurantes com culinárias diversas.",
-        "cat": "Alimentos e Bebidas"
-      },
-      {
-        "title": "Nixa",
-        "desc": "Aplicativo de namoro com correspondência inteligente.",
-        "cat": "Social e Namoro"
-      },
-      {
-        "title": "Vivra Bank",
-        "desc": "Neobanco digital para serviços bancários e investimentos.",
-        "cat": "Finanças"
-      },
-      {
-        "title": "Luvry",
-        "desc": "Butique 18+ para produtos adultos premium.",
-        "cat": "Varejo Adulto"
-      },
-      {
-        "title": "Structara",
-        "desc": "Empresa de construção para projetos sustentáveis.",
-        "cat": "Construção"
-      },
-      {
-        "title": "Drifta",
-        "desc": "Rede de cafeterias com cafés especiais.",
-        "cat": "Alimentos e Bebidas"
-      },
-      {
-        "title": "Mookie",
-        "desc": "Rede de padarias para doces frescos.",
-        "cat": "Alimentos e Bebidas"
-      },
-      {
-        "title": "Aerava",
-        "desc": "Companhia aérea para voos domésticos e internacionais.",
-        "cat": "Viagens"
-      },
-      {
-        "title": "Tivvo",
-        "desc": "Aplicativo de serviço de táxi com rastreamento em tempo real.",
-        "cat": "Transporte"
-      },
-      {
-        "title": "BRVK",
-        "desc": "Rede de barbearias para serviços de grooming.",
-        "cat": "Beleza"
-      },
-      {
-        "title": "Blushé",
-        "desc": "Salões femininos para beleza e bem-estar.",
-        "cat": "Beleza e Bem-Estar"
-      },
-      {
-        "title": "Светлая Память",
-        "desc": "Agência de rituais para serviços funerários.",
-        "cat": "Serviços"
-      },
-      {
-        "title": "WebTown",
-        "desc": "Provedor de internet para conectividade de alta velocidade.",
-        "cat": "Telecomunicações"
-      },
-      {
-        "title": "SantRobo",
-        "desc": "Robótica avançada para uso industrial.",
-        "cat": "Robótica"
-      },
-      {
-        "title": "YW Tech",
-        "desc": "Tecnologia de biopróteses e implantes.",
-        "cat": "Tecnologia de Saúde"
-      },
-      {
-        "title": "EneCtron",
-        "desc": "Soluções de transporte elétrico e carregamento.",
-        "cat": "Veículos Elétricos"
-      },
-      {
-        "title": "SkyLib",
-        "desc": "VPN seguro para privacidade e acesso.",
-        "cat": "Segurança"
-      },
-      {
-        "title": "Eliza",
-        "desc": "Assistente de IA para produtividade e integração residencial.",
-        "cat": "Inteligência Artificial"
-      },
-      {
-        "title": "HMesu",
-        "desc": "Museu com cabeças de IA para exposições interativas.",
-        "cat": "Cultura e Entretenimento"
-      },
-      {
-        "title": "Heyya",
-        "desc": "Uma agência de publicidade criativa que oferece campanhas ousadas e soluções de branding modernas para empresas.",
-        "cat": "Marketing"
-      },
-      {
-        "title": "TransAeroPort",
-        "desc": "Uma empresa logística líder especializada em transporte aéreo e portuário, fornecendo manipulação eficiente de carga, armazenamento e soluções globais de cadeia de suprimentos para garantir a entrega oportuna de mercadorias em todo o mundo.",
-        "cat": "Logística"
-      }
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza",
+      "HMesu",
+      "Heyya",
+      "TransAeroPort"
+    ],
+    "descriptions": [
+      "Plataforma de transmissão esportiva para eventos ao vivo e experiências de visualização interativas.",
+      "Aplicativo para aprender programação com tutoriais e desafios.",
+      "Aplicativo para aprender idiomas com lições de IA e prática.",
+      "Rede de centros de serviço de reparo tecnológico.",
+      "Rede de salões de tatuagem para arte personalizada.",
+      "Butiques de luxo para roupas, perfumes e sapatos.",
+      "Rede de restaurantes com culinárias diversas.",
+      "Aplicativo de namoro com correspondência inteligente.",
+      "Neobanco digital para serviços bancários e investimentos.",
+      "Butique 18+ para produtos adultos premium.",
+      "Empresa de construção para projetos sustentáveis.",
+      "Rede de cafeterias com cafés especiais.",
+      "Rede de padarias para doces frescos.",
+      "Companhia aérea para voos domésticos e internacionais.",
+      "Aplicativo de serviço de táxi com rastreamento em tempo real.",
+      "Rede de barbearias para serviços de grooming.",
+      "Salões femininos para beleza e bem-estar.",
+      "Agência de rituais para serviços funerários.",
+      "Provedor de internet para conectividade de alta velocidade.",
+      "Robótica avançada para uso industrial.",
+      "Tecnologia de biopróteses e implantes.",
+      "Soluções de transporte elétrico e carregamento.",
+      "VPN seguro para privacidade e acesso.",
+      "Assistente de IA para produtividade e integração residencial.",
+      "Museu com cabeças de IA para exposições interativas.",
+      "Uma agência de publicidade criativa que oferece campanhas ousadas e soluções de branding modernas para empresas.",
+      "Uma empresa logística líder especializada em transporte aéreo e portuário, fornecendo manipulação eficiente de carga, armazenamento e soluções globais de cadeia de suprimentos para garantir a entrega oportuna de mercadorias em todo o mundo."
+    ],
+    "categories": [
+      "Esportes",
+      "Educação",
+      "Educação",
+      "Serviços",
+      "Beleza",
+      "Varejo",
+      "Alimentos e Bebidas",
+      "Social e Namoro",
+      "Finanças",
+      "Varejo Adulto",
+      "Construção",
+      "Alimentos e Bebidas",
+      "Alimentos e Bebidas",
+      "Viagens",
+      "Transporte",
+      "Beleza",
+      "Beleza e Bem-Estar",
+      "Serviços",
+      "Telecomunicações",
+      "Robótica",
+      "Tecnologia de Saúde",
+      "Veículos Elétricos",
+      "Segurança",
+      "Inteligência Artificial",
+      "Cultura e Entretenimento",
+      "Marketing",
+      "Logística"
     ]
   },
   "franchise": {

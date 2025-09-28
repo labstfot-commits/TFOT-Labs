@@ -131,6 +131,35 @@
       "Heyya es una agencia de publicidad moderna especializada en marketing digital, branding y campañas creativas. Desarrollamos estrategias de redes sociales, creamos contenido atractivo y gestionamos presupuestos publicitarios para lograr la máxima eficiencia. Heyya ayuda a las empresas a destacar en el mercado y atraer nuevos clientes.",
       "TransAeroPort es una empresa logística líder especializada en transporte aéreo y portuario, proporcionando manipulación eficiente de carga, almacenamiento y soluciones globales de cadena de suministro para asegurar la entrega oportuna de mercancías en todo el mundo."
     ],
+    "categories": [
+      "Transmisión deportiva",
+      "Educación",
+      "Educación",
+      "Servicios",
+      "Belleza",
+      "Venta minorista",
+      "Alimentos y bebidas",
+      "Social y citas",
+      "Finanzas",
+      "Venta minorista para adultos",
+      "Construcción",
+      "Alimentos y bebidas",
+      "Alimentos y bebidas",
+      "Viajes",
+      "Transporte",
+      "Belleza",
+      "Belleza y bienestar",
+      "Servicios",
+      "Telecomunicaciones",
+      "Robótica",
+      "Tecnología de la salud",
+      "Vehículos eléctricos",
+      "Seguridad",
+      "Inteligencia artificial",
+      "Arte y cultura",
+      "Marketing",
+      "Logística"
+    ],
     "regions": {
       "ES": {
         "descriptions": [

@@ -70,7 +70,9 @@
       "YW Tech",
       "EneCtron",
       "SkyLib",
-      "Eliza"
+      "Eliza",
+      "Heyya",
+      "TransAeroPort"
     ],
     "descriptions": [
       "Jukwaa la utangazaji wa michezo kwa matukio ya moja kwa moja na uzoefu wa kushiriki.",
@@ -97,7 +99,38 @@
       "Teknolojia ya bioprosthetics na implants.",
       "Suluhisho za usafiri wa umeme na shajani.",
       "VPN salama kwa faragha na ufikiaji.",
-      "Msaidizi wa AI kwa tija na uunganishaji wa nyumbani."
+      "Msaidizi wa AI kwa tija na uunganishaji wa nyumbani.",
+      "Heyya ni wakala wa matangazo wa kisasa unaobobea katika masoko ya kidijitali, chapa na kampeni za ubunifu. Tunakuza mikakati ya mitandao ya kijamii, tunaunda maudhui yanayovutia na tunasimamia bajeti za matangazo ili kufikia ufanisi wa hali ya juu. Heyya husaidia makampuni kujitokeza sokoni na kuvutia wateja wapya.",
+      "TransAeroPort ni kampuni kuu ya vifaa inayobobea katika usafiri wa anga na bandari, ikitoa utunzaji bora wa mizigo, uhifadhi na suluhisho za mnyororo wa ugavi wa kimataifa ili kuhakikisha utoaji wa wakati wa bidhaa ulimwenguni kote."
+    ],
+    "categories": [
+      "Utangazaji wa Michezo",
+      "Elimu",
+      "Elimu",
+      "Huduma",
+      "Uzuri",
+      "Rejareja",
+      "Chakula na Vinywaji",
+      "Jamii na Uchumbuari",
+      "Fedha",
+      "Rejareja ya Watu Wazima",
+      "Ujenzi",
+      "Chakula na Vinywaji",
+      "Chakula na Vinywaji",
+      "Safari",
+      "Usafiri",
+      "Uzuri",
+      "Uzuri na Ustawi",
+      "Huduma",
+      "Mawasiliano",
+      "Utamaduni na Burudani",
+      "Roboti",
+      "Teknolojia ya Afya",
+      "Magari ya Umeme",
+      "Usalama",
+      "Akili Bandia",
+      "Masoko",
+      "Vifaa"
     ]
   },
   "franchise": {
