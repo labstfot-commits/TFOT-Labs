@@ -38,17 +38,20 @@
   },
   "about": {
     "title": "About TFOT Labs",
-    "history": "Founded in 2014, TFOT Labs has been at the forefront of technological advancement, blending cutting-edge research with practical applications to shape tomorrow's world.",
+    "history": "Founded in 2014 in Russia, TFOT Labs is a leading technology holding company that unites over 25 innovative companies across various industries. We successfully develop startups from concept to international scale, investing in breakthrough technologies and creating an ecosystem for sustainable growth. Our company operates in 15+ countries, with offices in Russia, USA, UK, and Asia, bringing together a team of 500+ world-class specialists.",
     "mission": {
-      "US": "Our mission is to innovate sustainably, empowering communities in the United States through transformative technologies that address the challenges of the future.",
-      "GB": "Our mission is to innovate sustainably, empowering communities in the United Kingdom through transformative technologies that address the challenges of the future.",
-      "default": "Our mission is to innovate sustainably, empowering global communities through transformative technologies that address the challenges of the future."
+      "US": "Our mission is to create innovative technologies that solve humanity's global challenges. We focus on sustainable development, digital transformation, and building products that improve the quality of life for millions of people worldwide. TFOT Labs invests in promising startups, develops talent, and creates the technological infrastructure of the future.",
+      "GB": "Our mission is to create innovative technologies that solve humanity's global challenges. We focus on sustainable development, digital transformation, and building products that improve the quality of life for millions of people worldwide. TFOT Labs invests in promising startups, develops talent, and creates the technological infrastructure of the future.",
+      "default": "Our mission is to create innovative technologies that solve humanity's global challenges. We focus on sustainable development, digital transformation, and building products that improve the quality of life for millions of people worldwide. TFOT Labs invests in promising startups, develops talent, and creates the technological infrastructure of the future."
     },
+    "impact": "Impact: Over 10 million users daily utilize products from TFOT Labs companies. We have created 5,000+ jobs, invested $50+ million in technology development, and supported 100+ innovative projects.",
     "values": [
-      "Innovation: Pushing boundaries with bold ideas.",
-      "Integrity: Upholding ethical standards in all endeavors.",
-      "Collaboration: Fostering partnerships for collective success.",
-      "Sustainability: Committed to eco-friendly practices."
+      "Innovation: Pushing boundaries with bold ideas and breakthrough technologies.",
+      "Integrity: Maintaining ethical standards and transparency in all endeavors.",
+      "Collaboration: Fostering partnerships and creating synergy for collective success.",
+      "Sustainability: Committed to eco-friendly practices and social impact.",
+      "Quality: Striving for excellence in every product and service.",
+      "Responsibility: Taking responsibility for results and societal impact."
     ]
   },
   "companies": {
@@ -219,6 +222,9 @@
   "franchise": {
     "title": "Franchise Opportunities",
     "info": "Join the TFOT Labs network and bring futuristic innovation to your region. Our franchise model offers comprehensive support, training, and resources for success.",
+    "cost": "Franchise cost: from $10,000",
+    "regions": "Available regions: USA, UK, Canada, Australia, major European cities",
+    "support": "Support: staff training, marketing support, technical assistance, regular updates and consultations",
     "form": {
       "name": "Full Name",
       "email": "Email Address",
@@ -229,6 +235,9 @@
   "careers": {
     "title": "Careers at TFOT Labs",
     "intro": "Join our innovative team and shape the future of technology. We are seeking passionate professionals to drive our mission forward.",
+    "salary": "Salary: $2,000–$4,000",
+    "benefits": "Benefits: health insurance, remote work options",
+    "contact": "Email: jobs@tfotlabs.com",
     "openPositions": "Open Positions",
     "apply": "Apply for a Position",
     "vacancies": [
