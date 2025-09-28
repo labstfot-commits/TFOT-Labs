@@ -175,6 +175,11 @@
         "title": "Eliza",
         "desc": "AI-assistent voor productiviteit en thuisintegratie.",
         "cat": "Kunstmatige Intelligentie"
+      },
+      {
+        "title": "Heyya",
+        "desc": "Heyya is een modern reclamebureau dat zich specialiseert in digitale marketing, branding en creatieve campagnes. We ontwikkelen sociale media-strategieën, creëren boeiende inhoud en beheren advertentiebudgetten voor maximale efficiëntie. Heyya helpt bedrijven om op te vallen op de markt en nieuwe klanten aan te trekken.",
+        "cat": "Marketing"
       }
     ]
   },
@@ -269,12 +274,13 @@
         "title": "Project Manager",
         "responsibilities": [
           "Leid cross-functionele teams om projecten op tijd, binnen scope en budget te leveren.",
-          "Definieer projectmijlpalen, volg voortgang en mitigate risico's.",
+          "Definieer projectmijlpalen, volg voortgang en demp risico's.",
           "Bevorder communicatie tussen stakeholders en teamleden.",
           "Gebruik tools zoals Jira of Asana om workflows en rapportage te beheren."
         ]
       }
     ],
+    "apply": "Solliciteer voor een Positie",
     "form": {
       "position": "Positie waarop je solliciteert",
       "resume": "Upload CV",
@@ -308,21 +314,21 @@
       "es": ["WhatsApp", "Instagram", "Twitter"],
       "it": ["WhatsApp", "Instagram", "Twitter"],
       "tr": ["Instagram", "WhatsApp", "Twitter"],
-      "nl": ["Facebook", "Instagram", "LinkedIn"],
-      "da": ["Facebook", "Instagram", "Twitter"],
-      "no": ["Facebook", "Instagram", "Twitter"],
-      "sv": ["Facebook", "Instagram", "Twitter"],
-      "fi": ["Facebook", "Instagram", "Twitter"]
+      "nl": ["LinkedIn", "Instagram", "WhatsApp"],
+      "da": ["LinkedIn", "Instagram", "Facebook"],
+      "no": ["LinkedIn", "Instagram", "Facebook"],
+      "sv": ["LinkedIn", "Instagram", "Facebook"],
+      "fi": ["LinkedIn", "Instagram", "Facebook"]
     }
   },
   "privacy": {
     "title": "Privacybeleid",
-    "content": "TFOT Labs is toegewijd aan het uw privacy te beschermen. Dit beleid legt uit hoe we uw informatie verzamelen, gebruiken en beschermen. We delen geen persoonlijke gegevens zonder toestemming. Voor details, neem contact op met labstfot@gmail.com. Laatst bijgewerkt: 2024.",
+    "content": "TFOT Labs is toegewijd aan het uw privacy te beschermen. Dit beleid legt uit hoe we uw informatie verzamelen, gebruiken en beschermen. We delen geen persoonlijke gegevens zonder toestemming. Voor details, neem contact op met labstfot@gmail.com. Laatst bijgewerkt: 2025.",
     "__translation_status": "machine_generated - needs human review"
   },
   "terms": {
     "title": "Gebruiksvoorwaarden",
-    "content": "Door deze website te gebruiken, gaat u akkoord met onze voorwaarden. De inhoud is uitsluitend bedoeld voor informatiedoeleinden. TFOT Labs behoudt zich het recht voor deze voorwaarden te wijzigen. Verboden: ongeoorloofd gebruik of reproductie. Laatst bijgewerkt: 2024.",
+    "content": "Door deze website te gebruiken, gaat u akkoord met onze voorwaarden. De inhoud is uitsluitend bedoeld voor informatiedoeleinden. TFOT Labs behoudt zich het recht voor deze voorwaarden te wijzigen. Verboden: ongeoorloofd gebruik of reproductie. Laatst bijgewerkt: 2025.",
     "__translation_status": "machine_generated - needs human review"
   }
 }

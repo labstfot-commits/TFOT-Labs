@@ -103,10 +103,10 @@ async function loadLang(lang) {
     if (document.querySelector('.companies-list')) {
       loadCompanies();
     }
-    if (window.location.pathname.includes('careers.html')) {
+    if (window.location.pathname.includes('careers')) {
       loadCareers();
     }
-    if (window.location.pathname.includes('contact.html')) {
+    if (window.location.pathname.includes('contact')) {
       loadContacts();
       initRegionSelector();
     }
@@ -216,7 +216,7 @@ async function loadCompanies() {
         companies.forEach((company, index) => {
           company.title = translations.companies.names[index] || company.name;
           company.desc = translations.companies.descriptions[index] || company.description;
-          company.cat = company.category;
+          company.cat = translations.companies.categories ? translations.companies.categories[index] || company.category : company.category;
         });
       }
       // For other langs without specific companies data, use json fields directly
@@ -337,6 +337,11 @@ function initLangSwitcher() {
     select.addEventListener('change', (e) => {
       const newLang = e.target.value;
       if (newLang === currentLang) return;
+      // Hide region selector if switching to non-multi-flag language
+      if (!['en', 'es', 'pt'].includes(newLang)) {
+        const selector = document.querySelector('.region-selector');
+        if (selector) selector.style.display = 'none';
+      }
       const defaultRegion = getDefaultRegion(newLang);
       showGlobe(newLang, defaultRegion);
     });

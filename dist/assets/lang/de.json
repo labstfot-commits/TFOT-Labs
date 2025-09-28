@@ -44,6 +44,21 @@
   },
   "companies": {
     "title": "Unsere Portfolio-Unternehmen",
+    "glossary": {
+      "title": "Glossar",
+      "eco-friendly": "Umweltfreundlich",
+      "eco-friendly-desc": "Umweltfreundliche Praktiken.",
+      "sustainable": "Nachhaltig",
+      "sustainable-desc": "Zukunftsgenerationen nicht beeinträchtigen.",
+      "innovative": "Innovativ",
+      "innovative-desc": "Neue Ideen und Methoden einführen.",
+      "ai-powered": "KI-gestützt",
+      "ai-powered-desc": "Durch künstliche Intelligenz verbessert.",
+      "logistics": "Logistik",
+      "logistics-desc": "Verwaltung des Warentransports.",
+      "robotics": "Robotik",
+      "robotics-desc": "Verwendung von Robotern in der Automatisierung."
+    },
     "companies": [
       {
         "title": "Nebula",
@@ -141,11 +156,6 @@
         "cat": "Telekommunikation"
       },
       {
-        "title": "HMesu",
-        "desc": "Museum mit KI-Köpfen für interaktive Ausstellungen.",
-        "cat": "Kultur und Unterhaltung"
-      },
-      {
         "title": "SantRobo",
         "desc": "Fortgeschrittene Robotik für industriellen Gebrauch.",
         "cat": "Robotik"
@@ -166,9 +176,24 @@
         "cat": "Sicherheit"
       },
       {
+        "title": "HMesu",
+        "desc": "HMesu ist ein innovativer Kunstraum, der Köpfe und Gemälde zeigt und klassische Inspiration mit moderner Kreativität verbindet.",
+        "cat": "Kunst und Kultur"
+      },
+      {
         "title": "Eliza",
         "desc": "KI-Assistent für Produktivität und Heimintegration.",
         "cat": "Künstliche Intelligenz"
+      },
+      {
+        "title": "Heyya",
+        "desc": "Heyya ist eine moderne Werbeagentur, die sich auf digitales Marketing, Branding und kreative Kampagnen spezialisiert. Wir entwickeln Social-Media-Strategien, erstellen ansprechenden Content und verwalten Werbebudgets für maximale Effizienz. Heyya hilft Unternehmen, sich auf dem Markt abzuheben und neue Kunden zu gewinnen.",
+        "cat": "Marketing"
+      },
+      {
+        "title": "TransAeroPort",
+        "desc": "TransAeroPort ist ein führendes Logistikunternehmen, das sich auf Luft- und Hafenverkehr spezialisiert hat, effiziente Frachthandhabung, Lagerung und globale Lieferkettenlösungen bereitstellt, um die pünktliche Lieferung von Waren weltweit sicherzustellen.",
+        "cat": "Logistik"
       }
     ]
   },
@@ -307,10 +332,10 @@
   },
   "privacy": {
     "title": "Datenschutzrichtlinie",
-    "content": "TFOT Labs ist bestrebt, Ihre Privatsphäre zu schützen. Diese Richtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden und schützen. Wir teilen keine persönlichen Daten ohne Einwilligung. Für Details kontaktieren Sie uns unter info@tfotlabs.com. Letzte Aktualisierung: 2024."
+    "content": "TFOT Labs ist bestrebt, Ihre Privatsphäre zu schützen. Diese Richtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden und schützen. Wir teilen keine persönlichen Daten ohne Einwilligung. Für Details kontaktieren Sie uns unter info@tfotlabs.com. Letzte Aktualisierung: 2025."
   },
   "terms": {
     "title": "Nutzungsbedingungen",
-    "content": "Durch die Nutzung dieser Website stimmen Sie unseren Bedingungen zu. Der Inhalt dient nur informativen Zwecken. TFOT Labs behält sich das Recht vor, diese Bedingungen zu aktualisieren. Verboten: Unbefugte Nutzung oder Vervielfältigung. Letzte Aktualisierung: 2024."
+    "content": "Durch die Nutzung dieser Website stimmen Sie unseren Bedingungen zu. Der Inhalt dient nur informativen Zwecken. TFOT Labs behält sich das Recht vor, diese Bedingungen zu aktualisieren. Verboten: Unbefugte Nutzung oder Vervielfältigung. Letzte Aktualisierung: 2025."
   }
 }

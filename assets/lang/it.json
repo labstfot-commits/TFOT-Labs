@@ -44,6 +44,21 @@
   },
   "companies": {
     "title": "Le nostre aziende del portafoglio",
+    "glossary": {
+      "title": "Glossario",
+      "eco-friendly": "Ecologico",
+      "eco-friendly-desc": "Pratiche sostenibili rispettose dell'ambiente.",
+      "sustainable": "Sostenibile",
+      "sustainable-desc": "Soddisfare i bisogni senza compromettere le generazioni future.",
+      "innovative": "Innovativo",
+      "innovative-desc": "Introdurre nuove idee e metodi.",
+      "ai-powered": "Alimentato da IA",
+      "ai-powered-desc": "Migliorato dall'intelligenza artificiale.",
+      "logistics": "Logistica",
+      "logistics-desc": "Gestione del trasporto delle merci.",
+      "robotics": "Robotica",
+      "robotics-desc": "Utilizzo di robot nell'automazione."
+    },
     "companies": [
       {
         "title": "Nebula",
@@ -141,11 +156,6 @@
         "cat": "Telecomunicazioni"
       },
       {
-        "title": "HMesu",
-        "desc": "Museo con teste AI per esposizioni interattive.",
-        "cat": "Cultura e intrattenimento"
-      },
-      {
         "title": "SantRobo",
         "desc": "Robotica avanzata per uso industriale.",
         "cat": "Robotica"
@@ -169,6 +179,21 @@
         "title": "Eliza",
         "desc": "Assistente AI per produttività e integrazione domestica.",
         "cat": "Intelligenza artificiale"
+      },
+      {
+        "title": "HMesu",
+        "desc": "Museo con teste AI per esposizioni interattive.",
+        "cat": "Cultura e intrattenimento"
+      },
+      {
+        "title": "Heyya",
+        "desc": "Heyya è un'agenzia pubblicitaria moderna specializzata in marketing digitale, branding e campagne creative. Sviluppiamo strategie sui social media, creiamo contenuti accattivanti e gestiamo budget pubblicitari per un'efficienza massima. Heyya aiuta le aziende a distinguersi sul mercato e ad attrarre nuovi clienti.",
+        "cat": "Marketing"
+      },
+      {
+        "title": "TransAeroPort",
+        "desc": "TransAeroPort è un'azienda leader nel settore logistico specializzata nel trasporto aereo e portuale, fornendo manipolazione efficiente del carico, stoccaggio e soluzioni globali della catena di approvvigionamento per garantire la consegna tempestiva delle merci in tutto il mondo.",
+        "cat": "Logistica"
       }
     ]
   },
@@ -307,10 +332,10 @@
   },
   "privacy": {
     "title": "Politica sulla privacy",
-    "content": "TFOT Labs è impegnata a proteggere la tua privacy. Questa politica spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni. Non condividiamo dati personali senza consenso. Per dettagli, contattaci a info@tfotlabs.com. Ultimo aggiornamento: 2024."
+    "content": "TFOT Labs è impegnata a proteggere la tua privacy. Questa politica spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni. Non condividiamo dati personali senza consenso. Per dettagli, contattaci a info@tfotlabs.com. Ultimo aggiornamento: 2025."
   },
   "terms": {
     "title": "Termini di utilizzo",
-    "content": "Utilizzando questo sito web, accetti i nostri termini. Il contenuto è solo a scopo informativo. TFOT Labs si riserva il diritto di aggiornare questi termini. Vietato: uso o riproduzione non autorizzata. Ultimo aggiornamento: 2024."
+    "content": "Utilizzando questo sito web, accetti i nostri termini. Il contenuto è solo a scopo informativo. TFOT Labs si riserva il diritto di aggiornare questi termini. Vietato: uso o riproduzione non autorizzata. Ultimo aggiornamento: 2025."
   }
 }

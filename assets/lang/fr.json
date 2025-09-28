@@ -44,6 +44,21 @@
   },
   "companies": {
     "title": "Nos entreprises du portefeuille",
+    "glossary": {
+      "title": "Glossaire",
+      "eco-friendly": "Écologique",
+      "eco-friendly-desc": "Pratiques durables respectueuses de l'environnement.",
+      "sustainable": "Durable",
+      "sustainable-desc": "Satisfaire les besoins sans compromettre les générations futures.",
+      "innovative": "Innovant",
+      "innovative-desc": "Introduire de nouvelles idées et méthodes.",
+      "ai-powered": "Alimenté par IA",
+      "ai-powered-desc": "Amélioré par l'intelligence artificielle.",
+      "logistics": "Logistique",
+      "logistics-desc": "Gestion du transport des marchandises.",
+      "robotics": "Robotique",
+      "robotics-desc": "Utilisation de robots dans l'automatisation."
+    },
     "names": [
       "Nebula",
       "Codeon",
@@ -64,12 +79,14 @@
       "Blushé",
       "Светлая Память",
       "WebTown",
-      "HMesu",
       "SantRobo",
       "YW Tech",
       "EneCtron",
       "SkyLib",
-      "Eliza"
+      "Eliza",
+      "HMesu",
+      "Heyya",
+      "TransAeroPort"
     ],
     "descriptions": [
       "Plateforme de diffusion sportive pour événements en direct et expériences de visionnage interactives.",
@@ -91,12 +108,14 @@
       "Salons pour femmes pour beauté et bien-être.",
       "Agence rituelle pour services funéraires.",
       "Fournisseur d'internet pour connectivité haute vitesse.",
-      "Musée avec têtes IA pour expositions interactives.",
       "Robotique avancée pour usage industriel.",
       "Technologie de bioprothèses et implants.",
       "Solutions de transport électrique et charge.",
       "VPN sécurisé pour confidentialité et accès.",
-      "Assistant IA pour productivité et intégration domestique."
+      "Assistant IA pour productivité et intégration domestique.",
+      "Musée avec têtes IA pour expositions interactives.",
+      "Heyya est une agence publicitaire moderne spécialisée en marketing digital, branding et campagnes créatives. Nous développons des stratégies de médias sociaux, créons du contenu engageant et gérons des budgets publicitaires pour une efficacité maximale. Heyya aide les entreprises à se démarquer sur le marché et à attirer de nouveaux clients.",
+      "TransAeroPort est une entreprise logistique leader spécialisée dans le transport aérien et portuaire, fournissant une manipulation efficace des cargaisons, entreposage et solutions de chaîne d'approvisionnement mondiale pour assurer la livraison opportune des marchandises dans le monde entier."
     ]
   },
   "franchise": {
@@ -243,10 +262,10 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "content": "TFOT Labs s'engage à protéger votre vie privée. Cette politique explique comment nous collectons, utilisons et protégeons vos informations. Nous ne partageons pas de données personnelles sans consentement. Pour plus de détails, contactez-nous à labstfot@gmail.com. Dernière mise à jour : 2024."
+    "content": "TFOT Labs s'engage à protéger votre vie privée. Cette politique explique comment nous collectons, utilisons et protégeons vos informations. Nous ne partageons pas de données personnelles sans consentement. Pour plus de détails, contactez-nous à labstfot@gmail.com. Dernière mise à jour : 2025."
   },
   "terms": {
     "title": "Conditions d'utilisation",
-    "content": "En utilisant ce site web, vous acceptez nos conditions. Le contenu est à des fins informatives uniquement. TFOT Labs se réserve le droit de mettre à jour ces conditions. Interdit : utilisation ou reproduction non autorisée. Dernière mise à jour : 2024."
+    "content": "En utilisant ce site web, vous acceptez nos conditions. Le contenu est à des fins informatives uniquement. TFOT Labs se réserve le droit de mettre à jour ces conditions. Interdit : utilisation ou reproduction non autorisée. Dernière mise à jour : 2025."
   }
 }

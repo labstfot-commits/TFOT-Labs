@@ -169,6 +169,11 @@
         "title": "Eliza",
         "desc": "Verimlilik ve ev entegrasyonu için AI asistanı.",
         "cat": "Yapay Zeka"
+      },
+      {
+        "title": "Heyya",
+        "desc": "Heyya, dijital pazarlama, marka oluşturma ve yaratıcı kampanyalara odaklanan modern bir reklam ajansıdır. Sosyal medya stratejileri geliştiriyor, ilgi çekici içerikler oluşturuyor ve maksimum verimlilik için reklam bütçelerini yönetiyoruz. Heyya, şirketlerin pazarda öne çıkmasına ve yeni müşteriler çekmesine yardımcı olur.",
+        "cat": "Pazarlama"
       }
     ]
   },

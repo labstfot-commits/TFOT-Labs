@@ -1,152 +1,164 @@
 [
   {
     "name": "Nebula",
-    "description": "Sports broadcasting platform for live events and interactive viewing experiences.",
+    "description": "Nebula is a cutting-edge sports broadcasting platform that delivers live events with interactive viewing experiences, allowing fans to engage in real-time commentary, polls, and social interactions to enhance the excitement of sports entertainment. This innovative platform integrates advanced analytics and user engagement tools to create unforgettable sports experiences, connecting fans worldwide through cutting-edge technology and interactive features that redefine how sports are watched and enjoyed.",
     "category": "Sports Broadcasting",
     "image": "images/companies/Nebula.png"
   },
   {
     "name": "Codeon",
-    "description": "App for learning programming with tutorials and challenges.",
+    "description": "Codeon is an innovative app designed for learning programming through interactive tutorials, coding challenges, and personalized learning paths that help users build skills from beginner to advanced levels in various programming languages.",
     "category": "Education",
     "image": "./images/companies/Codeon.png"
   },
   {
     "name": "Linguix",
-    "description": "App for learning languages with AI lessons and practice.",
+    "description": "Linguix is an AI-powered language learning app that offers personalized lessons, conversational practice, and immersive experiences to help users master new languages quickly and effectively through adaptive technology.",
     "category": "Education",
     "image": "./images/companies/Linguix.png"
   },
   {
     "name": "Snap Repair",
-    "description": "Network of tech repair service centers.",
+    "description": "Snap Repair operates a comprehensive network of tech repair service centers specializing in quick and reliable repairs for smartphones, laptops, and other electronic devices, ensuring minimal downtime for customers.",
     "category": "Services",
     "image": "images/companies/SnapRepair.png"
   },
   {
     "name": "Blatota Nax",
-    "description": "Chain of tattoo salons for custom art.",
+    "description": "Blatota Nax is a renowned chain of tattoo salons offering custom art designs, professional tattooing services, and a creative space for body art enthusiasts to express their individuality.",
     "category": "Beauty",
     "image": "./images/companies/BlatotaNax.png"
   },
   {
     "name": "Kinalia",
-    "description": "Luxury boutiques for clothing, perfumes, and shoes.",
+    "description": "Kinalia features luxury boutiques specializing in high-end clothing, exquisite perfumes, and designer shoes, providing an exclusive shopping experience for fashion-forward individuals seeking premium quality and style.",
     "category": "Retail",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Kinalia.png"
   },
   {
     "name": "Platera",
-    "description": "Network of restaurants with diverse cuisines.",
+    "description": "Platera is a diverse network of restaurants offering a wide range of cuisines from around the world, focusing on quality ingredients, innovative dishes, and memorable dining experiences for food lovers.",
     "category": "Food & Beverage",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Platera.png"
   },
   {
     "name": "Nixa",
-    "description": "Dating app with smart matching.",
+    "description": "Nixa is a modern dating app that uses smart matching algorithms and compatibility features to connect people, fostering meaningful relationships through personalized profiles and secure interactions.",
     "category": "Social & Dating",
     "image": "./images/companies/Nixa.png"
   },
   {
     "name": "Vivra Bank",
-    "description": "Digital neobank for banking and investments.",
+    "description": "Vivra Bank is a digital neobank providing innovative banking and investment services, including mobile banking, investment portfolios, and financial planning tools for modern financial management.",
     "category": "Finance",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/VivraBank.png"
   },
   {
     "name": "Luvry",
-    "description": "18+ boutique for premium adult products.",
+    "description": "Luvry is an exclusive 18+ boutique offering premium adult products, including toys, lingerie, and wellness items, designed to enhance intimate experiences with quality and discretion.",
     "category": "Adult Retail",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Luvry.png"
   },
   {
     "name": "Structara",
-    "description": "Construction company for sustainable projects.",
+    "description": "Structara is a leading construction company specializing in sustainable building projects, utilizing eco-friendly materials and innovative techniques to create durable and environmentally responsible structures.",
     "category": "Construction",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Structara.png"
   },
   {
     "name": "Drifta",
-    "description": "Chain of coffee shops with specialty brews.",
+    "description": "Drifta operates a chain of coffee shops offering specialty brews, artisanal coffee blends, and cozy atmospheres for coffee enthusiasts to enjoy premium beverages and relaxing environments.",
     "category": "Food & Beverage",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Drifta.png"
   },
   {
     "name": "Mookie",
-    "description": "Network of bakeries for fresh pastries.",
+    "description": "Mookie is a network of bakeries dedicated to providing fresh, high-quality pastries, breads, and baked goods made with traditional recipes and the finest ingredients for delightful culinary experiences.",
     "category": "Food & Beverage",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Mookie.png"
   },
   {
     "name": "Aerava",
-    "description": "Airline for domestic and international flights.",
+    "description": "Aerava is an airline offering reliable domestic and international flights with a focus on passenger comfort, safety, and exceptional service to make air travel enjoyable and stress-free.",
     "category": "Travel",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Aerava.png"
   },
   {
     "name": "Tivvo",
-    "description": "Taxi service app with real-time tracking.",
+    "description": "Tivvo is a taxi service app providing real-time tracking, easy booking, and safe rides with professional drivers, ensuring convenient and reliable transportation solutions for urban mobility.",
     "category": "Transportation",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Tivvo.png"
   },
   {
     "name": "BRVK",
-    "description": "Chain of barbershops for grooming services.",
+    "description": "BRVK is a chain of barbershops offering professional grooming services, including haircuts, shaves, and styling, in a welcoming environment for men seeking top-quality personal care.",
     "category": "Beauty",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/BRVK.png"
   },
   {
     "name": "Blushé",
-    "description": "Women's salons for beauty and wellness.",
+    "description": "Blushé operates women's salons dedicated to beauty and wellness services, providing facials, massages, and spa treatments in a relaxing setting to promote self-care and rejuvenation.",
     "category": "Beauty & Wellness",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Blushe.png"
   },
   {
     "name": "Светлая Память",
-    "description": "Ritual agency for funeral services.",
+    "description": "Светлая Память is a compassionate ritual agency providing comprehensive funeral services, including planning, ceremonies, and support to help families honor their loved ones with dignity and care.",
     "category": "Services",
     "image": "images/companies/SvetlayaPamat.png"
   },
   {
     "name": "WebTown",
-    "description": "Internet provider for high-speed connectivity.",
+    "description": "WebTown is an internet provider delivering high-speed connectivity solutions, including broadband services and network infrastructure, to keep communities connected and online.",
     "category": "Telecommunications",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/WebTown.png"
   },
   {
     "name": "SantRobo",
-    "description": "Advanced robotics for industrial use.",
+    "description": "SantRobo specializes in advanced robotics for industrial applications, offering cutting-edge automation solutions, robotic systems, and AI-driven technologies to optimize manufacturing processes.",
     "category": "Robotics",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/SantRobo.png"
   },
   {
     "name": "YW Tech",
-    "description": "Bioprosthetics and implants technology.",
+    "description": "YW Tech develops innovative bioprosthetics and implant technologies, creating advanced medical devices and solutions to improve quality of life for patients through state-of-the-art healthcare innovations.",
     "category": "Health Technology",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/YWTech.png"
   },
   {
     "name": "EneCtron",
-    "description": "Electric transport and charging solutions.",
+    "description": "EneCtron provides electric transport and charging solutions, including EV infrastructure, battery technologies, and sustainable mobility options to support the transition to green transportation.",
     "category": "Electric Vehicles",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/EneCtron.png"
   },
   {
     "name": "SkyLib",
-    "description": "Secure VPN for privacy and access.",
+    "description": "SkyLib offers a secure VPN service for enhanced privacy and unrestricted access, protecting user data and enabling safe browsing across devices with advanced encryption and global servers.",
     "category": "Security",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/SkyLib.png"
   },
   {
     "name": "Eliza",
-    "description": "AI assistant for productivity and home integration.",
+    "description": "Eliza is an AI assistant designed for productivity and home integration, providing voice commands, smart automation, and personalized assistance to streamline daily tasks and enhance living environments.",
     "category": "Artificial Intelligence",
     "image": "images/companies/Eliza.png"
   },
   {
+    "name": "HMesu",
+    "description": "HMesu is an innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity to provide unique cultural experiences.",
+    "category": "Arts & Culture",
+    "image": "images/companies/HMesu.png"
+  },
+  {
     "name": "Heyya",
-    "description": "Heyya is a modern advertising agency specializing in digital marketing, branding, and creative campaigns. We develop social media strategies, create engaging content, and manage advertising budgets to achieve maximum efficiency. Heyya helps companies stand out in the market and attract new clients.",
+    "description": "Heyya is a modern advertising agency specializing in digital marketing, branding, and creative campaigns. We develop social media strategies, create engaging content, and manage advertising budgets to achieve maximum efficiency. Heyya helps companies stand out in the market and attract new clients through innovative and data-driven approaches.",
     "category": "Marketing",
-    "image": "images/companies/placeholder.svg"
+    "image": "images/companies/Heyya.png"
+  },
+  {
+    "name": "TransAeroPort",
+    "description": "TransAeroPort is a leading logistics company specializing in air and port transportation, providing efficient cargo handling, warehousing, and global supply chain solutions to ensure timely delivery of goods worldwide. Our advanced tracking systems and network of partners guarantee secure and cost-effective logistics services for businesses of all sizes.",
+    "category": "Logistics",
+    "image": "images/companies/TransAeroPort.png"
   }
 ]

@@ -45,6 +45,21 @@
   },
   "companies": {
     "title": "Nossas empresas do portfólio",
+    "glossary": {
+      "title": "Glossário",
+      "eco-friendly": "Ecológico",
+      "eco-friendly-desc": "Práticas sustentáveis respeitosas ao meio ambiente.",
+      "sustainable": "Sustentável",
+      "sustainable-desc": "Satisfazer necessidades sem comprometer gerações futuras.",
+      "innovative": "Inovador",
+      "innovative-desc": "Introduzir novas ideias e métodos.",
+      "ai-powered": "Impulsionado por IA",
+      "ai-powered-desc": "Melhorado pela inteligência artificial.",
+      "logistics": "Logística",
+      "logistics-desc": "Gestão do transporte de mercadorias.",
+      "robotics": "Robótica",
+      "robotics-desc": "Uso de robôs na automação."
+    },
     "companies": [
       {
         "title": "Nebula",
@@ -142,11 +157,6 @@
         "cat": "Telecomunicações"
       },
       {
-        "title": "HMesu",
-        "desc": "Museu com cabeças de IA para exposições interativas.",
-        "cat": "Cultura e Entretenimento"
-      },
-      {
         "title": "SantRobo",
         "desc": "Robótica avançada para uso industrial.",
         "cat": "Robótica"
@@ -172,14 +182,19 @@
         "cat": "Inteligência Artificial"
       },
       {
-        "title": "HFMuseu",
-        "desc": "Um espaço artístico inovador que exibe cabeças e pinturas, misturando inspiração clássica com criatividade moderna.",
+        "title": "HMesu",
+        "desc": "Museu com cabeças de IA para exposições interativas.",
         "cat": "Cultura e Entretenimento"
       },
       {
         "title": "Heyya",
         "desc": "Uma agência de publicidade criativa que oferece campanhas ousadas e soluções de branding modernas para empresas.",
         "cat": "Marketing"
+      },
+      {
+        "title": "TransAeroPort",
+        "desc": "Uma empresa logística líder especializada em transporte aéreo e portuário, fornecendo manipulação eficiente de carga, armazenamento e soluções globais de cadeia de suprimentos para garantir a entrega oportuna de mercadorias em todo o mundo.",
+        "cat": "Logística"
       }
     ]
   },

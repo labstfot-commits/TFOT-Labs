@@ -175,6 +175,11 @@
         "title": "Eliza",
         "desc": "AI assistant for productivity and home integration.",
         "cat": "Kunstig intelligens"
+      },
+      {
+        "title": "Heyya",
+        "desc": "Heyya er et moderne reklamebyrå som spesialiserer seg på digital markedsføring, merkevarebygging og kreative kampanjer. Vi utvikler sosiale medie-strategier, skaper engasjerende innhold og administrerer annonsebudsjett for maksimal effektivitet. Heyya hjelper bedrifter med å skille seg ut på markedet og tiltrekke nye kunder.",
+        "cat": "Markedsføring"
       }
     ]
   },

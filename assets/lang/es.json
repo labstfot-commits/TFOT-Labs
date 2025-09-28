@@ -58,6 +58,21 @@
   },
   "companies": {
     "title": "Nuestras empresas del portafolio",
+    "glossary": {
+      "title": "Glosario",
+      "eco-friendly": "Ecológico",
+      "eco-friendly-desc": "Prácticas sostenibles respetuosas del medio ambiente.",
+      "sustainable": "Sostenible",
+      "sustainable-desc": "Satisfacer las necesidades sin comprometer a las generaciones futuras.",
+      "innovative": "Innovador",
+      "innovative-desc": "Introducir nuevas ideas y métodos.",
+      "ai-powered": "Impulsado por IA",
+      "ai-powered-desc": "Mejorado por la inteligencia artificial.",
+      "logistics": "Logística",
+      "logistics-desc": "Gestión del transporte de mercancías.",
+      "robotics": "Robótica",
+      "robotics-desc": "Uso de robots en la automatización."
+    },
     "names": [
       "Nebula",
       "Codeon",
@@ -78,14 +93,14 @@
       "Blushé",
       "Светлая Память",
       "WebTown",
-      "HMesu",
       "SantRobo",
       "YW Tech",
       "EneCtron",
       "SkyLib",
       "Eliza",
-      "HFMuseu",
-      "Heyya"
+      "HMesu",
+      "Heyya",
+      "TransAeroPort"
     ],
     "descriptions": [
       "Plataforma de transmisión deportiva para eventos en vivo y experiencias de visualización interactivas.",
@@ -107,14 +122,14 @@
       "Salones para mujeres para belleza y bienestar.",
       "Agencia ritual para servicios funerarios.",
       "Proveedor de internet para conectividad de alta velocidad.",
-      "Museo con cabezas de IA para exposiciones interactivas.",
       "Robótica avanzada para uso industrial.",
       "Tecnología de bioprótesis e implantes.",
       "Soluciones de transporte eléctrico y carga.",
       "VPN segura para privacidad y acceso.",
       "Asistente de IA para productividad e integración en el hogar.",
-      "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna.",
-      "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas."
+      "Museo con cabezas de IA para exposiciones interactivas.",
+      "Heyya es una agencia de publicidad moderna especializada en marketing digital, branding y campañas creativas. Desarrollamos estrategias de redes sociales, creamos contenido atractivo y gestionamos presupuestos publicitarios para lograr la máxima eficiencia. Heyya ayuda a las empresas a destacar en el mercado y atraer nuevos clientes.",
+      "TransAeroPort es una empresa logística líder especializada en transporte aéreo y portuario, proporcionando manipulación eficiente de carga, almacenamiento y soluciones globales de cadena de suministro para asegurar la entrega oportuna de mercancías en todo el mundo."
     ],
     "regions": {
       "ES": {
@@ -145,7 +160,7 @@
           "VPN segura para privacidad y acceso en España.",
           "Asistente de IA para productividad e integración en el hogar en España.",
           "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en España.",
-          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en España."
+          "Heyya es una agencia de publicidad moderna especializada en marketing digital, branding y campañas creativas. Desarrollamos estrategias de redes sociales, creamos contenido atractivo y gestionamos presupuestos publicitarios para lograr la máxima eficiencia. Heyya ayuda a las empresas a destacar en el mercado y atraer nuevos clientes en España."
         ]
       },
       "MX": {
@@ -176,7 +191,7 @@
           "VPN segura para privacidad y acceso en México.",
           "Asistente de IA para productividad e integración en el hogar en México.",
           "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en México.",
-          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en México."
+          "Heyya es una agencia de publicidad moderna especializada en marketing digital, branding y campañas creativas. Desarrollamos estrategias de redes sociales, creamos contenido atractivo y gestionamos presupuestos publicitarios para lograr la máxima eficiencia. Heyya ayuda a las empresas a destacar en el mercado y atraer nuevos clientes en México."
         ]
       },
       "AR": {
@@ -207,7 +222,7 @@
           "VPN segura para privacidad y acceso en Argentina.",
           "Asistente de IA para productividad e integración en el hogar en Argentina.",
           "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en Argentina.",
-          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en Argentina."
+          "Heyya es una agencia de publicidad moderna especializada en marketing digital, branding y campañas creativas. Desarrollamos estrategias de redes sociales, creamos contenido atractivo y gestionamos presupuestos publicitarios para lograr la máxima eficiencia. Heyya ayuda a las empresas a destacar en el mercado y atraer nuevos clientes en Argentina."
         ]
       },
       "CL": {
@@ -238,7 +253,7 @@
           "VPN segura para privacidad y acceso en Chile.",
           "Asistente de IA para productividad e integración en el hogar en Chile.",
           "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en Chile.",
-          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en Chile."
+          "Heyya es una agencia de publicidad moderna especializada en marketing digital, branding y campañas creativas. Desarrollamos estrategias de redes sociales, creamos contenido atractivo y gestionamos presupuestos publicitarios para lograr la máxima eficiencia. Heyya ayuda a las empresas a destacar en el mercado y atraer nuevos clientes en Chile."
         ]
       },
       "PE": {
@@ -269,7 +284,7 @@
           "VPN segura para privacidad y acceso en Perú.",
           "Asistente de IA para productividad e integración en el hogar en Perú.",
           "Un espacio artístico innovador que muestra cabezas y pinturas, fusionando inspiración clásica con creatividad moderna en Perú.",
-          "Una agencia de publicidad creativa que ofrece campañas audaces y soluciones de branding modernas para empresas en Perú."
+          "Heyya es una agencia de publicidad moderna especializada en marketing digital, branding y campañas creativas. Desarrollamos estrategias de redes sociales, creamos contenido atractivo y gestionamos presupuestos publicitarios para lograr la máxima eficiencia. Heyya ayuda a las empresas a destacar en el mercado y atraer nuevos clientes en Perú."
         ]
       }
     }

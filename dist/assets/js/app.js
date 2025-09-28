@@ -103,10 +103,10 @@ async function loadLang(lang) {
     if (document.querySelector('.companies-list')) {
       loadCompanies();
     }
-    if (window.location.pathname.includes('careers.html')) {
+    if (window.location.pathname.includes('careers')) {
       loadCareers();
     }
-    if (window.location.pathname.includes('contact.html')) {
+    if (window.location.pathname.includes('contact')) {
       loadContacts();
       initRegionSelector();
     }
@@ -216,7 +216,7 @@ async function loadCompanies() {
         companies.forEach((company, index) => {
           company.title = translations.companies.names[index] || company.name;
           company.desc = translations.companies.descriptions[index] || company.description;
-          company.cat = company.category;
+          company.cat = translations.companies.categories ? translations.companies.categories[index] || company.category : company.category;
         });
       }
       // For other langs without specific companies data, use json fields directly
@@ -337,6 +337,11 @@ function initLangSwitcher() {
     select.addEventListener('change', (e) => {
       const newLang = e.target.value;
       if (newLang === currentLang) return;
+      // Hide region selector if switching to non-multi-flag language
+      if (!['en', 'es', 'pt'].includes(newLang)) {
+        const selector = document.querySelector('.region-selector');
+        if (selector) selector.style.display = 'none';
+      }
       const defaultRegion = getDefaultRegion(newLang);
       showGlobe(newLang, defaultRegion);
     });
@@ -369,6 +374,9 @@ function applyLocale(locale, region) {
     document.querySelectorAll('.flag-btn').forEach(btn => btn.classList.remove('active'));
     const activeBtn = document.querySelector(`[data-region="${region}"]`);
     if (activeBtn) activeBtn.classList.add('active');
+    // Close mobile menu
+    const menu = document.querySelector('.menu');
+    if (menu) menu.classList.remove('active');
     // Render region-specific content
     if (window.location.pathname.includes('contact.html')) {
       loadContacts();
@@ -624,6 +632,40 @@ async function loadContacts() {
 
 // Initialize app on load
 document.addEventListener('DOMContentLoaded', () => {
+  // Create burger menu button
+  const createBurger = () => {
+    const burger = document.createElement('button');
+    burger.innerHTML = '☰';
+    burger.className = 'burger';
+    burger.setAttribute('aria-label', 'Toggle menu');
+    burger.style.background = 'none';
+    burger.style.border = 'none';
+    burger.style.fontSize = '1.5rem';
+    burger.style.color = 'white';
+    burger.style.cursor = 'pointer';
+    burger.style.padding = '0.5rem';
+    return burger;
+  };
+
+  const burger = createBurger();
+  const nav = document.querySelector('nav');
+  const menu = document.querySelector('.menu');
+  const langSelect = document.getElementById('lang-select');
+  if (nav && menu && langSelect) {
+    nav.insertBefore(burger, langSelect.nextSibling);
+
+    burger.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+
+    // Close menu on link click
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('active');
+      });
+    });
+  }
+
   // Inject CSS for animations
   const style = document.createElement('style');
   style.textContent = `

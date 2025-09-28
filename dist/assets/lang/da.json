@@ -175,6 +175,11 @@
         "title": "Eliza",
         "desc": "AI-assistent for produktivitet og hjemmeintegration.",
         "cat": ""
+      },
+      {
+        "title": "Heyya",
+        "desc": "Heyya er et moderne reklamebureau, der specialiserer sig i digital markedsføring, branding og kreative kampagner. Vi udvikler sociale medie-strategier, skaber engagerende indhold og administrerer annonceringsbudgetter for maksimal effektivitet. Heyya hjælper virksomheder med at skille sig ud på markedet og tiltrække nye kunder.",
+        "cat": "Markedsføring"
       }
     ]
   },
@@ -318,10 +323,10 @@
   },
   "privacy": {
     "title": "Privatlivspolitik",
-    "content": "TFOT Labs er forpligtet til at beskytte din privatliv. Denne politik forklarer, hvordan vi indsamler, bruger og beskytter dine oplysninger. Vi deler ikke personlige data uden samtykke. For detaljer, kontakt os på labstfot@gmail.com. Sidst opdateret: 2024."
+    "content": "TFOT Labs er forpligtet til at beskytte din privatliv. Denne politik forklarer, hvordan vi indsamler, bruger og beskytter dine oplysninger. Vi deler ikke personlige data uden samtycke. For detaljer, kontakt os på labstfot@gmail.com. Sidst opdateret: 2025."
   },
   "terms": {
     "title": "Brugsbetingelser",
-    "content": "Ved at bruge denne hjemmeside accepterer du vores betingelser. Indholdet er kun til informationsformål. TFOT Labs forbeholder sig retten til at opdatere disse betingelser. Forbudt: uautoriseret brug eller reproduktion. Sidst opdateret: 2024."
+    "content": "Ved at bruge denne hjemmeside accepterer du vores betingelser. Indholdet er kun til informationsformål. TFOT Labs forbeholder sig retten til at opdatere disse betingelser. Forbudt: uautoriseret brug eller reproduktion. Sidst opdateret: 2025."
   }
 }

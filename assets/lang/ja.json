@@ -1,3 +1,4 @@
+
 {
   "header": {
     "logo": "TFOT Labs",
@@ -45,6 +46,21 @@
   },
   "companies": {
     "title": "当社のポートフォリオ企業",
+    "glossary": {
+      "title": "用語集",
+      "eco-friendly": "環境に優しい",
+      "eco-friendly-desc": "環境に優しい持続可能な実践。",
+      "sustainable": "持続可能な",
+      "sustainable-desc": "将来の世代に害を及ぼさずにニーズを満たす。",
+      "innovative": "革新的な",
+      "innovative-desc": "新しいアイデアと方法を紹介する。",
+      "ai-powered": "AI駆動",
+      "ai-powered-desc": "人工知能によって強化される。",
+      "logistics": "ロジスティクス",
+      "logistics-desc": "商品輸送の管理。",
+      "robotics": "ロボット工学",
+      "robotics-desc": "自動化におけるロボットの使用。"
+    },
     "companies": [
       {
         "title": "Nebula",
@@ -142,11 +158,6 @@
         "cat": "通信"
       },
       {
-        "title": "HMesu",
-        "desc": "インタラクティブな展示のためのAIヘッドミュージアム。",
-        "cat": "文化とエンターテイメント"
-      },
-      {
         "title": "SantRobo",
         "desc": "産業用先進ロボット。",
         "cat": "ロボット工学"
@@ -170,6 +181,21 @@
         "title": "Eliza",
         "desc": "生産性とホーム統合のためのAIアシスタント。",
         "cat": "人工知能"
+      },
+      {
+        "title": "HMesu",
+        "desc": "HMesuは、頭部と絵画を展示する革新的なアートスペースで、古典的なインスピレーションと現代的な創造性を融合し、ユニークな文化的体験を提供します。",
+        "cat": "アートと文化"
+      },
+      {
+        "title": "Heyya",
+        "desc": "Heyyaは、デジタルマーケティング、ブランディング、クリエイティブキャンペーンに特化した現代的な広告代理店です。私たちはソーシャルメディア戦略を開発し、魅力的なコンテンツを作成し、最大の効率のために広告予算を管理します。Heyyaは企業が市場で目立つ助けをし、新しいクライアントを引きつけます。",
+        "cat": "マーケティング"
+      },
+      {
+        "title": "TransAeroPort",
+        "desc": "TransAeroPortは、空運と港湾輸送に特化した主要な物流会社で、貨物の効率的な取り扱い、倉庫保管、世界的なサプライチェーンソリューションを提供し、世界中の貨物のタイムリーな配送を確保します。",
+        "cat": "ロジスティクス"
       }
     ]
   },
@@ -295,7 +321,7 @@
       "fr": ["Facebook", "Instagram", "Twitter"],
       "de": ["LinkedIn", "Xing", "Twitter"],
       "hi": ["WhatsApp", "Instagram", "Twitter"],
-      "ja": ["Line", "Instagram", "TikTok"],
+      "ja": ["Line", "Twitter", "Instagram"],
       "ko": ["KakaoTalk", "Naver", "Twitter"],
       "ar": ["WhatsApp", "Facebook", "Twitter"],
       "he": ["WhatsApp", "Facebook", "Twitter"],
@@ -305,13 +331,5 @@
       "it": ["WhatsApp", "Instagram", "Twitter"],
       "tr": ["Instagram", "WhatsApp", "Twitter"]
     }
-  },
-  "privacy": {
-    "title": "プライバシーポリシー",
-    "content": "TFOT Labsは、お客様のプライバシーを保護することに取り組んでいます。このポリシーは、私たちがどのように情報を収集、使用、保護するかを説明します。同意なしに個人データを共有しません。詳細はinfo@tfotlabs.comまでお問い合わせください。最終更新：2024年。"
-  },
-  "terms": {
-    "title": "利用規約",
-    "content": "このウェブサイトを使用することにより、当社の規約に同意したことになります。コンテンツは情報提供のみを目的としています。TFOT Labsはこれらの規約を更新する権利を留保します。禁止事項：許可されていない使用または複製。最終更新：2024年。"
   }
 }

@@ -45,6 +45,21 @@
   },
   "companies": {
     "title": "我们的投资组合公司",
+    "glossary": {
+      "title": "术语表",
+      "eco-friendly": "环保",
+      "eco-friendly-desc": "环境可持续实践。",
+      "sustainable": "可持续",
+      "sustainable-desc": "满足需求而不损害未来世代。",
+      "innovative": "创新",
+      "innovative-desc": "引入新的想法和方法。",
+      "ai-powered": "AI 驱动",
+      "ai-powered-desc": "由人工智能增强。",
+      "logistics": "物流",
+      "logistics-desc": "货物运输管理。",
+      "robotics": "机器人技术",
+      "robotics-desc": "在自动化中使用机器人。"
+    },
     "companies": [
       {
         "title": "Nebula",
@@ -170,6 +185,16 @@
         "title": "Eliza",
         "desc": "生产力和家庭集成AI助手。",
         "cat": "人工智能"
+      },
+      {
+        "title": "Heyya",
+        "desc": "Heyya 是一家现代广告代理公司，专注于数字营销、品牌建设和创意活动。我们开发社交媒体策略，创建引人入胜的内容，并管理广告预算以实现最大效率。Heyya 帮助公司在市场上脱颖而出并吸引新客户。",
+        "cat": "营销"
+      },
+      {
+        "title": "TransAeroPort",
+        "desc": "TransAeroPort 是一家领先的物流公司，专注于航空和港口运输，提供高效的货物处理、仓储和全球供应链解决方案，以确保货物及时交付到世界各地。",
+        "cat": "物流"
       }
     ]
   },
