@@ -50,142 +50,92 @@
   },
   "companies": {
     "title": "Portfoliomme yritykset",
-    "companies": [
-      {
-        "title": "Nebula",
-        "desc": "Urheilulähetyalusta live-tapahtumille ja interaktiivisille katselukokemuksille.",
-        "cat": "Urheilu"
-      },
-      {
-        "title": "Codeon",
-        "desc": "Sovellus ohjelmoinnin oppimiseen oppailla ja haasteilla.",
-        "cat": "Koulutus"
-      },
-      {
-        "title": "Linguix",
-        "desc": "Sovellus kielten oppimiseen AI-tunneilla ja harjoituksilla.",
-        "cat": "Koulutus"
-      },
-      {
-        "title": "Snap Repair",
-        "desc": "Teknologian korjauspalvelukeskusten verkosto.",
-        "cat": "Palvelut"
-      },
-      {
-        "title": "Blatota Nax",
-        "desc": "Tattoo-salonien ketju räätälöitylle taiteelle.",
-        "cat": "Kauneus"
-      },
-      {
-        "title": "Kinalia",
-        "desc": "Luksusputiikit vaatteille, hajuvesille ja kengille.",
-        "cat": "Vähittäiskauppa"
-      },
-      {
-        "title": "Platera",
-        "desc": "Verkosto ravintoloita monipuolisilla keittiöillä.",
-        "cat": "Ruoka ja juoma"
-      },
-      {
-        "title": "Nixa",
-        "desc": "Deitti-sovellus älykkäällä parittamisella.",
-        "cat": "Sosiaalinen ja deittailu"
-      },
-      {
-        "title": "Vivra Bank",
-        "desc": "Digitaalinen neopankki pankkipalveluille ja sijoituksille.",
-        "cat": "Rahoitus"
-      },
-      {
-        "title": "Luvry",
-        "desc": "18+ putiikki premium-aikuistuotteille.",
-        "cat": "Aikuisten vähittäiskauppa"
-      },
-      {
-        "title": "Structara",
-        "desc": "Rakennusyritys kestäville projekteille.",
-        "cat": "Rakentaminen"
-      },
-      {
-        "title": "Drifta",
-        "desc": "Kahvilaketju erikoisoluiden kanssa.",
-        "cat": "Ruoka ja juoma"
-      },
-      {
-        "title": "Mookie",
-        "desc": "Verkosto leipomoita tuoreille leivoksille.",
-        "cat": "Ruoka ja juoma"
-      },
-      {
-        "title": "Aerava",
-        "desc": "Lentoyhtiö kotimaan- ja kansainvälisille lennoille.",
-        "cat": "Matkailu"
-      },
-      {
-        "title": "Tivvo",
-        "desc": "Taksin palvelusovellus reaaliaikaisella seurannalla.",
-        "cat": "Liikenne"
-      },
-      {
-        "title": "BRVK",
-        "desc": "Parturiketju grooming-palveluille.",
-        "cat": "Kauneus"
-      },
-      {
-        "title": "Blushé",
-        "desc": "Naisten salongit kauneudelle ja hyvinvoinnille.",
-        "cat": "Kauneus ja hyvinvointi"
-      },
-      {
-        "title": "Светлая Память",
-        "desc": "Rituaalitoimisto hautaustoimintaan.",
-        "cat": "Palvelut"
-      },
-      {
-        "title": "WebTown",
-        "desc": "Internet-palveluntarjoaja korkean nopeuden yhteyksille.",
-        "cat": "Telekommunikaatio"
-      },
-      {
-        "title": "HMesu",
-        "desc": "Museo AI-päillä interaktiivisille näyttelyille.",
-        "cat": "Kulttuuri ja viihde"
-      },
-      {
-        "title": "SantRobo",
-        "desc": "Edistynyt robotiikka teollisuuskäyttöön.",
-        "cat": "Robotiikka"
-      },
-      {
-        "title": "YW Tech",
-        "desc": "Bioproteesit ja implanttitekniikka.",
-        "cat": "Terveydenhuolto teknologia"
-      },
-      {
-        "title": "EneCtron",
-        "desc": "Sähköinen kuljetus ja latausratkaisut.",
-        "cat": "Sähköajoneuvot"
-      },
-      {
-        "title": "SkyLib",
-        "desc": "Turvallinen VPN yksityisyydelle ja pääsylle.",
-        "cat": "Turvallisuus"
-      },
-      {
-        "title": "Eliza",
-        "desc": "AI-avustaja tuottavuudelle ja kotiautomaatiolle.",
-        "cat": "Tekoäly"
-      },
-      {
-        "title": "HFMuseu",
-        "desc": "Innovaatiotaiteen tila, joka esittelee päitä ja maalauksia, sekoittaen klassista inspiraatiota moderniin luovuuteen.",
-        "cat": "Kulttuuri ja viihde"
-      },
-      {
-        "title": "Heyya",
-        "desc": "Heyya on moderni mainostoimisto, joka erikoistuu digitaaliseen markkinointiin, brändäykseen ja luoviin kampanjoihin. Kehitämme sosiaalisen median strategioita, luomme kiehtovaa sisältöä ja hallitsemme mainosbudjetteja maksimaalisen tehokkuuden saavuttamiseksi. Heyya auttaa yrityksiä erottumaan markkinoilla ja houkuttelemaan uusia asiakkaita.",
-        "cat": "Markkinointi"
-      }
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "HMesu",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza",
+      "Heyya",
+      "TransAeroPort"
+    ],
+    "descriptions": [
+      "Urheilulähetyalusta live-tapahtumille ja interaktiivisille katselukokemuksille.",
+      "Sovellus ohjelmoinnin oppimiseen oppailla ja haasteilla.",
+      "Sovellus kielten oppimiseen AI-tunneilla ja harjoituksilla.",
+      "Teknologian korjauspalvelukeskusten verkosto.",
+      "Tattoo-salonien ketju räätälöitylle taiteelle.",
+      "Luksusputiikit vaatteille, hajuvesille ja kengille.",
+      "Verkosto ravintoloita monipuolisilla keittiöillä.",
+      "Deitti-sovellus älykkäällä parittamisella.",
+      "Digitaalinen neopankki pankkipalveluille ja sijoituksille.",
+      "18+ putiikki premium-aikuistuotteille.",
+      "Rakennusyritys kestäville projekteille.",
+      "Kahvilaketju erikoisoluiden kanssa.",
+      "Verkosto leipomoita tuoreille leivoksille.",
+      "Lentoyhtiö kotimaan- ja kansainvälisille lennoille.",
+      "Taksin palvelusovellus reaaliaikaisella seurannalla.",
+      "Parturiketju grooming-palveluille.",
+      "Naisten salongit kauneudelle ja hyvinvoinnille.",
+      "Rituaalitoimisto hautaustoimintaan.",
+      "Internet-palveluntarjoaja korkean nopeuden yhteyksille.",
+      "Museo AI-päillä interaktiivisille näyttelyille.",
+      "Edistynyt robotiikka teollisuuskäyttöön.",
+      "Bioproteesit ja implanttitekniikka.",
+      "Sähköinen kuljetus ja latausratkaisut.",
+      "Turvallinen VPN yksityisyydelle ja pääsylle.",
+      "AI-avustaja tuottavuudelle ja kotiautomaatiolle.",
+      "Heyya on moderni mainostoimisto, joka erikoistuu digitaaliseen markkinointiin, brändäykseen ja luoviin kampanjoihin. Kehitämme sosiaalisen median strategioita, luomme kiehtovaa sisältöä ja hallitsemme mainosbudjetteja maksimaalisen tehokkuuden saavuttamiseksi. Heyya auttaa yrityksiä erottumaan markkinoilla ja houkuttelemaan uusia asiakkaita.",
+      "TransAeroPort on johtava logistiikkayritys, joka on erikoistunut lento- ja satamaliikenteeseen, tarjoten tehokasta rahtinkäsittelyä, varastointia ja globaaleja toimitusketjuratkaisuja varmistaakseen tavaroiden oikea-aikaisen toimituksen maailmanlaajuisesti."
+    ],
+    "categories": [
+      "Urheilu",
+      "Koulutus",
+      "Koulutus",
+      "Palvelut",
+      "Kauneus",
+      "Vähittäiskauppa",
+      "Ruoka ja juoma",
+      "Sosiaalinen ja deittailu",
+      "Rahoitus",
+      "Aikuisten vähittäiskauppa",
+      "Rakentaminen",
+      "Ruoka ja juoma",
+      "Ruoka ja juoma",
+      "Matkailu",
+      "Liikenne",
+      "Kauneus",
+      "Kauneus ja hyvinvointi",
+      "Palvelut",
+      "Telekommunikaatio",
+      "Kulttuuri ja viihde",
+      "Robotiikka",
+      "Terveydenhuolto teknologia",
+      "Sähköajoneuvot",
+      "Turvallisuus",
+      "Tekoäly",
+      "Markkinointi",
+      "Logistiikka"
     ]
   },
   "franchise": {

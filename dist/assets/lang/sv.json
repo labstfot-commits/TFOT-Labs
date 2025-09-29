@@ -70,7 +70,9 @@
       "YW Tech",
       "EneCtron",
       "SkyLib",
-      "Eliza"
+      "Eliza",
+      "Heyya",
+      "TransAeroPort"
     ],
     "descriptions": [
       "Sportutsändningsplattform för liveevenemang och interaktiva visningsupplevelser.",
@@ -97,7 +99,38 @@
       "Bioprostetiska och implantatteknologier.",
       "Elektrisk transport och laddningslösningar.",
       "Säker VPN för integritet och åtkomst.",
-      "AI-assistent för produktivitet och hemintegration."
+      "AI-assistent för produktivitet och hemintegration.",
+      "Heyya är en modern reklambyrå specialiserad på digital marknadsföring, varumärkesbyggande och kreativa kampanjer. Vi utvecklar strategier för sociala medier, skapar engagerande innehåll och hanterar annonsbudgetar för maximal effektivitet. Heyya hjälper företag att sticka ut på marknaden och attrahera nya kunder.",
+      "TransAeroPort är ett ledande logistikföretag specialiserat på flyg- och hamntransport, som tillhandahåller effektiv godshantering, lagerhållning och globala försörjningskedjelösningar för att säkerställa snabb leverans av varor över hela världen."
+    ],
+    "categories": [
+      "Sport",
+      "Utbildning",
+      "Utbildning",
+      "Tjänster",
+      "Skönhet",
+      "Detaljhandel",
+      "Mat och dryck",
+      "Social och dejting",
+      "Finans",
+      "Vuxen detaljhandel",
+      "Bygg och anläggning",
+      "Mat och dryck",
+      "Mat och dryck",
+      "Resor",
+      "Transport",
+      "Skönhet",
+      "Skönhet och välbefinnande",
+      "Tjänster",
+      "Telekommunikation",
+      "Kultur och underhållning",
+      "Robotik",
+      "Hälsoteknologi",
+      "Elektriska fordon",
+      "Säkerhet",
+      "Artificiell intelligens",
+      "Marknadsföring",
+      "Logistik"
     ]
   },
   "franchise": {

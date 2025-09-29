@@ -50,137 +50,92 @@
   },
   "companies": {
     "title": "Våre Portefølje Selskaper",
-    "companies": [
-      {
-        "title": "Nebula",
-        "desc": "Sports broadcasting platform for live events and interactive viewing experiences.",
-        "cat": "Sport"
-      },
-      {
-        "title": "Codeon",
-        "desc": "App for learning programming with tutorials and challenges.",
-        "cat": "Utdanning"
-      },
-      {
-        "title": "Linguix",
-        "desc": "App for learning languages with AI lessons and practice.",
-        "cat": "Utdanning"
-      },
-      {
-        "title": "Snap Repair",
-        "desc": "Network of tech repair service centers.",
-        "cat": "Tjenester"
-      },
-      {
-        "title": "Blatota Nax",
-        "desc": "Chain of tattoo salons for custom art.",
-        "cat": "Skjønnhet"
-      },
-      {
-        "title": "Kinalia",
-        "desc": "Luxury boutiques for clothing, perfumes, and shoes.",
-        "cat": "Detaljhandel"
-      },
-      {
-        "title": "Platera",
-        "desc": "Network of restaurants with diverse cuisines.",
-        "cat": "Mat og drikke"
-      },
-      {
-        "title": "Nixa",
-        "desc": "Dating app with smart matching.",
-        "cat": "Sosial og dating"
-      },
-      {
-        "title": "Vivra Bank",
-        "desc": "Digital neobank for banking and investments.",
-        "cat": "Finans"
-      },
-      {
-        "title": "Luvry",
-        "desc": "18+ boutique for premium adult products.",
-        "cat": "Voksen detaljhandel"
-      },
-      {
-        "title": "Structara",
-        "desc": "Construction company for sustainable projects.",
-        "cat": "Bygg og anlegg"
-      },
-      {
-        "title": "Drifta",
-        "desc": "Chain of coffee shops with specialty brews.",
-        "cat": "Mat og drikke"
-      },
-      {
-        "title": "Mookie",
-        "desc": "Network of bakeries for fresh pastries.",
-        "cat": "Mat og drikke"
-      },
-      {
-        "title": "Aerava",
-        "desc": "Airline for domestic and international flights.",
-        "cat": "Reise"
-      },
-      {
-        "title": "Tivvo",
-        "desc": "Taxi service app with real-time tracking.",
-        "cat": "Transport"
-      },
-      {
-        "title": "BRVK",
-        "desc": "Chain of barbershops for grooming services.",
-        "cat": "Skjønnhet"
-      },
-      {
-        "title": "Blushé",
-        "desc": "Women's salons for beauty and wellness.",
-        "cat": "Skjønnhet og velvære"
-      },
-      {
-        "title": "Светлая Память",
-        "desc": "Ritual agency for funeral services.",
-        "cat": "Tjenester"
-      },
-      {
-        "title": "WebTown",
-        "desc": "Internet provider for high-speed connectivity.",
-        "cat": "Telekommunikasjon"
-      },
-      {
-        "title": "HMesu",
-        "desc": "Museum with AI heads for interactive exhibits.",
-        "cat": "Kultur og underholdning"
-      },
-      {
-        "title": "SantRobo",
-        "desc": "Advanced robotics for industrial use.",
-        "cat": "Robotikk"
-      },
-      {
-        "title": "YW Tech",
-        "desc": "Bioprosthetics and implants technology.",
-        "cat": "Helse teknologi"
-      },
-      {
-        "title": "EneCtron",
-        "desc": "Electric transport and charging solutions.",
-        "cat": "Elektriske kjøretøy"
-      },
-      {
-        "title": "SkyLib",
-        "desc": "Secure VPN for privacy and access.",
-        "cat": "Sikkerhet"
-      },
-      {
-        "title": "Eliza",
-        "desc": "AI assistant for productivity and home integration.",
-        "cat": "Kunstig intelligens"
-      },
-      {
-        "title": "Heyya",
-        "desc": "Heyya er et moderne reklamebyrå som spesialiserer seg på digital markedsføring, merkevarebygging og kreative kampanjer. Vi utvikler sosiale medie-strategier, skaper engasjerende innhold og administrerer annonsebudsjett for maksimal effektivitet. Heyya hjelper bedrifter med å skille seg ut på markedet og tiltrekke nye kunder.",
-        "cat": "Markedsføring"
-      }
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "HMesu",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza",
+      "Heyya",
+      "TransAeroPort"
+    ],
+    "descriptions": [
+      "Sports broadcasting platform for live events and interactive viewing experiences.",
+      "App for learning programming with tutorials and challenges.",
+      "App for learning languages with AI lessons and practice.",
+      "Network of tech repair service centers.",
+      "Chain of tattoo salons for custom art.",
+      "Luxury boutiques for clothing, perfumes, and shoes.",
+      "Network of restaurants with diverse cuisines.",
+      "Dating app with smart matching.",
+      "Digital neobank for banking and investments.",
+      "18+ boutique for premium adult products.",
+      "Construction company for sustainable projects.",
+      "Chain of coffee shops with specialty brews.",
+      "Network of bakeries for fresh pastries.",
+      "Airline for domestic and international flights.",
+      "Taxi service app with real-time tracking.",
+      "Chain of barbershops for grooming services.",
+      "Women's salons for beauty and wellness.",
+      "Ritual agency for funeral services.",
+      "Internet provider for high-speed connectivity.",
+      "Museum with AI heads for interactive exhibits.",
+      "Advanced robotics for industrial use.",
+      "Bioprosthetics and implants technology.",
+      "Electric transport and charging solutions.",
+      "Secure VPN for privacy and access.",
+      "AI assistant for productivity and home integration.",
+      "Heyya er et moderne reklamebyrå som spesialiserer seg på digital markedsføring, merkevarebygging og kreative kampanjer. Vi utvikler sosiale medie-strategier, skaper engasjerende innhold og administrerer annonsebudsjett for maksimal effektivitet. Heyya hjelper bedrifter med å skille seg ut på markedet og tiltrekke nye kunder.",
+      "TransAeroPort er en ledende logistikkbedrift som spesialiserer seg på luft- og havnetransport, og tilbyr effektiv lasthåndtering, lagring og globale forsyningskjedeløsninger for å sikre rettidig levering av varer over hele verden."
+    ],
+    "categories": [
+      "Sport",
+      "Utdanning",
+      "Utdanning",
+      "Tjenester",
+      "Skjønnhet",
+      "Detaljhandel",
+      "Mat og drikke",
+      "Sosial og dating",
+      "Finans",
+      "Voksen detaljhandel",
+      "Bygg og anlegg",
+      "Mat og drikke",
+      "Mat og drikke",
+      "Reise",
+      "Transport",
+      "Skjønnhet",
+      "Skjønnhet og velvære",
+      "Tjenester",
+      "Telekommunikasjon",
+      "Kultur og underholdning",
+      "Robotikk",
+      "Helse teknologi",
+      "Elektriske kjøretøy",
+      "Sikkerhet",
+      "Kunstig intelligens",
+      "Markedsføring",
+      "Logistikk"
     ]
   },
   "franchise": {

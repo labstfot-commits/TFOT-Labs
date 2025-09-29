@@ -59,142 +59,92 @@
       "robotics": "Robotik",
       "robotics-desc": "Verwendung von Robotern in der Automatisierung."
     },
-    "companies": [
-      {
-        "title": "Nebula",
-        "desc": "Sportübertragungsplattform für Live-Events und interaktive Viewing-Erfahrungen.",
-        "cat": "Sport"
-      },
-      {
-        "title": "Codeon",
-        "desc": "App zum Lernen von Programmierung mit Tutorials und Challenges.",
-        "cat": "Bildung"
-      },
-      {
-        "title": "Linguix",
-        "desc": "App zum Lernen von Sprachen mit KI-Lektionen und Übungen.",
-        "cat": "Bildung"
-      },
-      {
-        "title": "Snap Repair",
-        "desc": "Netzwerk von Tech-Reparaturzentren.",
-        "cat": "Dienstleistungen"
-      },
-      {
-        "title": "Blatota Nax",
-        "desc": "Kette von Tattoo-Salons für maßgeschneiderte Kunst.",
-        "cat": "Kosmetik"
-      },
-      {
-        "title": "Kinalia",
-        "desc": "Luxus-Boutiquen für Kleidung, Parfüms und Schuhe.",
-        "cat": "Einzelhandel"
-      },
-      {
-        "title": "Platera",
-        "desc": "Netzwerk von Restaurants mit diversen Küchen.",
-        "cat": "Lebensmittel und Getränke"
-      },
-      {
-        "title": "Nixa",
-        "desc": "Dating-App mit smartem Matching.",
-        "cat": "Soziales und Dating"
-      },
-      {
-        "title": "Vivra Bank",
-        "desc": "Digitaler Neobank für Banking und Investitionen.",
-        "cat": "Finanzen"
-      },
-      {
-        "title": "Luvry",
-        "desc": "18+ Boutique für Premium-Erwachsenenprodukte.",
-        "cat": "Erwachsenen-Einzelhandel"
-      },
-      {
-        "title": "Structara",
-        "desc": "Bauunternehmen für nachhaltige Projekte.",
-        "cat": "Bau"
-      },
-      {
-        "title": "Drifta",
-        "desc": "Kette von Kaffee-Shops mit Spezialbräu.",
-        "cat": "Lebensmittel und Getränke"
-      },
-      {
-        "title": "Mookie",
-        "desc": "Netzwerk von Bäckereien für frische Pasteten.",
-        "cat": "Lebensmittel und Getränke"
-      },
-      {
-        "title": "Aerava",
-        "desc": "Airline für nationale und internationale Flüge.",
-        "cat": "Reisen"
-      },
-      {
-        "title": "Tivvo",
-        "desc": "Taxi-Service-App mit Echtzeit-Tracking.",
-        "cat": "Transport"
-      },
-      {
-        "title": "BRVK",
-        "desc": "Kette von Barbier-Shops für Grooming-Services.",
-        "cat": "Kosmetik"
-      },
-      {
-        "title": "Blushé",
-        "desc": "Frauen-Salons für Schönheit und Wellness.",
-        "cat": "Kosmetik und Gesundheit"
-      },
-      {
-        "title": "Светлая Память",
-        "desc": "Ritual-Agentur für Bestattungsdienste.",
-        "cat": "Dienstleistungen"
-      },
-      {
-        "title": "WebTown",
-        "desc": "Internet-Provider für Hochgeschwindigkeitsverbindung.",
-        "cat": "Telekommunikation"
-      },
-      {
-        "title": "SantRobo",
-        "desc": "Fortgeschrittene Robotik für industriellen Gebrauch.",
-        "cat": "Robotik"
-      },
-      {
-        "title": "YW Tech",
-        "desc": "Bioprosthetik und Implantat-Technologie.",
-        "cat": "Gesundheitstechnologie"
-      },
-      {
-        "title": "EneCtron",
-        "desc": "Elektrischer Transport und Ladelösungen.",
-        "cat": "Elektrofahrzeuge"
-      },
-      {
-        "title": "SkyLib",
-        "desc": "Sicherer VPN für Datenschutz und Zugriff.",
-        "cat": "Sicherheit"
-      },
-      {
-        "title": "HMesu",
-        "desc": "HMesu ist ein innovativer Kunstraum, der Köpfe und Gemälde zeigt und klassische Inspiration mit moderner Kreativität verbindet.",
-        "cat": "Kunst und Kultur"
-      },
-      {
-        "title": "Eliza",
-        "desc": "KI-Assistent für Produktivität und Heimintegration.",
-        "cat": "Künstliche Intelligenz"
-      },
-      {
-        "title": "Heyya",
-        "desc": "Heyya ist eine moderne Werbeagentur, die sich auf digitales Marketing, Branding und kreative Kampagnen spezialisiert. Wir entwickeln Social-Media-Strategien, erstellen ansprechenden Content und verwalten Werbebudgets für maximale Effizienz. Heyya hilft Unternehmen, sich auf dem Markt abzuheben und neue Kunden zu gewinnen.",
-        "cat": "Marketing"
-      },
-      {
-        "title": "TransAeroPort",
-        "desc": "TransAeroPort ist ein führendes Logistikunternehmen, das sich auf Luft- und Hafenverkehr spezialisiert hat, effiziente Frachthandhabung, Lagerung und globale Lieferkettenlösungen bereitstellt, um die pünktliche Lieferung von Waren weltweit sicherzustellen.",
-        "cat": "Logistik"
-      }
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza",
+      "HMesu",
+      "Heyya",
+      "TransAeroPort"
+    ],
+    "descriptions": [
+      "Sportübertragungsplattform für Live-Events und interaktive Viewing-Erfahrungen.",
+      "App zum Lernen von Programmierung mit Tutorials und Challenges.",
+      "App zum Lernen von Sprachen mit KI-Lektionen und Übungen.",
+      "Netzwerk von Tech-Reparaturzentren.",
+      "Kette von Tattoo-Salons für maßgeschneiderte Kunst.",
+      "Luxus-Boutiquen für Kleidung, Parfüms und Schuhe.",
+      "Netzwerk von Restaurants mit diversen Küchen.",
+      "Dating-App mit smartem Matching.",
+      "Digitaler Neobank für Banking und Investitionen.",
+      "18+ Boutique für Premium-Erwachsenenprodukte.",
+      "Bauunternehmen für nachhaltige Projekte.",
+      "Kette von Kaffee-Shops mit Spezialbräu.",
+      "Netzwerk von Bäckereien für frische Pasteten.",
+      "Airline für nationale und internationale Flüge.",
+      "Taxi-Service-App mit Echtzeit-Tracking.",
+      "Kette von Barbier-Shops für Grooming-Services.",
+      "Frauen-Salons für Schönheit und Wellness.",
+      "Ritual-Agentur für Bestattungsdienste.",
+      "Internet-Provider für Hochgeschwindigkeitsverbindung.",
+      "Fortgeschrittene Robotik für industriellen Gebrauch.",
+      "Bioprosthetik und Implantat-Technologie.",
+      "Elektrischer Transport und Ladelösungen.",
+      "Sicherer VPN für Datenschutz und Zugriff.",
+      "KI-Assistent für Produktivität und Heimintegration.",
+      "HMesu ist ein innovativer Kunstraum, der Köpfe und Gemälde zeigt und klassische Inspiration mit moderner Kreativität verbindet.",
+      "Heyya ist eine moderne Werbeagentur, die sich auf digitales Marketing, Branding und kreative Kampagnen spezialisiert. Wir entwickeln Social-Media-Strategien, erstellen ansprechenden Content und verwalten Werbebudgets für maximale Effizienz. Heyya hilft Unternehmen, sich auf dem Markt abzuheben und neue Kunden zu gewinnen.",
+      "TransAeroPort ist ein führendes Logistikunternehmen, das sich auf Luft- und Hafenverkehr spezialisiert hat, effiziente Frachthandhabung, Lagerung und globale Lieferkettenlösungen bereitstellt, um die pünktliche Lieferung von Waren weltweit sicherzustellen."
+    ],
+    "categories": [
+      "Sport",
+      "Bildung",
+      "Bildung",
+      "Dienstleistungen",
+      "Kosmetik",
+      "Einzelhandel",
+      "Lebensmittel und Getränke",
+      "Soziales und Dating",
+      "Finanzen",
+      "Erwachsenen-Einzelhandel",
+      "Bau",
+      "Lebensmittel und Getränke",
+      "Lebensmittel und Getränke",
+      "Reisen",
+      "Transport",
+      "Kosmetik",
+      "Kosmetik und Gesundheit",
+      "Dienstleistungen",
+      "Telekommunikation",
+      "Robotik",
+      "Gesundheitstechnologie",
+      "Elektrofahrzeuge",
+      "Sicherheit",
+      "Künstliche Intelligenz",
+      "Kunst und Kultur",
+      "Marketing",
+      "Logistik"
     ]
   },
   "franchise": {

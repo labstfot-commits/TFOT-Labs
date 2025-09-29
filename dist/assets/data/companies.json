@@ -135,19 +135,19 @@
     "name": "SkyLib",
     "description": "SkyLib offers a secure VPN service for enhanced privacy and unrestricted access, protecting user data and enabling safe browsing across devices with advanced encryption and global servers.",
     "category": "Security",
-    "image": "images/companies/Eliza.png"
+    "image": "images/companies/SkyLib.png"
   },
   {
     "name": "Eliza",
     "description": "Eliza is an AI assistant designed for productivity and home integration, providing voice commands, smart automation, and personalized assistance to streamline daily tasks and enhance living environments.",
     "category": "Artificial Intelligence",
-    "image": "images/companies/HMesu.png"
+    "image": "images/companies/Eliza.png"
   },
   {
     "name": "HMesu",
     "description": "HMesu is an innovative art space showcasing heads and paintings, blending classical inspiration with modern creativity to provide unique cultural experiences.",
     "category": "Arts & Culture",
-    "image": "images/companies/SkyLib.png"
+    "image": "images/companies/HMesu.png"
   },
   {
     "name": "Heyya",

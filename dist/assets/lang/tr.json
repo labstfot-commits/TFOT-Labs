@@ -44,137 +44,92 @@
   },
   "companies": {
     "title": "Portföy Şirketlerimiz",
-    "companies": [
-      {
-        "title": "Nebula",
-        "desc": "Canlı etkinlikler ve interaktif izleme deneyimleri için spor yayın platformu.",
-        "cat": "Spor"
-      },
-      {
-        "title": "Codeon",
-        "desc": "Öğreticiler ve zorluklarla programlama öğrenme uygulaması.",
-        "cat": "Eğitim"
-      },
-      {
-        "title": "Linguix",
-        "desc": "AI dersleri ve pratikle dil öğrenme uygulaması.",
-        "cat": "Eğitim"
-      },
-      {
-        "title": "Snap Repair",
-        "desc": "Teknoloji onarım servis merkezleri ağı.",
-        "cat": "Hizmetler"
-      },
-      {
-        "title": "Blatota Nax",
-        "desc": "Özel sanat için dövme salonları zinciri.",
-        "cat": "Güzellik"
-      },
-      {
-        "title": "Kinalia",
-        "desc": "Giyim, parfüm ve ayakkabı için lüks butikler.",
-        "cat": "Perakende"
-      },
-      {
-        "title": "Platera",
-        "desc": "Çeşitli mutfaklarla restoran ağı.",
-        "cat": "Yiyecek ve İçecek"
-      },
-      {
-        "title": "Nixa",
-        "desc": "Akıllı eşleştirme ile flört uygulaması.",
-        "cat": "Sosyal ve Flört"
-      },
-      {
-        "title": "Vivra Bank",
-        "desc": "Bankacılık ve yatırımlar için dijital neobank.",
-        "cat": "Finans"
-      },
-      {
-        "title": "Luvry",
-        "desc": "Premium yetişkin ürünleri için 18+ butik.",
-        "cat": "Yetişkin Perakende"
-      },
-      {
-        "title": "Structara",
-        "desc": "Sürdürülebilir projeler için inşaat şirketi.",
-        "cat": "İnşaat"
-      },
-      {
-        "title": "Drifta",
-        "desc": "Özel biralarla kahve dükkanları zinciri.",
-        "cat": "Yiyecek ve İçecek"
-      },
-      {
-        "title": "Mookie",
-        "desc": "Taze hamur işleri için fırınlar ağı.",
-        "cat": "Yiyecek ve İçecek"
-      },
-      {
-        "title": "Aerava",
-        "desc": "Yurtiçi ve uluslararası uçuşlar için havayolu.",
-        "cat": "Seyahat"
-      },
-      {
-        "title": "Tivvo",
-        "desc": "Gerçek zamanlı takip ile taksi servis uygulaması.",
-        "cat": "Ulaşım"
-      },
-      {
-        "title": "BRVK",
-        "desc": "Grooming hizmetleri için berber dükkanları zinciri.",
-        "cat": "Güzellik"
-      },
-      {
-        "title": "Blushé",
-        "desc": "Güzellik ve wellness için kadın salonları.",
-        "cat": "Güzellik ve Sağlık"
-      },
-      {
-        "title": "Светлая Память",
-        "desc": "Cenaze hizmetleri için ritüel ajansı.",
-        "cat": "Hizmetler"
-      },
-      {
-        "title": "WebTown",
-        "desc": "Yüksek hızlı bağlantı için internet sağlayıcısı.",
-        "cat": "Telekomünikasyon"
-      },
-      {
-        "title": "HMesu",
-        "desc": "İnteraktif sergiler için AI kafalı müze.",
-        "cat": "Kültür ve Eğlence"
-      },
-      {
-        "title": "SantRobo",
-        "desc": "Endüstriyel kullanım için gelişmiş robotik.",
-        "cat": "Robotik"
-      },
-      {
-        "title": "YW Tech",
-        "desc": "Biyoprotez ve implant teknolojisi.",
-        "cat": "Sağlık Teknolojisi"
-      },
-      {
-        "title": "EneCtron",
-        "desc": "Elektrikli ulaşım ve şarj çözümleri.",
-        "cat": "Elektrikli Araçlar"
-      },
-      {
-        "title": "SkyLib",
-        "desc": "Gizlilik ve erişim için güvenli VPN.",
-        "cat": "Güvenlik"
-      },
-      {
-        "title": "Eliza",
-        "desc": "Verimlilik ve ev entegrasyonu için AI asistanı.",
-        "cat": "Yapay Zeka"
-      },
-      {
-        "title": "Heyya",
-        "desc": "Heyya, dijital pazarlama, marka oluşturma ve yaratıcı kampanyalara odaklanan modern bir reklam ajansıdır. Sosyal medya stratejileri geliştiriyor, ilgi çekici içerikler oluşturuyor ve maksimum verimlilik için reklam bütçelerini yönetiyoruz. Heyya, şirketlerin pazarda öne çıkmasına ve yeni müşteriler çekmesine yardımcı olur.",
-        "cat": "Pazarlama"
-      }
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "HMesu",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza",
+      "Heyya",
+      "TransAeroPort"
+    ],
+    "descriptions": [
+      "Canlı etkinlikler ve interaktif izleme deneyimleri için spor yayın platformu.",
+      "Öğreticiler ve zorluklarla programlama öğrenme uygulaması.",
+      "AI dersleri ve pratikle dil öğrenme uygulaması.",
+      "Teknoloji onarım servis merkezleri ağı.",
+      "Özel sanat için dövme salonları zinciri.",
+      "Giyim, parfüm ve ayakkabı için lüks butikler.",
+      "Çeşitli mutfaklarla restoran ağı.",
+      "Akıllı eşleştirme ile flört uygulaması.",
+      "Bankacılık ve yatırımlar için dijital neobank.",
+      "Premium yetişkin ürünleri için 18+ butik.",
+      "Sürdürülebilir projeler için inşaat şirketi.",
+      "Özel biralarla kahve dükkanları zinciri.",
+      "Taze hamur işleri için fırınlar ağı.",
+      "Yurtiçi ve uluslararası uçuşlar için havayolu.",
+      "Gerçek zamanlı takip ile taksi servis uygulaması.",
+      "Grooming hizmetleri için berber dükkanları zinciri.",
+      "Güzellik ve wellness için kadın salonları.",
+      "Cenaze hizmetleri için ritüel ajansı.",
+      "Yüksek hızlı bağlantı için internet sağlayıcısı.",
+      "İnteraktif sergiler için AI kafalı müze.",
+      "Endüstriyel kullanım için gelişmiş robotik.",
+      "Biyoprotez ve implant teknolojisi.",
+      "Elektrikli ulaşım ve şarj çözümleri.",
+      "Gizlilik ve erişim için güvenli VPN.",
+      "Verimlilik ve ev entegrasyonu için AI asistanı.",
+      "Heyya, dijital pazarlama, marka oluşturma ve yaratıcı kampanyalara odaklanan modern bir reklam ajansıdır. Sosyal medya stratejileri geliştiriyor, ilgi çekici içerikler oluşturuyor ve maksimum verimlilik için reklam bütçelerini yönetiyoruz. Heyya, şirketlerin pazarda öne çıkmasına ve yeni müşteriler çekmesine yardımcı olur.",
+      "TransAeroPort, hava ve liman taşımacılığına uzmanlaşmış önde gelen lojistik şirketidir, verimli kargo elleçleme, depolama ve küresel tedarik zinciri çözümleri sağlayarak dünya çapında malların zamanında teslimatını garanti eder."
+    ],
+    "categories": [
+      "Spor",
+      "Eğitim",
+      "Eğitim",
+      "Hizmetler",
+      "Güzellik",
+      "Perakende",
+      "Yiyecek ve İçecek",
+      "Sosyal ve Flört",
+      "Finans",
+      "Yetişkin Perakende",
+      "İnşaat",
+      "Yiyecek ve İçecek",
+      "Yiyecek ve İçecek",
+      "Seyahat",
+      "Ulaşım",
+      "Güzellik",
+      "Güzellik ve Sağlık",
+      "Hizmetler",
+      "Telekomünikasyon",
+      "Kültür ve Eğlence",
+      "Robotik",
+      "Sağlık Teknolojisi",
+      "Elektrikli Araçlar",
+      "Güvenlik",
+      "Yapay Zeka",
+      "Pazarlama",
+      "Lojistik"
     ]
   },
   "franchise": {

@@ -44,137 +44,107 @@
   },
   "companies": {
     "title": "Le nostre aziende del portafoglio",
-    "companies": [
-      {
-        "title": "Nebula",
-        "desc": "Piattaforma di trasmissione sportiva per eventi live e esperienze di visualizzazione interattive.",
-        "cat": "Sport"
-      },
-      {
-        "title": "Codeon",
-        "desc": "App per imparare la programmazione con tutorial e sfide.",
-        "cat": "Educazione"
-      },
-      {
-        "title": "Linguix",
-        "desc": "App per imparare le lingue con lezioni AI e pratica.",
-        "cat": "Educazione"
-      },
-      {
-        "title": "Snap Repair",
-        "desc": "Rete di centri di riparazione tech.",
-        "cat": "Servizi"
-      },
-      {
-        "title": "Blatota Nax",
-        "desc": "Catena di saloni di tatuaggi per arte personalizzata.",
-        "cat": "Bellezza"
-      },
-      {
-        "title": "Kinalia",
-        "desc": "Boutique di lusso per abbigliamento, profumi e scarpe.",
-        "cat": "Dettaglio"
-      },
-      {
-        "title": "Platera",
-        "desc": "Rete di ristoranti con cucine diverse.",
-        "cat": "Cibo e bevande"
-      },
-      {
-        "title": "Nixa",
-        "desc": "App di dating con matching intelligente.",
-        "cat": "Sociale e incontri"
-      },
-      {
-        "title": "Vivra Bank",
-        "desc": "Neobanca digitale per banking e investimenti.",
-        "cat": "Finanza"
-      },
-      {
-        "title": "Luvry",
-        "desc": "Boutique 18+ per prodotti premium per adulti.",
-        "cat": "Dettaglio adulto"
-      },
-      {
-        "title": "Structara",
-        "desc": "Azienda di costruzione per progetti sostenibili.",
-        "cat": "Costruzione"
-      },
-      {
-        "title": "Drifta",
-        "desc": "Catena di caffè con birre specializzate.",
-        "cat": "Cibo e bevande"
-      },
-      {
-        "title": "Mookie",
-        "desc": "Rete di panetterie per pasticcini freschi.",
-        "cat": "Cibo e bevande"
-      },
-      {
-        "title": "Aerava",
-        "desc": "Compagnia aerea per voli domestici e internazionali.",
-        "cat": "Viaggi"
-      },
-      {
-        "title": "Tivvo",
-        "desc": "App di servizio taxi con tracciamento in tempo reale.",
-        "cat": "Trasporti"
-      },
-      {
-        "title": "BRVK",
-        "desc": "Catena di barbieri per servizi di grooming.",
-        "cat": "Bellezza"
-      },
-      {
-        "title": "Blushé",
-        "desc": "Saloni per donne per bellezza e benessere.",
-        "cat": "Bellezza e benessere"
-      },
-      {
-        "title": "Светлая Память",
-        "desc": "Agenzia rituale per servizi funebri.",
-        "cat": "Servizi"
-      },
-      {
-        "title": "WebTown",
-        "desc": "Fornitore di internet per connettività ad alta velocità.",
-        "cat": "Telecomunicazioni"
-      },
-      {
-        "title": "HMesu",
-        "desc": "Museo con teste AI per esposizioni interattive.",
-        "cat": "Cultura e intrattenimento"
-      },
-      {
-        "title": "SantRobo",
-        "desc": "Robotica avanzata per uso industriale.",
-        "cat": "Robotica"
-      },
-      {
-        "title": "YW Tech",
-        "desc": "Tecnologia di bioprotesi e impianti.",
-        "cat": "Tecnologia sanitaria"
-      },
-      {
-        "title": "EneCtron",
-        "desc": "Soluzioni di trasporto elettrico e ricarica.",
-        "cat": "Veicoli elettrici"
-      },
-      {
-        "title": "SkyLib",
-        "desc": "VPN sicura per privacy e accesso.",
-        "cat": "Sicurezza"
-      },
-      {
-        "title": "Eliza",
-        "desc": "Assistente AI per produttività e integrazione domestica.",
-        "cat": "Intelligenza artificiale"
-      },
-      {
-        "title": "Heyya",
-        "desc": "Heyya è un'agenzia pubblicitaria moderna specializzata in marketing digitale, branding e campagne creative. Sviluppiamo strategie sui social media, creiamo contenuti accattivanti e gestiamo budget pubblicitari per un'efficienza massima. Heyya aiuta le aziende a distinguersi sul mercato e ad attrarre nuovi clienti.",
-        "cat": "Marketing"
-      }
+    "glossary": {
+      "title": "Glossario",
+      "eco-friendly": "Ecologico",
+      "eco-friendly-desc": "Pratiche sostenibili rispettose dell'ambiente.",
+      "sustainable": "Sostenibile",
+      "sustainable-desc": "Soddisfare i bisogni senza compromettere le generazioni future.",
+      "innovative": "Innovativo",
+      "innovative-desc": "Introdurre nuove idee e metodi.",
+      "ai-powered": "Alimentato da IA",
+      "ai-powered-desc": "Migliorato dall'intelligenza artificiale.",
+      "logistics": "Logistica",
+      "logistics-desc": "Gestione del trasporto delle merci.",
+      "robotics": "Robotica",
+      "robotics-desc": "Utilizzo di robot nell'automazione."
+    },
+    "names": [
+      "Nebula",
+      "Codeon",
+      "Linguix",
+      "Snap Repair",
+      "Blatota Nax",
+      "Kinalia",
+      "Platera",
+      "Nixa",
+      "Vivra Bank",
+      "Luvry",
+      "Structara",
+      "Drifta",
+      "Mookie",
+      "Aerava",
+      "Tivvo",
+      "BRVK",
+      "Blushé",
+      "Светлая Память",
+      "WebTown",
+      "SantRobo",
+      "YW Tech",
+      "EneCtron",
+      "SkyLib",
+      "Eliza",
+      "HMesu",
+      "Heyya",
+      "TransAeroPort"
+    ],
+    "descriptions": [
+      "Piattaforma di trasmissione sportiva per eventi live e esperienze di visualizzazione interattive.",
+      "App per imparare la programmazione con tutorial e sfide.",
+      "App per imparare le lingue con lezioni AI e pratica.",
+      "Rete di centri di riparazione tech.",
+      "Catena di saloni di tatuaggi per arte personalizzata.",
+      "Boutique di lusso per abbigliamento, profumi e scarpe.",
+      "Rete di ristoranti con cucine diverse.",
+      "App di dating con matching intelligente.",
+      "Neobanca digitale per banking e investimenti.",
+      "Boutique 18+ per prodotti premium per adulti.",
+      "Azienda di costruzione per progetti sostenibili.",
+      "Catena di caffè con birre specializzate.",
+      "Rete di panetterie per pasticcini freschi.",
+      "Compagnia aerea per voli domestici e internazionali.",
+      "App di servizio taxi con tracciamento in tempo reale.",
+      "Catena di barbieri per servizi di grooming.",
+      "Saloni per donne per bellezza e benessere.",
+      "Agenzia rituale per servizi funebri.",
+      "Fornitore di internet per connettività ad alta velocità.",
+      "Robotica avanzata per uso industriale.",
+      "Tecnologia di bioprotesi e impianti.",
+      "Soluzioni di trasporto elettrico e ricarica.",
+      "VPN sicura per privacy e accesso.",
+      "Assistente AI per produttività e integrazione domestica.",
+      "Museo con teste AI per esposizioni interattive.",
+      "Heyya è un'agenzia pubblicitaria moderna specializzata in marketing digitale, branding e campagne creative. Sviluppiamo strategie sui social media, creiamo contenuti accattivanti e gestiamo budget pubblicitari per un'efficienza massima. Heyya aiuta le aziende a distinguersi sul mercato e ad attrarre nuovi clienti.",
+      "TransAeroPort è un'azienda leader nel settore logistico specializzata nel trasporto aereo e portuale, fornendo manipolazione efficiente del carico, stoccaggio e soluzioni globali della catena di approvvigionamento per garantire la consegna tempestiva delle merci in tutto il mondo."
+    ],
+    "categories": [
+      "Sport",
+      "Educazione",
+      "Educazione",
+      "Servizi",
+      "Bellezza",
+      "Dettaglio",
+      "Cibo e bevande",
+      "Sociale e incontri",
+      "Finanza",
+      "Dettaglio adulto",
+      "Costruzione",
+      "Cibo e bevande",
+      "Cibo e bevande",
+      "Viaggi",
+      "Trasporti",
+      "Bellezza",
+      "Bellezza e benessere",
+      "Servizi",
+      "Telecomunicazioni",
+      "Robotica",
+      "Tecnologia sanitaria",
+      "Veicoli elettrici",
+      "Sicurezza",
+      "Intelligenza artificiale",
+      "Cultura e intrattenimento",
+      "Marketing",
+      "Logistica"
     ]
   },
   "franchise": {
